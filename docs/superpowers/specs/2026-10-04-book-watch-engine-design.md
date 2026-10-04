@@ -41,11 +41,15 @@ book-watch/
     merge.py              รวม Entry เป็น Book, นับแหล่ง, เรียง, กรอง
     render.py             เขียน latest.md, latest.json, brief.txt
   tests/
-    fixtures/             ข้อมูลจริงที่บันทึกจากแต่ละแหล่ง
+    fixtures/             ข้อมูลจริงที่บันทึกจากแต่ละแหล่ง (ไม่ commit)
+    test_fetch.py  test_render.py  test_run.py
     test_normalize.py
     test_merge.py
     test_sources.py       แกะ fixture แล้วได้ Entry ตามคาด
-  latest.md  latest.json  brief.txt
+  tools/
+    probe.py              เช็คว่าแต่ละแหล่งเข้าถึงได้
+    record_fixtures.py    บันทึก fixture
+  latest.md  latest.json  brief.txt (brief ไม่ commit)
   weekly/YYYY-Www.md  weekly/YYYY-Www.json
   .github/workflows/fetch.yml
   README.md
@@ -249,7 +253,7 @@ User-Agent ใช้แบบระบุตัว `book-watch/1.0 (+https://git
 - `test_merge.py`: ISBN เดียวกันจากสองแหล่งรวมเป็นเล่มเดียว `source_count` 2, SE-ED สองรายการนับเป็น 1 แหล่ง, key แบบ `title:` รวมเข้า `isbn:` เมื่อชื่อตรง, หน้ากากอนามัยได้ `not_book`, TGAT ได้ `exam_reference`, ลำดับการเรียงคงที่, `first_seen` คงค่าเดิมเมื่อมีไฟล์สัปดาห์ก่อน
 - `test_sources.py`: fixture ที่บันทึกจากแต่ละแหล่งจริง แกะแล้วได้จำนวน Entry มากกว่า 0 และช่องหลักไม่ว่าง
 
-fixture บันทึกจากการดึงจริงตอนเริ่ม build ตัดให้เหลือขนาดพอทดสอบ
+fixture บันทึกจากการดึงจริงด้วย `tools/record_fixtures.py` เก็บไว้ในเครื่องเท่านั้น (gitignore) เพราะเป็นเนื้อหาของเว็บอื่นและรีโปเป็น public ตัวทดสอบ fixture จะข้ามเมื่อไม่มีไฟล์ ส่วนพฤติกรรมของตัวแกะทดสอบด้วยตัวอย่างย่อที่เขียนไว้ใน test โดยตรง
 
 ## 12. ลำดับการ build และจุดตรวจ
 
