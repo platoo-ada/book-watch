@@ -124,7 +124,7 @@ Block ใน Store rankings เรียงตามลำดับที่ id 
 | Rank | เฉพาะหมวด Store rankings: `rank` ของ mention นั้น |
 | Title | `title` |
 | Author | `author` ถ้ามี และ "tr. `translator`" ถ้ามี ไม่มีทั้งคู่เว้นว่าง |
-| Listed | ลิงก์ต่อ mention หนึ่งลิงก์ ข้อความคือ `<ชื่อแหล่ง> · <label> #<rank>` ไป `url` ของ mention |
+| Listed | Bracket ต่อ mention หนึ่งตัว ข้อความคือ `<ชื่อแหล่ง> · <label> #<rank>` ไป `url` ของ mention |
 | Flags | `NEW` เมื่อ `first_seen` เท่ากับ `week`, `Possibly translated` เมื่อ `maybe_translated` |
 
 - `label` แสดงตามที่ร้านเรียก ไม่แปล ร้านสำนักพิมพ์จึงขึ้นว่า "ยอดนิยมในร้านสำนักพิมพ์" เอง board ไม่ต้องรู้ว่าร้านไหนเป็นสำนักพิมพ์
@@ -134,7 +134,7 @@ Block ใน Store rankings เรียงตามลำดับที่ id 
 
 ### 5.5 Articles
 
-แต่ละรายการ: หัวข้อเป็นลิงก์ไป `url`, ชื่อแหล่ง, `published` ตามที่ feed ให้ ไม่แปลงเขตเวลา
+ตารางคอลัมน์ Source, Title, Published, Link: ชื่อแหล่ง, หัวข้อเป็นข้อความ, `published` ตามที่ feed ให้ ไม่แปลงเขตเวลา, ลิงก์เป็น Bracket ที่ข้อความคือ domain ของ `url` (ลิงก์ทุกตัวบน Aquarium เป็น Bracket ตาม design system หัวข้อจึงไม่เป็นลิงก์เอง)
 
 ### 5.6 Sources
 
@@ -198,7 +198,7 @@ Block ใน Store rankings เรียงตามลำดับที่ id 
 
 ## 8. การทดสอบ
 
-Aquarium ยังไม่มี test runner ใช้ `node --test` กับไฟล์ `.ts` โดยตรง (Node 26 ตัด type เองได้ ไม่เพิ่ม dependency) test อยู่ที่ `lib/book-watch.test.ts` ข้อมูลทดสอบแต่งขึ้นเองในไฟล์ test ไม่ก๊อป `latest.json` จริงเข้า repo
+Aquarium ยังไม่มี test runner ใช้ `node --test` กับไฟล์ `.ts` โดยตรง (Node 26 ตัด type เองได้ ไม่เพิ่ม dependency) test อยู่ที่ `lib/book-watch.test.mjs` (ไฟล์ `.mjs` import `./book-watch.ts` ตรงๆ จึงไม่ต้องแก้ `tsconfig.json`) ข้อมูลทดสอบแต่งขึ้นเองในไฟล์ test ไม่ก๊อป `latest.json` จริงเข้า repo
 
 ทุกข้อเขียน test ก่อน และต้องเห็น fail ก่อน (TDD)
 
@@ -249,7 +249,7 @@ flood-watch ไม่ถดถอย: เก็บ HTML ของ `/monitor/floo
 ## 10. ข้อจำกัดที่รู้อยู่
 
 - ข้อมูลในหน้าเก่าได้ถึง 1 ชั่วโมง (revalidate 3600 วินาที) เพียงพอสำหรับข้อมูลรายสัปดาห์
-- รีโป Aquarium เป็น public ห้ามนำข้อมูลงานจริงเข้า ข้อมูลของ board มาจากร้านหนังสือสาธารณะทั้งหมด
+- รีโป Aquarium เป็น private แต่เว็บเป็น public ห้ามนำข้อมูลงานจริงเข้า ข้อมูลของ board มาจากร้านหนังสือสาธารณะทั้งหมด
 - ตารางชื่อแหล่งซ้ำกับ Engine (ข้อ 4)
 - สัปดาห์ที่ cron ของ Engine ไม่รัน หน้ายังโชว์สัปดาห์ก่อน ดูได้จาก `WEEK` และ `UPDATED`
 - เล่ม 134 เล่มทำให้หน้ายาว ใช้แถว Bracket กระโดดหมวด (ข้อ 5.1) นำทาง ถ้าใช้งานจริงแล้วช้า ค่อยพิจารณาตัวกรองเป็นงานรอบถัดไป
