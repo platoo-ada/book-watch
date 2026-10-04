@@ -4,30 +4,22 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
-from bookwatch import fetch  # noqa: E402
+from bookwatch import fetch, sources  # noqa: E402
 
-SEED_HEADERS = {"Origin": "https://www.se-ed.com", "Referer": "https://www.se-ed.com/"}
-URLS = [
-    ("seed-api", "https://mp-api.se-ed.com/web-bff/homepage-layout", SEED_HEADERS, True),
-    ("seed-rank", "https://m2.se-ed.com/product/bestseller/1", None, True),
-    ("chula", "https://www.chulabook.com/", None, True),
-    ("amarin", "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20", None, False),
-    ("salmon", "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20", None, False),
-    ("the101", "https://www.the101.world/feed/", None, False),
-    ("aday", "https://adaymagazine.com/feed/", None, False),
-]
+STORES = ("seed", "chula")
 
 
 def main():
-    stores_ok = 0
-    for name, url, headers, is_store in URLS:
+    stores_ok = set()
+    for feed in sources.FEEDS:
         try:
-            body = fetch.get(url, headers)
-            print(f"OK   {name:10} {len(body):>8} chars")
-            stores_ok += is_store
+            body = fetch.get(feed["url"], feed.get("headers"))
+            print(f"OK   {feed['name']:22} {len(body):>8} chars")
+            if feed["id"] in STORES:
+                stores_ok.add(feed["id"])
         except Exception as e:
-            print(f"FAIL {name:10} {type(e).__name__}: {e}")
-    print(f"multi-publisher stores reachable: {stores_ok}/3")
+            print(f"FAIL {feed['name']:22} {type(e).__name__}: {e}")
+    print(f"multi-publisher stores reachable: {len(stores_ok)}/{len(STORES)}")
     return 0 if stores_ok else 1
 
 
