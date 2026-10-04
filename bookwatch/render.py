@@ -1,0 +1,106 @@
+"""Turn merged books into latest.json, latest.md and the ntfy brief."""
+import re
+
+from . import LIST_LABELS, SOURCE_NAMES
+from .merge import best_bestseller_rank
+
+EMPTY = "ไม่มีข้อมูลสัปดาห์นี้"
+_MD_SPECIAL = re.compile(r"([\\\[\]*_|`])")
+
+
+def week_id(dt):
+    year, week, _ = dt.isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def build_data(generated_at, week, statuses, books, articles):
+    return {"schema_version": 1, "generated_at": generated_at.isoformat(timespec="minutes"),
+            "week": week, "sources": statuses, "books": books, "articles": articles}
+
+
+def _esc(text):
+    return _MD_SPECIAL.sub(r"\\\1", text)
+
+
+def _name(source_id):
+    return SOURCE_NAMES.get(source_id, source_id)
+
+
+def _mention(m):
+    text = f"{_name(m['source'])} {LIST_LABELS[m['list']]}"
+    if m["list"] == "bestseller":
+        text += f" #{m['rank']}"
+    return f"[{text}]({m['url']})" if m["url"] else text
+
+
+def _book_line(book, week, prefix="- "):
+    head = f"**{_esc(book['title'])}**"
+    if book["author"]:
+        head += f" / {_esc(book['author'])}"
+    parts = [_mention(m) for m in book["mentions"]]
+    if book["article_sources"]:
+        parts.append("บทความ: " + ", ".join(_name(s) for s in book["article_sources"]))
+    if book["maybe_translated"]:
+        parts.append("อาจเป็นงานแปล")
+    if book["first_seen"] == week:
+        parts.append("ใหม่สัปดาห์นี้")
+    return f"{prefix}{head} — " + " · ".join(parts)
+
+
+def _section(title, lines):
+    return [f"## {title}", ""] + (lines or [EMPTY]) + [""]
+
+
+def to_markdown(data):
+    week = data["week"]
+    featured = [b for b in data["books"] if b["featured"]]
+    ok = sum(1 for s in data["sources"] if s["ok"])
+    out = [f"# book-watch {week}", "",
+           f"สร้างเมื่อ {data['generated_at']} · ดึงได้ {ok} จาก {len(data['sources'])} แหล่ง", ""]
+
+    out += _section("เล่มเด่นของสัปดาห์",
+                    [_book_line(b, week) for b in featured if b["source_count"] >= 2][:15])
+
+    ranked = []
+    for source_id in SOURCE_NAMES:
+        rows = sorted(((m["rank"], b) for b in featured for m in b["mentions"]
+                       if m["source"] == source_id and m["list"] == "bestseller"), key=lambda r: r[0])[:10]
+        if rows:
+            ranked += [f"### {_name(source_id)}", ""]
+            ranked += [_book_line(b, week, prefix=f"{rank}. ") for rank, b in rows]
+            ranked.append("")
+    out += _section("อันดับที่ร้านประกาศ", ranked[:-1] if ranked else [])
+
+    out += _section("ออกใหม่และสั่งจอง",
+                    [_book_line(b, week) for b in featured if {"new", "preorder"} & set(b["list_types"])][:20])
+    out += _section("แนะนำ",
+                    [_book_line(b, week) for b in featured if "recommended" in b["list_types"]][:15])
+    out += _section("บทความเกี่ยวกับหนังสือ",
+                    [f"- [{_esc(a['title'])}]({a['url']}) ({_name(a['source'])}, {a['published']})"
+                     for a in data["articles"]][:10])
+
+    failed = [f"- {s['name']}: {s['error']}" for s in data["sources"] if not s["ok"]]
+    out += ["## ดึงไม่ได้", ""] + (failed or ["ดึงได้ครบทุกแหล่ง"])
+    return "\n".join(out)
+
+
+def to_brief(data, latest_url):
+    week = data["week"]
+    featured = [b for b in data["books"] if b["featured"]]
+    top = [b for b in featured if b["source_count"] >= 2][:3]
+    if top:
+        names = [f"{top[0]['title']} ({top[0]['source_count']} แหล่ง)"] + [b["title"] for b in top[1:]]
+        line1 = "เล่มเด่น: " + ", ".join(names)
+    else:
+        line1 = "เล่มเด่น: ไม่มีเล่มที่ติด 2 แหล่งขึ้นไป"
+
+    new = [b for b in featured if b["first_seen"] == week]
+    line2 = f"ใหม่สัปดาห์นี้: {len(new)} เล่ม" + (f" เช่น {new[0]['title']}" if new else "")
+
+    seed = sorted((b for b in featured
+                   if any(m["source"] == "seed" and m["list"] == "bestseller" for m in b["mentions"])),
+                  key=best_bestseller_rank)
+    line3 = f"ขายดี SE-ED อันดับ 1: {seed[0]['title']}" if seed else "ขายดี SE-ED: ไม่มีข้อมูล"
+
+    ok = sum(1 for s in data["sources"] if s["ok"])
+    return "\n".join([line1, line2, line3, f"แหล่ง: {ok}/{len(data['sources'])} · {latest_url}"])
