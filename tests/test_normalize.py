@@ -33,6 +33,20 @@ class CleanTitleTest(unittest.TestCase):
         self.assertEqual(clean_title("หงส์ลายมังกร (ปกแข็ง)"), "หงส์ลายมังกร")
         self.assertEqual(clean_title("HARRY POTTER (HC) (เฉพาะจอง)"), "HARRY POTTER (HC)")
 
+    def test_strips_store_tags_seen_in_real_data(self):
+        self.assertEqual(clean_title("บ้านใต้ทะเล 100 ชั้น – ปกแข็ง"), "บ้านใต้ทะเล 100 ชั้น")
+        self.assertEqual(clean_title("ไฉ่ซิ้ง มั่งคั่งอย่างเทพ (พร้อมโปสการ์ดลายเซ็นนักเขียน) (ราคาปก 295.-)"),
+                         "ไฉ่ซิ้ง มั่งคั่งอย่างเทพ")
+        self.assertEqual(clean_title("Origin ออริจิน พิมพ์ 9 (re-newed)"), "Origin ออริจิน พิมพ์ 9")
+        self.assertEqual(clean_title("Inferno สู่นรกภูมิ 4 (New)"), "Inferno สู่นรกภูมิ 4")
+        self.assertEqual(clean_title("The Lost Symbol สาส์นลับที่สาบสูญ 3(New)"), "The Lost Symbol สาส์นลับที่สาบสูญ 3")
+        self.assertEqual(clean_title("เรื่องของสัตว์อันตรายน่ากลัวที่สุดในโลก (อ่อน)"), "เรื่องของสัตว์อันตรายน่ากลัวที่สุดในโลก")
+        self.assertEqual(clean_title("PREORDER ชุด SET 3 เล่ม ครบรอบ 50 ปี 6 ตุลาฯ"), "ชุด SET 3 เล่ม ครบรอบ 50 ปี 6 ตุลาฯ")
+
+    def test_keeps_parentheses_that_only_look_like_tags(self):
+        for title in ("เที่ยวคนเดียว (New York)", "ชีวิตดี (ที่ยังไม่พร้อม)", "นิทานก่อนนอน (ฉบับอ่อนโยน)"):
+            self.assertEqual(clean_title(title), title)
+
     def test_keeps_meaningful_parentheses(self):
         self.assertEqual(clean_title("รัฐศาสตร์เบื้องต้น (การปกครอง)"), "รัฐศาสตร์เบื้องต้น (การปกครอง)")
 

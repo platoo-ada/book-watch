@@ -6,9 +6,10 @@ from .normalize import clean_title, maybe_translated, title_key, valid_isbn13
 
 # Edit these lists to tune filtering. Latin words must be upper case.
 EXAM_WORDS = ("คู่มือสอบ", "เตรียมสอบ", "ติวเข้ม", "ข้อสอบ", "แบบทดสอบ", "แบบฝึกหัด", "แบบเรียน",
-              "พจนานุกรม", "TGAT", "TPAT", "A-LEVEL", "MOCK TEST", "อนุบาล", "ประถม", "มัธยม",
+              "พจนานุกรม", "TGAT", "TPAT", "A-LEVEL", "MOCK TEST", "TOPIK", "อนุบาล", "ประถม", "มัธยม",
               "ม.ต้น", "ม.ปลาย")
-EXAM_CATEGORIES = ("test-prep",)
+# Source categories that hold only exam prep or course textbooks (Chulabook url names).
+EXAM_CATEGORIES = ("test-prep", "medical-and-nursing")
 BOOK_WORDS = ("หนังสือ", "นักเขียน", "สำนักพิมพ์", "นักอ่าน", "วรรณกรรม", "นิยาย", "งานแปล")
 MIN_MATCH_LEN = 8
 

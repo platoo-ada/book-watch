@@ -2,9 +2,14 @@
 import re
 import unicodedata
 
-_PREFIX = re.compile(r"^\s*\[[^\]]*\]\s*")
+_PREFIX = re.compile(r"^\s*(?:\[[^\]]*\]|PRE-?ORDER\b)\s*", re.I)
+# A trailing parenthesis is a store tag when it holds a format word, starts with a bundle word,
+# or is exactly a short edition marker. Any other parenthesis is part of the title.
 _FORMAT_PAREN = re.compile(
-    r"\s*\([^()]*(?:ปกแข็ง|ปกอ่อน|ปกใหม่|จอง|รอบปกติ|รอบพิเศษ|พิมพ์ครั้งที่|ฉบับปรับปรุง)[^()]*\)\s*$")
+    r"\s*\((?:[^()]*(?:ปกแข็ง|ปกอ่อน|ปกใหม่|จอง|รอบปกติ|รอบพิเศษ|พิมพ์ครั้งที่|ฉบับปรับปรุง)[^()]*"
+    r"|\s*(?:พร้อม|ราคาปก)[^()]*"
+    r"|\s*(?:New|re-newed|อ่อน|แข็ง)\s*)\)\s*$")
+_FORMAT_DASH = re.compile(r"\s*[–—-]\s*(?:ปกแข็ง|ปกอ่อน)\s*$")
 _LATIN_THEN_THAI = re.compile(
     r"^[A-Za-z][A-Za-z0-9'’&:.\-]*(?:\s+[A-Za-z0-9&][A-Za-z0-9'’&:.\-]*)+\s+[฀-๿]")
 
@@ -20,7 +25,7 @@ def valid_isbn13(value):
 def clean_title(raw):
     s = re.sub(r"\s+", " ", str(raw or "").replace("\xa0", " ")).strip()
     while True:
-        t = _FORMAT_PAREN.sub("", _PREFIX.sub("", s)).strip()
+        t = _FORMAT_DASH.sub("", _FORMAT_PAREN.sub("", _PREFIX.sub("", s))).strip()
         if t == s:
             return s
         s = t

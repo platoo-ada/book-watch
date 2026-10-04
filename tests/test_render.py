@@ -66,6 +66,17 @@ class MarkdownTest(unittest.TestCase):
         self.assertIn("ศูนย์หนังสือจุฬาฯ: HTTPError: HTTP Error 403: Forbidden", md)
         self.assertNotIn("ยอดขาย", md)
 
+    def test_ranking_lines_are_bullets_so_markdown_cannot_renumber_them(self):
+        md = render.to_markdown(make_data([
+            entry("seed", "bestseller", 1, "พจนานุกรมไทย", "https://seed/4"),
+            entry("seed", "bestseller", 2, "เล่มอันดับสอง", "https://seed/5"),
+            entry("seed", "bestseller", 4, "เล่มอันดับสี่", "https://seed/6")]))
+        ranked = md.split("## อันดับที่ร้านประกาศ")[1].split("\n## ")[0]
+        self.assertIn("### SE-ED", ranked)
+        self.assertIn("- **เล่มอันดับสอง** — [SE-ED ขายดี #2](https://seed/5)", ranked)
+        self.assertIn("- **เล่มอันดับสี่** — [SE-ED ขายดี #4](https://seed/6)", ranked)
+        self.assertNotRegex(ranked, r"(?m)^\d+\. ")
+
     def test_excluded_books_do_not_appear(self):
         self.assertNotIn("พจนานุกรมไทย", render.to_markdown(make_data(FULL)))
 
@@ -105,6 +116,12 @@ class BriefTest(unittest.TestCase):
             "ขายดี SE-ED อันดับ 1: อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
             "แหล่ง: 1/2 · https://latest",
         ])
+
+    def test_brief_reports_the_real_rank_when_rank_one_is_excluded(self):
+        lines = render.to_brief(make_data([
+            entry("seed", "bestseller", 1, "พจนานุกรมไทย", "https://seed/4"),
+            entry("seed", "bestseller", 2, "เล่มอันดับสอง", "https://seed/5")]), "https://latest").split("\n")
+        self.assertEqual(lines[2], "ขายดี SE-ED อันดับ 2: เล่มอันดับสอง")
 
     def test_brief_with_no_data(self):
         lines = render.to_brief(make_data([entry("seed", "bestseller", 1, "พจนานุกรมไทย", "https://seed/4")]),

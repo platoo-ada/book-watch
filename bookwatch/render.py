@@ -33,7 +33,7 @@ def _mention(m):
     return f"[{text}]({m['url']})" if m["url"] else text
 
 
-def _book_line(book, week, prefix="- "):
+def _book_line(book, week):
     head = f"**{_esc(book['title'])}**"
     if book["author"]:
         head += f" / {_esc(book['author'])}"
@@ -44,7 +44,7 @@ def _book_line(book, week, prefix="- "):
         parts.append("อาจเป็นงานแปล")
     if book["first_seen"] == week:
         parts.append("ใหม่สัปดาห์นี้")
-    return f"{prefix}{head} — " + " · ".join(parts)
+    return f"- {head} — " + " · ".join(parts)
 
 
 def _section(title, lines):
@@ -67,7 +67,8 @@ def to_markdown(data):
                        if m["source"] == source_id and m["list"] == "bestseller"), key=lambda r: r[0])[:10]
         if rows:
             ranked += [f"### {_name(source_id)}", ""]
-            ranked += [_book_line(b, week, prefix=f"{rank}. ") for rank, b in rows]
+            # Bullets, not "N. ": Markdown renumbers ordered lists and would hide gaps left by excluded items.
+            ranked += [_book_line(b, week) for _, b in rows]
             ranked.append("")
     out += _section("อันดับที่ร้านประกาศ", ranked[:-1] if ranked else [])
 
@@ -100,7 +101,8 @@ def to_brief(data, latest_url):
     seed = sorted((b for b in featured
                    if any(m["source"] == "seed" and m["list"] == "bestseller" for m in b["mentions"])),
                   key=best_bestseller_rank)
-    line3 = f"ขายดี SE-ED อันดับ 1: {seed[0]['title']}" if seed else "ขายดี SE-ED: ไม่มีข้อมูล"
+    line3 = (f"ขายดี SE-ED อันดับ {best_bestseller_rank(seed[0])}: {seed[0]['title']}"
+             if seed else "ขายดี SE-ED: ไม่มีข้อมูล")
 
     ok = sum(1 for s in data["sources"] if s["ok"])
     return "\n".join([line1, line2, line3, f"แหล่ง: {ok}/{len(data['sources'])} · {latest_url}"])

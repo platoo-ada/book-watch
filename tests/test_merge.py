@@ -100,12 +100,16 @@ class FilterTest(unittest.TestCase):
     def test_exam_by_title_word(self):
         for title in ("TGAT2 & TGAT3 การคิดอย่างมีเหตุผล", "พจนานุกรมไทย ฉบับทันสมัย", "ติวเข้ม Science",
                       "TU MOCK TEST ข้อสอบจำลอง", "แนวข้อสอบจำลอง A-Level ชีววิทยา", "คณิตคิดเร็ว อนุบาล 2",
-                      "SUPER SCIENCE สรุปวิทยาศาสตร์ ม.ต้น", "ภาษาไทย ป.3"):
+                      "SUPER SCIENCE สรุปวิทยาศาสตร์ ม.ต้น", "ภาษาไทย ป.3", "TOPIK 1"):
             self.assertEqual(self.reason(entry("seed", "bestseller", 1, title, "https://a")), "exam_reference", title)
 
     def test_exam_by_source_category(self):
         self.assertEqual(self.reason(entry("chula", "bestseller", 1, "ประลองโจทย์สังคม", "https://a", category="test-prep")),
                          "exam_reference")
+
+    def test_clinical_textbook_category_is_excluded(self):
+        self.assertEqual(self.reason(entry("chula", "recommended", 1, "การพยาบาลจิตเวช", "https://a",
+                                           category="medical-and-nursing", lang="th")), "exam_reference")
 
     def test_excluded_books_are_kept_but_not_featured(self):
         books = merge.merge_entries([entry("seed", "bestseller", 1, "พจนานุกรมไทย", "https://a")], {}, WEEK)
