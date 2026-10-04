@@ -17,9 +17,9 @@
 - รีโป public: https://github.com/platoo-ada/book-watch branch `main`
 - Plan Task 1 ถึง 7 ทำครบ ตามด้วย final review จาก reviewer แยก context แก้ข้อ Important 3 ข้อ และข้อ Minor 10 ข้อครบ
 - Test: 93 ตัวผ่านในเครื่อง (Python 3.14, มี fixture)
-- Workflow `fetch.yml` รันผ่าน `workflow_dispatch` สำเร็จ 1 ครั้ง (run 37179814747): ดึงได้ 9 จาก 9 feed, bot commit ข้อมูล, step notify ตอบ success
+- Workflow `fetch.yml` รันผ่าน `workflow_dispatch` สำเร็จ 2 ครั้ง ครั้งแรก (run 37179814747): ดึงได้ 9 จาก 9 feed, bot commit ข้อมูล, step notify ตอบ success
 - **ยังไม่ได้ยืนยัน:** ntfy ถึงมือถือจริงหรือไม่ (Platoo บอกว่าไม่ต้องเช็ค) และยังไม่เคยรันตาม cron จริง รอบแรกคือจันทร์ 2026-10-05 08:30
-- **ยังไม่ได้รันบน runner หลังแก้ตาม review** (commit ล่าสุด) ทดสอบผ่านในเครื่องเท่านั้น รอบจันทร์จะเป็นตัวพิสูจน์
+- หลังแก้ตาม review ทั้งหมด รัน `fetch.yml` บน runner อีกครั้ง (run 37181014675, commit `3a11ef8`): เขียว, test 93 ตัว, 9/9 feed, bot commit `16665ff`, notify success
 
 ## 3. ผลรอบแรก (ข้อมูลจริง 2026-W40)
 
