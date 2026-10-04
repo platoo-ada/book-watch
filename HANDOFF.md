@@ -1,6 +1,6 @@
 # HANDOFF — book-watch
 
-อัปเดตล่าสุด: 2026-10-04 บ่าย (Engine shipped, รอรอบ cron แรกจันทร์ 2026-10-05, spec ของ Board อนุมัติแล้ว plan เขียนแล้ว รอ Platoo เลือกวิธี execute)
+อัปเดตล่าสุด: 2026-10-04 บ่าย (Engine shipped, รอรอบ cron แรกจันทร์ 2026-10-05, Board build เสร็จบน branch ของ Aquarium รอ Platoo ยืนยัน push และ merge)
 
 ## 1. เป้าหมาย
 
@@ -9,7 +9,7 @@
 งานแบ่งเป็น 3 โปรเจกต์ย่อย ทำตามลำดับ
 
 1. **Engine** (รีโปนี้): **shipped 2026-10-04**
-2. Board บน Aquarium `/monitor/book-watch`: spec อนุมัติแล้ว, plan 5 task เขียนแล้ว **รอ Platoo อ่าน plan และเลือกวิธี execute** ยังไม่ build ยังไม่แตะรีโป Aquarium
+2. Board บน Aquarium `/monitor/book-watch`: **build เสร็จ ยังไม่ push ยังไม่ขึ้น prod** อยู่บน branch `book-watch-board` ใน worktree `~/Work-space/.worktrees/aquarium-book-watch-board` test 27 ตัวผ่าน ตรวจกับ `latest.json` จริง W40 แล้ว review ทั้ง branch: Critical 0, Important 0, Minor 7 ยังไม่แก้ รายละเอียดทั้งหมดอยู่ใน `HANDOFF.md` ของ Aquarium บน branch นั้น
 3. ต่อ `latest.json` เข้า skill `wnv-publish`: ยังไม่เริ่ม ต้องมี spec ของตัวเอง
 
 ## 2. สถานะปัจจุบัน
@@ -91,7 +91,7 @@
 ## 8. งานที่เหลือ เรียงตามลำดับ
 
 1. ดูผลรอบ cron แรก จันทร์ 2026-10-05: Actions เขียวไหม มี commit `data:` ไหม (เช็คเมื่อ 2026-10-04 12:56: ยังไม่มี run แบบ `schedule` เพราะยังไม่ถึงเวลา ไม่ได้สั่งรันมือ)
-2. โปรเจกต์ย่อย 2 (Aquarium board): execute plan ในรีโป Aquarium บน branch `book-watch-board` จากนั้น brainstorm โปรเจกต์ย่อย 3 (`wnv-publish`)
+2. โปรเจกต์ย่อย 2 (Aquarium board): Platoo ยืนยัน push + merge แล้วตรวจ prod จากนั้น brainstorm โปรเจกต์ย่อย 3 (`wnv-publish`)
 3. เติมแหล่ง MEB, Matichon, B2S, Ookbee ทีละแหล่ง เพื่อให้หมวด "เล่มเด่น" มีของ
 
 ข้อ Minor จาก final review 10 ข้อ: แก้ครบแล้ว แต่ละข้อมี test ที่เห็น fail ก่อน (ดู spec ข้อ 14 แถวที่ลงท้าย "review")
@@ -112,7 +112,7 @@
 
    ผ่านเมื่อ: มี run ที่ event เป็น `schedule` สถานะ success และมี commit `data:` จาก "book-watch bot" (ถ้าข้อมูลเหมือนเดิมทุกตัวอักษรจะไม่มี commit ใหม่ ไม่ถือว่าพัง) สัปดาห์จะเป็น `2026-W41` และควรมีเล่มที่ไม่ติดป้าย "ใหม่สัปดาห์นี้" เป็นครั้งแรก
    ไม่ผ่าน: `gh run view <id> -R platoo-ada/book-watch --log-failed` แล้วแก้ด้วย TDD
-2. โปรเจกต์ย่อย 2 (ไม่ต้องรอข้อ 1): execute `docs/superpowers/plans/2026-10-04-book-watch-board.md` ด้วย `superpowers:subagent-driven-development` หรือ `superpowers:executing-plans` ตามที่ Platoo เลือก ทำในรีโป Aquarium บน branch `book-watch-board` อ่าน `~/Work-space/Aquarium/HANDOFF.md` ก่อนแตะ push และ merge ต้องถามยืนยัน (merge เข้า `main` = deploy ขึ้น prod)
+2. โปรเจกต์ย่อย 2: ถาม Platoo 3 เรื่อง (ก) push branch `book-watch-board` และ merge เข้า `main` ของ Aquarium ไหม (merge = deploy) (ข) ยืนยันลำดับคอลัมน์ Title / Author / Flags / Listed ที่ต่างจาก spec ข้อ 5.4 ไหม ถ้ายืนยันให้แก้ spec ตาม (ค) จะแก้ Minor 7 ข้อจาก review ข้อไหน. หลัง deploy ตรวจ prod: `/monitor` มี card 2 ใบ, `/monitor/book-watch` ขึ้นข้อมูลจริง, `/monitor/flood-watch` ปกติ แล้วลบ worktree ด้วย `git worktree remove`. หลัง cron แรก เปิดดูตาราง New this week กับข้อมูล W41 (ยังไม่เคยเห็นกับข้อมูลจริง)
 
 ## 10. อ่านก่อนเริ่ม และ skill ที่ควรใช้
 
