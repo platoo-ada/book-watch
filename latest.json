@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T12:49+07:00",
+ "generated_at": "2026-10-04T12:50+07:00",
  "week": "2026-W40",
  "sources": [
   {
@@ -9,7 +9,7 @@
    "url": "https://mp-api.se-ed.com/web-bff/homepage-layout",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 112
   },
   {
@@ -18,7 +18,7 @@
    "url": "https://m2.se-ed.com/product/bestseller/1",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 20
   },
   {
@@ -27,7 +27,7 @@
    "url": "https://www.chulabook.com/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 101
   },
   {
@@ -36,7 +36,7 @@
    "url": "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 20
   },
   {
@@ -45,7 +45,7 @@
    "url": "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=date&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "url": "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 20
   },
   {
@@ -63,7 +63,7 @@
    "url": "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=date&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 20
   },
   {
@@ -72,7 +72,7 @@
    "url": "https://www.the101.world/feed/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 15
   },
   {
@@ -81,7 +81,7 @@
    "url": "https://adaymagazine.com/feed/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-04T12:49+07:00",
+   "fetched_at": "2026-10-04T12:50+07:00",
    "count": 10
   }
  ],
