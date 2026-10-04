@@ -1,6 +1,6 @@
 # HANDOFF — book-watch
 
-อัปเดตล่าสุด: 2026-10-04 (Engine build เสร็จ รันบน GitHub Actions ผ่านแล้ว)
+อัปเดตล่าสุด: 2026-10-04 (Engine shipped, review แก้ครบ, รอรอบ cron แรกจันทร์ 2026-10-05)
 
 ## 1. เป้าหมาย
 
@@ -103,7 +103,14 @@
 
 ## 9. ขั้นถัดไปทันที
 
-เปิด https://github.com/platoo-ada/book-watch/actions หลังจันทร์ 2026-10-05 08:30 ดูว่ารอบ cron แรกเขียว แล้วเปิด `latest.md` ดูว่าหมวด "ออกใหม่และสั่งจอง" เรียงตามอันดับร้าน
+1. เช็ครอบ cron แรก (หลังจันทร์ 2026-10-05 08:30 อาจช้าได้หลายชั่วโมง)
+
+       gh run list -R platoo-ada/book-watch --workflow fetch.yml --limit 3
+       git -C ~/Work-space/book-watch pull && git -C ~/Work-space/book-watch log --format='%h %an %s' -3
+
+   ผ่านเมื่อ: มี run ที่ event เป็น `schedule` สถานะ success และมี commit `data:` จาก "book-watch bot" (ถ้าข้อมูลเหมือนเดิมทุกตัวอักษรจะไม่มี commit ใหม่ ไม่ถือว่าพัง) สัปดาห์จะเป็น `2026-W41` และควรมีเล่มที่ไม่ติดป้าย "ใหม่สัปดาห์นี้" เป็นครั้งแรก
+   ไม่ผ่าน: `gh run view <id> -R platoo-ada/book-watch --log-failed` แล้วแก้ด้วย TDD
+2. ผ่านแล้ว เริ่มโปรเจกต์ย่อย 2: invoke `superpowers:brainstorming` เรื่อง board `/monitor/book-watch` บน Aquarium อ่าน `~/Work-space/Aquarium/HANDOFF.md` และดูว่า `/monitor` ของ watch-kb ดึงไฟล์ raw อย่างไรก่อนถาม Platoo ข้อมูลเข้าคือ `latest.json` `schema_version: 1` (spec ข้อ 5)
 
 ## 10. อ่านก่อนเริ่ม และ skill ที่ควรใช้
 
