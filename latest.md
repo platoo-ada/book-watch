@@ -1,6 +1,6 @@
 # book-watch 2026-W40
 
-สร้างเมื่อ 2026-10-04T14:49+07:00 · ดึงได้ 8 จาก 9 แหล่ง
+สร้างเมื่อ 2026-10-04T14:50+07:00 · ดึงได้ 9 จาก 9 แหล่ง
 
 ## เล่มเด่นของสัปดาห์
 
@@ -10,16 +10,16 @@
 
 ### SE-ED
 
-- **อยากเป็นคนธรรมดา ไม่ต้องอ่าน** — [SE-ED ขายดี #4](https://www.se-ed.com/physical/292wee9y6qt06x33qhek) · ใหม่สัปดาห์นี้
+- **อยากเป็นคนธรรมดา ไม่ต้องอ่าน** — [SE-ED ขายดี #2](https://m2.se-ed.com/Detail/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99/9786168224465) · ใหม่สัปดาห์นี้
+- **Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)** — [SE-ED ขายดี #4](https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762) · ใหม่สัปดาห์นี้
+- **ใช้คลื่นพลังบวกดึงดูดพลังสุข** — [SE-ED ขายดี #5](https://m2.se-ed.com/Detail/%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9A%E0%B8%A7%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%82/9786161844899) · ใหม่สัปดาห์นี้
+- **Atomic Habits Workbook เพราะชีวิตดีได้กว่าที่เป็น ฉบับลงมือทำ!** — [SE-ED ขายดี #6](https://m2.se-ed.com/Detail/Atomic-Habits-Workbook-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%A5%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B3/9786160856909) · ใหม่สัปดาห์นี้
 - **Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น** — [SE-ED ขายดี #6](https://www.se-ed.com/physical/g1tpcxr5mp0kgi29i65j) · ใหม่สัปดาห์นี้
+- **100 คำถามอะไรเอ่ย ฉบับ ระเบิดความบ้า ฮาเหงือกแห้ง** — [SE-ED ขายดี #7](https://m2.se-ed.com/Detail/100-%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%AD%E0%B9%88%E0%B8%A2-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A-%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%9A%E0%B9%89%E0%B8%B2-%E0%B8%AE%E0%B8%B2%E0%B9%80%E0%B8%AB%E0%B8%87%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87/9786164302228) · ใหม่สัปดาห์นี้
+- **100 คำถามอะไรเอ่ย ฉบับ มุกมหากวน ชวนขำกลิ้ง** — [SE-ED ขายดี #8](https://m2.se-ed.com/Detail/100-%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%AD%E0%B9%88%E0%B8%A2-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A-%E0%B8%A1%E0%B8%B8%E0%B8%81%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%8A%E0%B8%A7%E0%B8%99%E0%B8%82%E0%B8%B3%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%89%E0%B8%87/9786164302204) · ใหม่สัปดาห์นี้
 - **พ่อรวยสอนลูก Rich Dad Poor Dad ฉบับครบรอบ 25 ปี** — [SE-ED ขายดี #8](https://www.se-ed.com/physical/b304ej8e38rdbtbhust8) · ใหม่สัปดาห์นี้
 - **คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie's Almanack** — [SE-ED ขายดี #9](https://www.se-ed.com/physical/kgq010d2kruj86y2spiq) · ใหม่สัปดาห์นี้
-- **พ่อรวยสอนลูก # 2 : เงินสี่ด้าน** — [SE-ED ขายดี #9](https://www.se-ed.com/physical/nsgu2xd4pyktgrxaensz) · ใหม่สัปดาห์นี้
-- **ภาษาจีนระดับต้น 1 (ฉบับปรับปรุง) +MP3** — [SE-ED ขายดี #11](https://www.se-ed.com/physical/ig3ltuh6nbv84f08s6g2) · ใหม่สัปดาห์นี้
-- **Passive Income เครื่องทุ่นแรงสู่อิสรภาพการเงิน** — [SE-ED ขายดี #12](https://www.se-ed.com/physical/snj010z3gxqd4tdnszil) · ใหม่สัปดาห์นี้
-- **Money 101** — [SE-ED ขายดี #14](https://www.se-ed.com/physical/4q3fbwwfp61cr5yyvkf8) · ใหม่สัปดาห์นี้
-- **เศรษฐศาสตร์เล่มเดียวจบ : Economics in One Lesson** — [SE-ED ขายดี #14](https://www.se-ed.com/physical/1oxvi0wbqhmxghrjynbl) · ใหม่สัปดาห์นี้
-- **พรหมญาณ พยากรณ์ +ไพ่พรหมญาณ (บรรจุกล่อง)** — [SE-ED ขายดี #15](https://www.se-ed.com/physical/fdqcu09kj9gjhamz8gof) · ใหม่สัปดาห์นี้
+- **ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart** — [SE-ED ขายดี #9](https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%87-A-Guide-to-Fighting-the-Demons-in-My-Heart/9786168366127) · ใหม่สัปดาห์นี้
 
 ### ศูนย์หนังสือจุฬาฯ
 
@@ -101,4 +101,4 @@
 
 ## ดึงไม่ได้
 
-- SE-ED (จัดอันดับ): URLError: \<urlopen error timed out\>
+ดึงได้ครบทุกแหล่ง
