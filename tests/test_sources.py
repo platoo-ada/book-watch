@@ -166,6 +166,19 @@ class WooTest(unittest.TestCase):
         self.assertTrue(out[0]["is_book"])
         self.assertFalse(out[1]["is_book"])
         self.assertIsNone(out[1]["cover"])
+        self.assertIsNone(out[0]["translator"])
+
+    def test_translator_from_credit_line_only(self):
+        def product(short):
+            return {"name": "เล่ม", "sku": "", "permalink": "https://x.test/", "categories": [], "images": [],
+                    "short_description": short}
+        text = json.dumps([
+            product("<p>เรื่องและภาพ มิโดริ บะโช<br />\nแปล หนึ่งฤทัย ปราดเปรียว<br />\nพบกับสามเพื่อนรัก</p>"),
+            product("<p>ผู้เขียน : <strong>มู่หลันโจว</strong><br />\nผู้แปล : <strong>ย้วยยี้</strong><br />\nนักวาด : x</p>"),
+            product("<p>นำเรื่องจริงมาดัดแปลงเป็นเรื่องแต่ง</p>\n<p>แปลไปแล้วกว่า 31 ประเทศ ผู้คนแปลกหน้า</p>"),
+        ])
+        out = sources.parse_woo(text, "amarin", "new", "ออกใหม่")
+        self.assertEqual([e["translator"] for e in out], ["หนึ่งฤทัย ปราดเปรียว", "ย้วยยี้", None])
 
 
 class RssTest(unittest.TestCase):

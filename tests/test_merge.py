@@ -67,7 +67,17 @@ class MergeTest(unittest.TestCase):
         books = merge.merge_entries([entry("amarin", "new", 1, "Super Stimulated สุขซ่อนพิษ", "https://a")], {}, WEEK)
         self.assertEqual(books[0]["key"], "title:superstimulatedสุขซ่อนพิษ")
         self.assertIsNone(books[0]["isbn"])
-        self.assertTrue(books[0]["maybe_translated"])
+
+    def test_english_title_alone_is_not_translated(self):
+        books = merge.merge_entries([entry("salmon", "new", 1, "SEE LANKA เอวังที่ลังกา", "https://a")], {}, WEEK)
+        self.assertFalse(books[0]["maybe_translated"])
+
+    def test_latin_author_or_translated_category_marks_translated(self):
+        books = merge.merge_entries([
+            entry("chula", "preorder", 1, "แพ็กชุด POCKET POTTERS", "https://a", author="J.K. ROWLING"),
+            entry("amarin", "new", 1, "เทวากับซาตาน", "https://b", category="นิยาย, นิยายแปล"),
+        ], {}, WEEK)
+        self.assertEqual([b["maybe_translated"] for b in books], [True, True])
 
     def test_blank_title_is_dropped(self):
         self.assertEqual(merge.merge_entries([entry("seed", "new", 1, "  ", "https://a")], {}, WEEK), [])

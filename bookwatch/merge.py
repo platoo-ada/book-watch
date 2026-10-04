@@ -81,16 +81,17 @@ def merge_entries(entries, prev_first_seen, week):
         def first(field):
             return next((e[field] for e in ents if e[field]), None)
 
-        translator = first("translator")
+        author, translator = first("author"), first("translator")
         reason = _excluded_reason(title, ents)
         books.append({
             "key": key,
             "isbn": isbns[0] if isbns else None,
             "title": title,
-            "author": first("author"),
+            "author": author,
             "translator": translator,
             "category": first("category"),
-            "maybe_translated": maybe_translated(title, translator),
+            "maybe_translated": maybe_translated(
+                author, translator, [e["category"] for e in ents if e["category"]]),
             "article_sources": [],
             "source_count": len({m["source"] for m in mention_list}),
             "list_types": [k for k in LIST_ORDER if any(m["list"] == k for m in mention_list)],

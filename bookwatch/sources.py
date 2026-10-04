@@ -12,6 +12,9 @@ NON_BOOK_CATS = ("ของแถม", "พรีเมี่ยม", "SALMART")
 _SEED_RANK = re.compile(r"<a class='box'[^>]*?href='(/Detail/[^']*/([^/']+))'\s+title='([^']*)'")
 _NEXT_DATA = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
 _ITEM = re.compile(r"<item\b[^>]*>(.*?)</item>", re.S)
+# A credit line of its own in a store description: "แปล ชื่อ" or "ผู้แปล : ชื่อ".
+_LINE_BREAK = re.compile(r"<br\s*/?>|</p>|</div>|\n", re.I)
+_TRANSLATOR_LINE = re.compile(r"^(?:ผู้แปล|แปลโดย|แปล)\s*[:：]?\s+(\S.{0,58}\S)$")
 
 
 def entry(source, list_kind, rank, title_raw, url, **extra):
@@ -101,6 +104,14 @@ def parse_chula(text):
     return out
 
 
+def _woo_translator(short_description):
+    for line in _LINE_BREAK.split(html.unescape(short_description or "")):
+        m = _TRANSLATOR_LINE.match(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", line)).strip())
+        if m:
+            return m.group(1)
+    return None
+
+
 def parse_woo(text, source, list_kind, label):
     out = []
     for p in json.loads(text):
@@ -110,6 +121,7 @@ def parse_woo(text, source, list_kind, label):
         images = p.get("images") or []
         out.append(entry(
             source, list_kind, len(out) + 1, html.unescape(p["name"]), p.get("permalink"),
+            translator=_woo_translator(p.get("short_description")),
             isbn=p.get("sku") or None, category=", ".join(cats) or None,
             cover=images[0].get("src") if images else None,
             is_book=not any(bad in c for c in cats for bad in NON_BOOK_CATS), label=label))

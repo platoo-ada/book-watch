@@ -86,17 +86,20 @@ class TitleKeyTest(unittest.TestCase):
 
 class TranslatedTest(unittest.TestCase):
     def test_translator_given(self):
-        self.assertTrue(maybe_translated("หงส์ลายมังกร", "ชูวัส เลี้ยงพันธุ์สกุล"))
+        self.assertTrue(maybe_translated("วิมลพรรณ ปิตธวัชชัย", "ชูวัส เลี้ยงพันธุ์สกุล"))
 
-    def test_two_latin_words_then_thai(self):
-        self.assertTrue(maybe_translated("Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น", None))
+    def test_foreign_script_author(self):
+        self.assertTrue(maybe_translated("J.K. ROWLING", None))
+        self.assertFalse(maybe_translated("สมชาย จิว", None))
+        self.assertFalse(maybe_translated("暮兰舟 มู่หลันโจว", None))  # mixed script is not evidence
 
-    def test_thai_title(self):
-        self.assertFalse(maybe_translated("อยากเป็นคนธรรมดา ไม่ต้องอ่าน", None))
+    def test_translated_category(self):
+        self.assertTrue(maybe_translated(None, None, ["นิยาย, นิยายแปล"]))
+        self.assertFalse(maybe_translated(None, None, ["เรื่องแปลก"]))
 
-    def test_single_latin_word_or_all_latin(self):
-        self.assertFalse(maybe_translated("Fearless ความกลัวสูญสิ้น", None))
-        self.assertFalse(maybe_translated("BEYOND THE STORY", None))
+    def test_no_evidence_means_no_flag(self):
+        self.assertFalse(maybe_translated(None, None))
+        self.assertFalse(maybe_translated(None, None, ["Books", "นิยายสืบสวน"]))
 
 
 if __name__ == "__main__":

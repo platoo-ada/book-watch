@@ -14,8 +14,9 @@ _FORMAT_PAREN = re.compile(
     r"|\s*ราคาปก[^()]*"
     r"|\s*(?:New|re-newed|อ่อน|แข็ง)\s*)\)\s*$")
 _FORMAT_DASH = re.compile(r"\s*[–—-]\s*(?:ปกแข็ง|ปกอ่อน)\s*$")
-_LATIN_THEN_THAI = re.compile(
-    r"^[A-Za-z][A-Za-z0-9'’&:.\-]*(?:\s+[A-Za-z0-9&][A-Za-z0-9'’&:.\-]*)+\s+[" + _THAI + r"]")
+_HAS_THAI = re.compile("[" + _THAI + "]")
+_HAS_LATIN = re.compile(r"[A-Za-z]")
+_TRANSLATED_CAT = re.compile(r"แปล(?!ก)")  # "นิยายแปล", not "แปลก"
 
 
 def valid_isbn13(value):
@@ -40,5 +41,11 @@ def title_key(title):
     return "".join(c for c in title.lower() if unicodedata.category(c)[0] not in "PZSC")
 
 
-def maybe_translated(clean, translator):
-    return bool(translator) or bool(_LATIN_THEN_THAI.match(clean))
+def maybe_translated(author, translator, categories=()):
+    """Only what the source states: a translator, a foreign-script author, or a translated category.
+    The title is never used; Thai books with English titles are common."""
+    if translator:
+        return True
+    if author and _HAS_LATIN.search(author) and not _HAS_THAI.search(author):
+        return True
+    return any(_TRANSLATED_CAT.search(c) for c in categories)

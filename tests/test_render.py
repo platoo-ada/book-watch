@@ -23,7 +23,7 @@ def make_data(entries, articles=(), statuses=(OK,), prev=None):
 FULL = [
     entry("seed", "bestseller", 1, "อยากเป็นคนธรรมดา ไม่ต้องอ่าน", "https://seed/1", isbn="9786168224465"),
     entry("chula", "bestseller", 2, "อยากเป็นคนธรรมดา ไม่ต้องอ่าน", "https://chula/1", isbn="9786168224465", author="นักเขียน ก"),
-    entry("seed", "new", 1, "Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น", "https://seed/2"),
+    entry("seed", "new", 1, "Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น", "https://seed/2", translator="ผู้แปล ข"),
     entry("seed", "recommended", 1, "เล่มแนะนำ", "https://seed/3"),
     entry("seed", "bestseller", 2, "พจนานุกรมไทย", "https://seed/4"),
 ]
