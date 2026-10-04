@@ -44,7 +44,7 @@
 | Fixture | ไม่ commit | เป็นเนื้อหาเว็บอื่น รีโปเป็น public |
 | คำเรียกอันดับ | "อันดับที่ร้านประกาศ" | บางร้านแอดมินเลือกเอง ไม่ใช่ยอดขายจริง |
 
-การตัดสินใจระหว่าง build ที่ต่างจาก spec หรือ plan (Ada ตัดสินเอง Platoo ยังไม่ได้ทบทวน)
+การตัดสินใจระหว่าง build ที่ต่างจาก spec ฉบับแรกหรือ plan (Ada ตัดสินเอง Platoo สั่งให้แก้ spec ตามแล้ว ยกเว้นเรื่อง branch ที่ไม่เกี่ยวกับ spec)
 
 | เรื่อง | ทำอะไร | ถ้าผิดเสียอะไร |
 |---|---|---|
@@ -60,7 +60,7 @@
 ## 5. ไฟล์ที่เกี่ยวข้อง
 
 - `README.md` — วิธีรัน วิธีแก้เมื่อเว็บเปลี่ยนโครง ข้อจำกัด
-- `docs/superpowers/specs/2026-10-04-book-watch-engine-design.md` — spec (โครง `latest.json` อยู่ข้อ 5) **ยังไม่ได้แก้ให้ตรงกับการตัดสินใจระหว่าง build ในข้อ 4**
+- `docs/superpowers/specs/2026-10-04-book-watch-engine-design.md` — spec (โครง `latest.json` อยู่ข้อ 5) แก้ให้ตรงกับการตัดสินใจระหว่าง build แล้ว (spec ข้อ 14)
 - `docs/superpowers/plans/2026-10-04-book-watch-engine.md` — plan 7 task (ทำครบแล้ว)
 - `bookwatch/sources.py` — จุดเดียวที่ต้องแก้เมื่อเว็บเปลี่ยนโครง
 - `bookwatch/merge.py` ต้นไฟล์ — รายการคำกรอง
@@ -89,10 +89,9 @@
 ## 8. งานที่เหลือ เรียงตามลำดับ
 
 1. ดูผลรอบ cron แรก จันทร์ 2026-10-05: Actions เขียวไหม มี commit `data:` ไหม
-2. Platoo ทบทวนตารางการตัดสินใจระหว่าง build ในข้อ 4 แล้วแก้ spec ให้ตรง
-3. ข้อ Minor จาก final review ที่ยังไม่แก้ (ข้างล่าง)
-4. Brainstorm โปรเจกต์ย่อย 2 (Aquarium board) แล้วตามด้วย 3 (`wnv-publish`)
-5. เติมแหล่ง MEB, Matichon, B2S, Ookbee ทีละแหล่ง เพื่อให้หมวด "เล่มเด่น" มีของ
+2. ข้อ Minor จาก final review ที่ยังไม่แก้ (ข้างล่าง)
+3. Brainstorm โปรเจกต์ย่อย 2 (Aquarium board) แล้วตามด้วย 3 (`wnv-publish`)
+4. เติมแหล่ง MEB, Matichon, B2S, Ookbee ทีละแหล่ง เพื่อให้หมวด "เล่มเด่น" มีของ
 
 ข้อ Minor จาก final review ที่ยังไม่แก้
 
