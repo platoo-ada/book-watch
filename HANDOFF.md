@@ -9,7 +9,7 @@
 งานแบ่งเป็น 3 โปรเจกต์ย่อย ทำตามลำดับ
 
 1. **Engine** (รีโปนี้): **shipped 2026-10-04**
-2. Board บน Aquarium `/monitor/book-watch`: **shipped 2026-10-04** https://aquarium-platoo.vercel.app/monitor/book-watch (Aquarium commit `a461f74`) test 29 ตัว ตรวจ prod แล้ว รายละเอียดและ minor 4 ข้อที่ยังไม่แก้อยู่ใน `HANDOFF.md` ของ Aquarium
+2. Board บน Aquarium `/monitor/book-watch`: **shipped 2026-10-04** https://aquarium-platoo.vercel.app/monitor/book-watch (Aquarium commit `a461f74`) test 29 ตัว ตรวจ prod แล้ว รายละเอียดและ minor 4 ข้อที่ยังไม่แก้อยู่ใน `HANDOFF.md` ของ Aquarium project card: https://aquarium-platoo.vercel.app/projects/book-watch (2026-10-04)
 3. ต่อ `latest.json` เข้า skill `wnv-publish`: ยังไม่เริ่ม ต้องมี spec ของตัวเอง
 
 ## 2. สถานะปัจจุบัน
