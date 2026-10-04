@@ -1,6 +1,6 @@
 # book-watch Board — Design Spec
 
-วันที่: 2026-10-04 · สถานะ: รอ Platoo อนุมัติ ยังไม่ build · โปรเจกต์ย่อย 2 จาก 3
+วันที่: 2026-10-04 · สถานะ: อนุมัติแล้ว build เสร็จ แก้ให้ตรงกับของจริงแล้ว · โปรเจกต์ย่อย 2 จาก 3
 
 โค้ดของโปรเจกต์ย่อยนี้อยู่ในรีโป Aquarium (`~/Work-space/Aquarium`) ไม่ใช่รีโปนี้ spec อยู่ที่นี่เพราะข้อมูลเข้าคือ `latest.json` ของรีโปนี้
 
@@ -124,13 +124,14 @@ Block ใน Store rankings เรียงตามลำดับที่ id 
 | Rank | เฉพาะหมวด Store rankings: `rank` ของ mention นั้น |
 | Title | `title` |
 | Author | `author` ถ้ามี และ "tr. `translator`" ถ้ามี ไม่มีทั้งคู่เว้นว่าง |
-| Listed | Bracket ต่อ mention หนึ่งตัว ข้อความคือ `<ชื่อแหล่ง> · <label> #<rank>` ไป `url` ของ mention |
-| Flags | `NEW` เมื่อ `first_seen` เท่ากับ `week`, `Possibly translated` เมื่อ `maybe_translated` |
+| Flags | `NEW` เมื่อ `first_seen` เท่ากับ `week`, `Possibly translated` เมื่อ `maybe_translated` ตัดบรรทัดได้ |
+| Listed | Bracket ต่อ mention หนึ่งตัว ข้อความคือ `<ชื่อแหล่ง> · <label> #<rank>` ไป `url` ของ mention ในหมวด Store rankings ไม่ใส่ชื่อแหล่ง เพราะหัว Block บอกแล้ว |
 
 - `label` แสดงตามที่ร้านเรียก ไม่แปล ร้านสำนักพิมพ์จึงขึ้นว่า "ยอดนิยมในร้านสำนักพิมพ์" เอง board ไม่ต้องรู้ว่าร้านไหนเป็นสำนักพิมพ์
 - ในหมวด Store rankings หนึ่งแถวคือหนึ่ง mention คอลัมน์ Listed แสดงเฉพาะ mention นั้น หมวดอื่นหนึ่งแถวคือหนึ่งเล่ม คอลัมน์ Listed แสดง mention ทุกรายการของเล่ม
 - ในหมวด New this week ไม่แสดงป้าย `NEW` เพราะทุกแถวเป็นของใหม่
-- ตารางกว้างเลื่อนใน `overflow-x-auto` ของตัวเอง ชื่อไทยยาวตัดบรรทัดได้ คอลัมน์ Rank ไม่ตัด
+- ตารางกว้างเลื่อนใน `overflow-x-auto` ของตัวเอง ชื่อไทยยาวตัดบรรทัดได้ คอลัมน์ Rank ไม่ตัด ช่องชื่อเล่มกว้างอย่างน้อย 12rem
+- Flags อยู่ก่อน Listed (แก้หลัง build, Platoo ยืนยัน 2026-10-04): Bracket ไม่ตัดบรรทัด จึงเป็นคอลัมน์ที่กว้างและเลื่อนพ้นจอได้ กับข้อมูลจริงลำดับเดิมทำให้ Flags หลุดจอที่ความกว้าง 1280
 
 ### 5.5 Articles
 
