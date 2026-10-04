@@ -1,6 +1,6 @@
 # HANDOFF — book-watch
 
-อัปเดตล่าสุด: 2026-10-04 (Engine shipped, review แก้ครบ, รอรอบ cron แรกจันทร์ 2026-10-05)
+อัปเดตล่าสุด: 2026-10-04 บ่าย (Engine shipped, รอรอบ cron แรกจันทร์ 2026-10-05, spec ของ Board เขียนแล้ว รอ Platoo อนุมัติ)
 
 ## 1. เป้าหมาย
 
@@ -9,7 +9,7 @@
 งานแบ่งเป็น 3 โปรเจกต์ย่อย ทำตามลำดับ
 
 1. **Engine** (รีโปนี้): **shipped 2026-10-04**
-2. Board บน Aquarium `/monitor/book-watch`: ยังไม่เริ่ม ต้องมี spec ของตัวเอง
+2. Board บน Aquarium `/monitor/book-watch`: brainstorm จบ, spec เขียนแล้ว **รอ Platoo อนุมัติไฟล์ spec** ยังไม่มี plan ยังไม่ build ยังไม่แตะรีโป Aquarium
 3. ต่อ `latest.json` เข้า skill `wnv-publish`: ยังไม่เริ่ม ต้องมี spec ของตัวเอง
 
 ## 2. สถานะปัจจุบัน
@@ -61,6 +61,7 @@
 
 - `README.md` — วิธีรัน วิธีแก้เมื่อเว็บเปลี่ยนโครง ข้อจำกัด
 - `docs/superpowers/specs/2026-10-04-book-watch-engine-design.md` — spec (โครง `latest.json` อยู่ข้อ 5) แก้ให้ตรงกับการตัดสินใจระหว่าง build แล้ว (spec ข้อ 14)
+- `docs/superpowers/specs/2026-10-04-book-watch-board-design.md` — spec ของ Board (โปรเจกต์ย่อย 2) โค้ดจะอยู่ในรีโป Aquarium
 - `docs/superpowers/plans/2026-10-04-book-watch-engine.md` — plan 7 task (ทำครบแล้ว)
 - `bookwatch/sources.py` — จุดเดียวที่ต้องแก้เมื่อเว็บเปลี่ยนโครง
 - `bookwatch/merge.py` ต้นไฟล์ — รายการคำกรอง
@@ -88,8 +89,8 @@
 
 ## 8. งานที่เหลือ เรียงตามลำดับ
 
-1. ดูผลรอบ cron แรก จันทร์ 2026-10-05: Actions เขียวไหม มี commit `data:` ไหม
-2. Brainstorm โปรเจกต์ย่อย 2 (Aquarium board) แล้วตามด้วย 3 (`wnv-publish`)
+1. ดูผลรอบ cron แรก จันทร์ 2026-10-05: Actions เขียวไหม มี commit `data:` ไหม (เช็คเมื่อ 2026-10-04 12:56: ยังไม่มี run แบบ `schedule` เพราะยังไม่ถึงเวลา ไม่ได้สั่งรันมือ)
+2. โปรเจกต์ย่อย 2 (Aquarium board): Platoo อนุมัติ spec แล้วเขียน plan แล้ว build จากนั้น brainstorm โปรเจกต์ย่อย 3 (`wnv-publish`)
 3. เติมแหล่ง MEB, Matichon, B2S, Ookbee ทีละแหล่ง เพื่อให้หมวด "เล่มเด่น" มีของ
 
 ข้อ Minor จาก final review 10 ข้อ: แก้ครบแล้ว แต่ละข้อมี test ที่เห็น fail ก่อน (ดู spec ข้อ 14 แถวที่ลงท้าย "review")
@@ -110,7 +111,7 @@
 
    ผ่านเมื่อ: มี run ที่ event เป็น `schedule` สถานะ success และมี commit `data:` จาก "book-watch bot" (ถ้าข้อมูลเหมือนเดิมทุกตัวอักษรจะไม่มี commit ใหม่ ไม่ถือว่าพัง) สัปดาห์จะเป็น `2026-W41` และควรมีเล่มที่ไม่ติดป้าย "ใหม่สัปดาห์นี้" เป็นครั้งแรก
    ไม่ผ่าน: `gh run view <id> -R platoo-ada/book-watch --log-failed` แล้วแก้ด้วย TDD
-2. ผ่านแล้ว เริ่มโปรเจกต์ย่อย 2: invoke `superpowers:brainstorming` เรื่อง board `/monitor/book-watch` บน Aquarium อ่าน `~/Work-space/Aquarium/HANDOFF.md` และดูว่า `/monitor` ของ watch-kb ดึงไฟล์ raw อย่างไรก่อนถาม Platoo ข้อมูลเข้าคือ `latest.json` `schema_version: 1` (spec ข้อ 5)
+2. โปรเจกต์ย่อย 2 (ไม่ต้องรอข้อ 1): ให้ Platoo อ่านและอนุมัติ `docs/superpowers/specs/2026-10-04-book-watch-board-design.md` จากนั้น invoke `superpowers:writing-plans` แล้ว build ในรีโป Aquarium บน branch แยก อ่าน `~/Work-space/Aquarium/HANDOFF.md` ก่อนแตะ push ต้องถามยืนยัน การตัดสินใจที่ Platoo เลือกแล้วอยู่ใน spec ข้อ 2 (โต๊ะทำงานโชว์ครบทุกเล่ม, ไม่มีปก, หมวดตายตัวและบล็อก New this week, แยก board ต่อ slug ใน route เดิม)
 
 ## 10. อ่านก่อนเริ่ม และ skill ที่ควรใช้
 
