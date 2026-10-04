@@ -1,0 +1,4 @@
+__pycache__/
+brief.txt
+tests/fixtures/
+.DS_Store
