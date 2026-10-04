@@ -49,6 +49,19 @@ class SeedApiTest(unittest.TestCase):
                                        [seed_product("x1", "เล่ม X")])])
         self.assertEqual(out, [])
 
+    def test_seed_api_null_category_with_isbn_is_a_book(self):
+        p = {"physicalProduct": {"physicalProduct": {"id": "n2", "name": "เล่มไม่มีหมวด", "category": None,
+                                                       "cover": None, "variants": [{"sku": "9786164810600"}]}}}
+        out = self.parse([seed_section("recommendedProductSection", "adminSelected", "สินค้าขายดีประจำวัน", [p])])
+        self.assertTrue(out[0]["is_book"])
+
+    def test_seed_api_row_without_id_is_skipped_not_fatal(self):
+        bad = seed_product("x", "เล่มไม่มี id")
+        del bad["physicalProduct"]["physicalProduct"]["id"]
+        out = self.parse([seed_section("recommendedProductSection", "adminSelected", "สินค้าขายดีประจำวัน",
+                                       [bad, seed_product("g1", "เล่มดี")])])
+        self.assertEqual([(e["title_raw"], e["rank"]) for e in out], [("เล่มดี", 1)])
+
     def test_seed_api_skips_nameless_and_tolerates_nulls(self):
         nulls = {"physicalProduct": {"physicalProduct": {"id": "n1", "name": "เล่ม N", "category": None,
                                                            "cover": None, "variants": []}}}
@@ -120,6 +133,12 @@ class ChulaTest(unittest.TestCase):
         self.assertEqual(out[2]["lang"], "en")
         self.assertEqual(out[4]["label"], "หนังสือจัดจำหน่าย")
         self.assertFalse(out[5]["is_book"])
+
+    def test_chula_row_without_id_is_skipped_not_fatal(self):
+        bad = self.row("9", "เล่มไม่มี id")
+        del bad["id"]
+        out = sources.parse_chula(self.html({"best_seller": {"rows": [bad, self.row("1", "เล่มดี")]}}))
+        self.assertEqual([(e["title_raw"], e["rank"]) for e in out], [("เล่มดี", 1)])
 
     def test_missing_sections_are_tolerated(self):
         out = sources.parse_chula(self.html({"best_seller": {"rows": [self.row("1", "เล่มเดียว")]}}))

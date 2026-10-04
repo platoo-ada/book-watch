@@ -89,6 +89,29 @@ class MarkdownTest(unittest.TestCase):
         rec = md.split("## แนะนำ")[1].split("\n## ")[0]
         self.assertLess(rec.index("เล่มแนะนำอันดับหนึ่ง"), rec.index("Aaa recommended ninth"))
 
+    def test_angle_brackets_and_newlines_cannot_break_the_page(self):
+        bad = dict(BAD, error="URLError: <urlopen error timed out>")
+        md = render.to_markdown(make_data([
+            entry("seed", "new", 1, "รวมบทกวี <!-- ซ่อน", "https://seed/1", author="ผู้เขียน\nสองบรรทัด"),
+            entry("salmon", "new", 2, "เล่มลิงก์แปลก", "https://x.test/a b)c"),
+            entry("salmon", "new", 3, "เล่มลิงก์วงเล็บครบ", "https://x.test/a-(b)/1")],
+            statuses=(OK, bad),
+            articles=[{"source": "aday", "title": "นักเขียน <b>ตัวหนา</b>", "url": "https://x/1", "published": "", "summary": ""}]))
+        self.assertIn(r"URLError: \<urlopen error timed out\>", md)
+        self.assertIn(r"รวมบทกวี \<!-- ซ่อน", md)
+        self.assertIn("ผู้เขียน สองบรรทัด", md)
+        self.assertIn("[Salmon ออกใหม่](https://x.test/a%20b%29c)", md)
+        self.assertIn("[Salmon ออกใหม่](https://x.test/a-(b)/1)", md)
+        self.assertIn(r"นักเขียน \<b\>ตัวหนา\</b\>", md)
+
+    def test_publisher_store_popularity_is_not_labelled_bestseller(self):
+        md = render.to_markdown(make_data([
+            entry("amarin", "bestseller", 1, "เล่มยอดนิยมอมรินทร์", "https://amarin/1"),
+            entry("salmon", "bestseller", 2, "เล่มยอดนิยมแซลมอน", "https://salmon/2")]))
+        self.assertIn("[Amarin ยอดนิยม #1](https://amarin/1)", md)
+        self.assertIn("[Salmon ยอดนิยม #2](https://salmon/2)", md)
+        self.assertNotIn("Amarin ขายดี", md)
+
     def test_excluded_books_do_not_appear(self):
         self.assertNotIn("พจนานุกรมไทย", render.to_markdown(make_data(FULL)))
 

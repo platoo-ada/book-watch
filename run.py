@@ -15,8 +15,14 @@ def load_prev(path):
     try:
         prev = {}
         for b in json.loads(path.read_text(encoding="utf-8"))["books"]:
-            prev[b["key"]] = b["first_seen"]
-            prev.setdefault("title:" + title_key(clean_title(b["title"])), b["first_seen"])
+            key, week = b["key"], b["first_seen"]
+            if not isinstance(week, str):
+                continue
+            prev[key] = week
+            # Every title a store used, so the book is still known if only one store lists it next time.
+            titles = [b["title"]] + [m.get("title_raw") for m in b.get("mentions") or [] if isinstance(m, dict)]
+            for title in filter(None, titles):
+                prev.setdefault("title:" + title_key(clean_title(title)), week)
         return prev
     except Exception:
         return {}

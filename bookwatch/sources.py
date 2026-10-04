@@ -44,15 +44,19 @@ def parse_seed_api(text):
             rank = 0
             for item in box.get("products") or []:
                 p = (item.get("physicalProduct") or {}).get("physicalProduct")
-                if not p or not p.get("name"):
+                if not p or not p.get("name") or not p.get("id"):
                     continue
                 rank += 1
                 cat = p.get("category") or {}
                 variants = p.get("variants") or [{}]
+                sku = (variants[0] or {}).get("sku")
+                # No category at all is "unknown", not "not a book": fall back to the ISBN.
+                is_book = (str(cat["id"]).startswith("book") if cat.get("id")
+                           else valid_isbn13(sku) is not None)
                 out.append(entry(
                     "seed", kind, rank, p["name"], f"https://www.se-ed.com/physical/{p['id']}",
-                    isbn=(variants[0] or {}).get("sku"), category=cat.get("name"), cover=p.get("cover"),
-                    is_book=str(cat.get("id") or "").startswith("book"), label=title.strip()))
+                    isbn=sku, category=cat.get("name"), cover=p.get("cover"),
+                    is_book=is_book, label=title.strip()))
     return out
 
 
@@ -71,7 +75,7 @@ def parse_seed_rank(text):
 def _chula_rows(rows, kind, label):
     out = []
     for r in rows or []:
-        if not r.get("name"):
+        if not r.get("name") or not r.get("id"):
             continue
         out.append(entry(
             "chula", kind, len(out) + 1, r["name"], f"https://www.chulabook.com/product/{r['id']}",

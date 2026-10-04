@@ -13,7 +13,7 @@ EXAM_CATEGORIES = ("test-prep", "medical-and-nursing")
 BOOK_WORDS = ("หนังสือ", "นักเขียน", "สำนักพิมพ์", "นักอ่าน", "วรรณกรรม", "นิยาย", "งานแปล")
 MIN_MATCH_LEN = 8
 
-_GRADE = re.compile(r"[ปม]\.\s?[1-6]")
+_GRADE = re.compile(r"(?<!กท)[ปม]\.\s?[1-6]")  # ป.3, ม.4 but not กทม. 1
 _MENTION_FIELDS = ("source", "list", "rank", "label", "title_raw", "url", "cover")
 _NO_RANK = 9999
 

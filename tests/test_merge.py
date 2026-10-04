@@ -103,6 +103,10 @@ class FilterTest(unittest.TestCase):
                       "SUPER SCIENCE สรุปวิทยาศาสตร์ ม.ต้น", "ภาษาไทย ป.3", "TOPIK 1"):
             self.assertEqual(self.reason(entry("seed", "bestseller", 1, title, "https://a")), "exam_reference", title)
 
+    def test_grade_pattern_does_not_match_bangkok_abbreviation(self):
+        self.assertIsNone(self.reason(entry("seed", "new", 1, "เที่ยว กทม. 1 วัน", "https://a")))
+        self.assertEqual(self.reason(entry("seed", "new", 1, "สรุปเข้มม.4", "https://a")), "exam_reference")
+
     def test_exam_by_source_category(self):
         self.assertEqual(self.reason(entry("chula", "bestseller", 1, "ประลองโจทย์สังคม", "https://a", category="test-prep")),
                          "exam_reference")

@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: fetch
+  cancel-in-progress: false
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -23,12 +26,15 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add latest.md latest.json weekly/
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
           git push
       - name: notify
         if: always()
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          JOB_STATUS: ${{ job.status }}
         run: |
-          if [ -f brief.txt ]; then msg="$(cat brief.txt)"; prio=default; else msg="book-watch: fetch ล้มเหลว ดู Actions log"; prio=high; fi
+          # The brief goes out only when every earlier step passed, so it never links to data that was not pushed.
+          if [ "$JOB_STATUS" = success ] && [ -f brief.txt ]; then msg="$(cat brief.txt)"; prio=default; else msg="book-watch: fetch ล้มเหลว ดู Actions log"; prio=high; fi
           curl -fsS -o /dev/null -H "Title: book-watch $(TZ=Asia/Bangkok date +%d/%m\ %H:%M)" -H "Priority: $prio" -H "Tags: books" \
             -d "$msg" "https://ntfy.sh/$NTFY_TOPIC"

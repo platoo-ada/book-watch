@@ -47,6 +47,24 @@ class CleanTitleTest(unittest.TestCase):
         for title in ("เที่ยวคนเดียว (New York)", "ชีวิตดี (ที่ยังไม่พร้อม)", "นิทานก่อนนอน (ฉบับอ่อนโยน)"):
             self.assertEqual(clean_title(title), title)
 
+    def test_numbered_bracket_prefix_is_part_of_the_title(self):
+        self.assertEqual(clean_title("[เล่ม 1] มหากาพย์"), "[เล่ม 1] มหากาพย์")
+        self.assertNotEqual(title_key(clean_title("[เล่ม 1] มหากาพย์")), title_key(clean_title("[เล่ม 2] มหากาพย์")))
+        self.assertEqual(clean_title("[1984]"), "[1984]")
+
+    def test_tag_words_inside_other_words_are_kept(self):
+        for title in ("คนดี (ที่จองหอง)", "รักแรก (จองเวร)", "ชีวิต (พร้อมจะรัก)", "Pre-Order Economy เศรษฐกิจแห่งการรอ"):
+            self.assertEqual(clean_title(title), title)
+
+    def test_preorder_prefix_takes_its_colon(self):
+        self.assertEqual(clean_title("PREORDER: ดาวเคราะห์"), "ดาวเคราะห์")
+        self.assertEqual(clean_title("PRE-ORDER : ดาวเคราะห์ (สินค้าสั่งจอง)"), "ดาวเคราะห์")
+
+    def test_title_that_is_only_a_tag_is_not_emptied(self):
+        self.assertEqual(clean_title("[ตาก]"), "[ตาก]")
+        self.assertEqual(clean_title("PREORDER"), "PREORDER")
+        self.assertEqual(clean_title("(ปกแข็ง)"), "(ปกแข็ง)")
+
     def test_keeps_meaningful_parentheses(self):
         self.assertEqual(clean_title("รัฐศาสตร์เบื้องต้น (การปกครอง)"), "รัฐศาสตร์เบื้องต้น (การปกครอง)")
 

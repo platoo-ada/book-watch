@@ -2,16 +2,20 @@
 import re
 import unicodedata
 
-_PREFIX = re.compile(r"^\s*(?:\[[^\]]*\]|PRE-?ORDER\b)\s*", re.I)
-# A trailing parenthesis is a store tag when it holds a format word, starts with a bundle word,
+_THAI = "฀-๿"
+# A leading bracket is a store tag only when it holds no digit: "[ตาก]" goes, "[เล่ม 1]" stays.
+_PREFIX = re.compile(r"^\s*(?:\[[^\]\d]*\]|PRE-?ORDER\b\s*:?)\s*")
+# A trailing parenthesis is a store tag when it holds a format word, starts with a bundle phrase,
 # or is exactly a short edition marker. Any other parenthesis is part of the title.
+# "จอง" must end its word, so "(สั่งจอง)" matches and "(ที่จองหอง)" does not.
 _FORMAT_PAREN = re.compile(
-    r"\s*\((?:[^()]*(?:ปกแข็ง|ปกอ่อน|ปกใหม่|จอง|รอบปกติ|รอบพิเศษ|พิมพ์ครั้งที่|ฉบับปรับปรุง)[^()]*"
-    r"|\s*(?:พร้อม|ราคาปก)[^()]*"
+    r"\s*\((?:[^()]*(?:ปกแข็ง|ปกอ่อน|ปกใหม่|จอง(?![" + _THAI + r"])|รอบปกติ|รอบพิเศษ|พิมพ์ครั้งที่|ฉบับปรับปรุง)[^()]*"
+    r"|\s*พร้อม(?:ของ|สินค้า|โปสการ์ด|ชุด|ที่คั่น|ที่แขวน|ลายเซ็น|กล่อง|เฉลย|คลิป|ไฟล์|CD|MP3)[^()]*"
+    r"|\s*ราคาปก[^()]*"
     r"|\s*(?:New|re-newed|อ่อน|แข็ง)\s*)\)\s*$")
 _FORMAT_DASH = re.compile(r"\s*[–—-]\s*(?:ปกแข็ง|ปกอ่อน)\s*$")
 _LATIN_THEN_THAI = re.compile(
-    r"^[A-Za-z][A-Za-z0-9'’&:.\-]*(?:\s+[A-Za-z0-9&][A-Za-z0-9'’&:.\-]*)+\s+[฀-๿]")
+    r"^[A-Za-z][A-Za-z0-9'’&:.\-]*(?:\s+[A-Za-z0-9&][A-Za-z0-9'’&:.\-]*)+\s+[" + _THAI + r"]")
 
 
 def valid_isbn13(value):
@@ -23,11 +27,11 @@ def valid_isbn13(value):
 
 
 def clean_title(raw):
-    s = re.sub(r"\s+", " ", str(raw or "").replace("\xa0", " ")).strip()
+    raw = s = re.sub(r"\s+", " ", str(raw or "").replace("\xa0", " ")).strip()
     while True:
         t = _FORMAT_DASH.sub("", _FORMAT_PAREN.sub("", _PREFIX.sub("", s))).strip()
         if t == s:
-            return s
+            return s or raw  # a title that is nothing but a tag keeps its text
         s = t
 
 

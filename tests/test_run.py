@@ -109,6 +109,18 @@ class LoadPrevTest(unittest.TestCase):
             "isbn:9786168224465": "2026-W39",
             "title:อยากเป็นคนธรรมดาไม่ต้องอ่าน": "2026-W39"})
 
+    def test_remembers_every_title_a_store_used(self):
+        self.path.write_text(json.dumps({"books": [
+            {"key": "isbn:9786168224465", "title": "ชื่อ ก ขคง", "first_seen": "2026-W39",
+             "mentions": [{"title_raw": "ชื่อ ก ขคง"}, {"title_raw": "ชื่อ ก ขคง ฉบับเต็ม (ปกแข็ง)"}, {"no": "title"}]}]}),
+            encoding="utf-8")
+        self.assertEqual(run.load_prev(self.path).get("title:ชื่อกขคงฉบับเต็ม"), "2026-W39")
+
+    def test_null_first_seen_is_ignored(self):
+        self.path.write_text(json.dumps({"books": [
+            {"key": "isbn:9786168224465", "title": "เล่มโครงเก่า", "first_seen": None}]}), encoding="utf-8")
+        self.assertEqual(run.load_prev(self.path), {})
+
     def test_load_prev_tolerates_garbage(self):
         self.assertEqual(run.load_prev(self.path), {})
         for text in ("", "{not json", "[]", '{"books": [{"title": "ไม่มี key"}]}', '{"books": "wrong"}'):

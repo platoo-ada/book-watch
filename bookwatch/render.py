@@ -1,11 +1,11 @@
 """Turn merged books into latest.json, latest.md and the ntfy brief."""
 import re
 
-from . import LIST_LABELS, SOURCE_NAMES
+from . import LIST_LABELS, SOURCE_LIST_LABELS, SOURCE_NAMES
 from .merge import best_bestseller_rank
 
 EMPTY = "ไม่มีข้อมูลสัปดาห์นี้"
-_MD_SPECIAL = re.compile(r"([\\\[\]*_|`])")
+_MD_SPECIAL = re.compile(r"([\\\[\]*_|`<>~])")
 
 
 def week_id(dt):
@@ -19,7 +19,16 @@ def build_data(generated_at, week, statuses, books, articles):
 
 
 def _esc(text):
-    return _MD_SPECIAL.sub(r"\\\1", text)
+    """One line of plain text: whitespace collapsed, Markdown and HTML characters escaped."""
+    return _MD_SPECIAL.sub(r"\\\1", " ".join(str(text).split()))
+
+
+def _url(url):
+    """A URL that cannot end a Markdown link early."""
+    url = re.sub(r"\s", "%20", url.strip()).replace("<", "%3C").replace(">", "%3E")
+    if url.count("(") != url.count(")"):
+        url = url.replace("(", "%28").replace(")", "%29")
+    return url
 
 
 def _name(source_id):
@@ -27,10 +36,11 @@ def _name(source_id):
 
 
 def _mention(m):
-    text = f"{_name(m['source'])} {LIST_LABELS[m['list']]}"
+    label = SOURCE_LIST_LABELS.get((m["source"], m["list"]), LIST_LABELS[m["list"]])
+    text = f"{_name(m['source'])} {label}"
     if m["list"] == "bestseller":
         text += f" #{m['rank']}"
-    return f"[{text}]({m['url']})" if m["url"] else text
+    return f"[{text}]({_url(m['url'])})" if m["url"] else text
 
 
 def _book_line(book, week):
@@ -85,10 +95,10 @@ def to_markdown(data):
     out += _section("แนะนำ",
                     [_book_line(b, week) for b in _by_list_rank(featured, ("recommended",))][:15])
     out += _section("บทความเกี่ยวกับหนังสือ",
-                    [f"- [{_esc(a['title'])}]({a['url']}) ({_name(a['source'])}, {a['published']})"
+                    [f"- [{_esc(a['title'])}]({_url(a['url'])}) ({_name(a['source'])}, {a['published']})"
                      for a in data["articles"]][:10])
 
-    failed = [f"- {s['name']}: {s['error']}" for s in data["sources"] if not s["ok"]]
+    failed = [f"- {s['name']}: {_esc(s['error'])}" for s in data["sources"] if not s["ok"]]
     out += ["## ดึงไม่ได้", ""] + (failed or ["ดึงได้ครบทุกแหล่ง"])
     return "\n".join(out)
 
