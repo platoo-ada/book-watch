@@ -1,6 +1,6 @@
 # book-watch 2026-W40
 
-สร้างเมื่อ 2026-10-04T12:25+07:00 · ดึงได้ 9 จาก 9 แหล่ง
+สร้างเมื่อ 2026-10-04T12:31+07:00 · ดึงได้ 9 จาก 9 แหล่ง
 
 ## เล่มเด่นของสัปดาห์
 
@@ -56,44 +56,44 @@
 
 ## ออกใหม่และสั่งจอง
 
-- **EMPLOY ยี้ HANDBOOK คู่มือพนักงาน ฉบับระรานคนอื่น** — [Salmon ขายดี #5](https://salmonbooks.net/product/employee/) · [Salmon ออกใหม่](https://salmonbooks.net/product/employee/) · ใหม่สัปดาห์นี้
-- **หมาแก่ผจญภัย** — [Salmon ขายดี #7](https://salmonbooks.net/product/gohan/) · [Salmon ออกใหม่](https://salmonbooks.net/product/gohan/) · ใหม่สัปดาห์นี้
-- **THE SEVEN YEAR SLIP รักนี้เมื่อเจ็บปีที่แล้ว** — [Salmon ขายดี #9](https://salmonbooks.net/product/the-seven-year-slip/) · [Salmon ออกใหม่](https://salmonbooks.net/product/the-seven-year-slip/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **Bitcoin Age ไขประวัติศาสตร์เงินแห่งอนาคต** — [SE-ED แนะนำ](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **ฆาตกรรมปิดตายในคฤหาสน์แม่มด** — [SE-ED แนะนำ](https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc) · ใหม่สัปดาห์นี้
 - **A BRIGHT RAY OF DARKNESS ในห้วงมืดสนิทไม่มิดแสง** — [Salmon ออกใหม่](https://salmonbooks.net/product/abrightrayofdarkness/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **Angels & Demons เทวากับซาตาน พิมพ์ 34** — [Amarin ออกใหม่](https://amarinbooks.com/product/angels-demons-%e0%b9%80%e0%b8%97%e0%b8%a7%e0%b8%b2%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%8b%e0%b8%b2%e0%b8%95%e0%b8%b2%e0%b8%99-1-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3%e0%b8%b2%e0%b8%a7/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น ฉบับการ์ตูนญี่ปุ่น** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/5uggh1iuibov0yifsqzl) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **DIY เปลี่ยนสมุดธรรมดาให้เป็นสมุดสุดน่ารัก** — [Amarin ออกใหม่](https://amarinbooks.com/product/diy-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%aa%e0%b8%a1%e0%b8%b8%e0%b8%94%e0%b8%98%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%94%e0%b8%b2%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b9%80/) · ใหม่สัปดาห์นี้
-- **Fearless ความกลัวสูญสิ้น** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/ynj6u18e5ij3lnjs2ses) · ใหม่สัปดาห์นี้
-- **Fearless ความกลัวสูญสิ้น ฉบับพิเศษ** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/aj5t2pe7jvmlqhz09mlr) · ใหม่สัปดาห์นี้
-- **Funny Story วุ่นนักรักนี้ เรื่องมีอยู่ว่า** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/2bq9ewxru344xbs1utpi) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **HIDDEN LAYER ประวัติศาสตร์ข้างหลังภาพ** — [Salmon ออกใหม่](https://salmonbooks.net/product/hiddenlayer/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **Inferno สู่นรกภูมิ 4** — [Amarin ออกใหม่](https://amarinbooks.com/product/inferno-%e0%b8%aa%e0%b8%b9%e0%b9%88%e0%b8%99%e0%b8%a3%e0%b8%81%e0%b8%a0%e0%b8%b9%e0%b8%a1%e0%b8%b4-4-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3%e0%b8%b2%e0%b8%a7%e0%b8%99%e0%b9%8c/) · ใหม่สัปดาห์นี้
-- **MYTH UNIVERSE: LOVE-DEATH RELATIONSHIP** — [Salmon ออกใหม่](https://salmonbooks.net/product/myth-universe-2/) · ใหม่สัปดาห์นี้
-- **Manifest : 7 ขั้นตอนสู่ทุกสิ่งที่ปรารถนา** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/251qvw4jbdmalvcsw0ei) · ใหม่สัปดาห์นี้
+- **Bitcoin Age ไขประวัติศาสตร์เงินแห่งอนาคต** — [SE-ED แนะนำ](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **ฆาตกรจอมเลียนแบบ เล่ม 5** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%86%e0%b8%b2%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%a5%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%81%e0%b8%9a%e0%b8%9a-5-%e0%b8%a1%e0%b8%b4%e0%b8%a2%e0%b8%b2%e0%b9%80/) · ใหม่สัปดาห์นี้
+- **พม่า :ประวัติศาสตร์ รัฐประหารและรูปแบบรัฐ** / ดุลยภาค ปรีชารัชช — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/256526) · ใหม่สัปดาห์นี้
 - **Money Monster Book เกมนี้ คนรวยรู้** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/7c5pjy8knz9coc2uqsl3) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **Neighbor บ้านข้าง…โลงเคียง** — [Amarin ออกใหม่](https://amarinbooks.com/product/neighbor-%e0%b8%9a%e0%b9%89%e0%b8%b2%e0%b8%99%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b8%87-%e0%b9%82%e0%b8%a5%e0%b8%87%e0%b9%80%e0%b8%84%e0%b8%b5%e0%b8%a2%e0%b8%87-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b8%b4%e0%b8%99/) · ใหม่สัปดาห์นี้
-- **Origin ออริจิน พิมพ์ 9** — [Amarin ออกใหม่](https://amarinbooks.com/product/origin-%e0%b8%ad%e0%b8%ad%e0%b8%a3%e0%b8%b4%e0%b8%88%e0%b8%b4%e0%b8%99-5-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3%e0%b8%b2%e0%b8%a7%e0%b8%99%e0%b9%8c/) · ใหม่สัปดาห์นี้
-- **Principles : Life and Work ภาคภาษาไทย** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/d2tji7k9zo1usa24fcsv) · ใหม่สัปดาห์นี้
+- **TWO TWISTED CROWNS สองมงกุฎวิปริต** / RACHEL GILLIG — [ศูนย์หนังสือจุฬาฯ สั่งจอง](https://www.chulabook.com/product/230186) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **กูจี กูจี กับเมฆน้อยผจญภัย** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%81%e0%b8%b9%e0%b8%88%e0%b8%b5-%e0%b8%81%e0%b8%b9%e0%b8%88%e0%b8%b5-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a1%e0%b8%86%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%9c%e0%b8%88%e0%b8%8d%e0%b8%a0/) · ใหม่สัปดาห์นี้
+- **ชุด SET 3 เล่ม ครบรอบ 50 ปี 6 ตุลาฯ** / รวมนักเขียน — [ศูนย์หนังสือจุฬาฯ สั่งจอง](https://www.chulabook.com/product/256529) · ใหม่สัปดาห์นี้
+- **ปรัชญาทั่วไป** / โสรัจจ์ หงศ์ลดารมภ์ — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/256741) · ใหม่สัปดาห์นี้
+- **Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น ฉบับการ์ตูนญี่ปุ่น** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/5uggh1iuibov0yifsqzl) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **Fearless ความกลัวสูญสิ้น** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/ynj6u18e5ij3lnjs2ses) · ใหม่สัปดาห์นี้
+- **Super Stimulated สุขซ่อนพิษ** — [Amarin ออกใหม่](https://amarinbooks.com/product/super-stimulated-%e0%b8%aa%e0%b8%b8%e0%b8%82%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%99%e0%b8%9e%e0%b8%b4%e0%b8%a9/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **หมาแก่ผจญภัย** — [Salmon ขายดี #7](https://salmonbooks.net/product/gohan/) · [Salmon ออกใหม่](https://salmonbooks.net/product/gohan/) · ใหม่สัปดาห์นี้
+- **Fearless ความกลัวสูญสิ้น ฉบับพิเศษ** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/aj5t2pe7jvmlqhz09mlr) · ใหม่สัปดาห์นี้
+- **MYTH UNIVERSE: LOVE-DEATH RELATIONSHIP** — [Salmon ออกใหม่](https://salmonbooks.net/product/myth-universe-2/) · ใหม่สัปดาห์นี้
+- **WHEN THE MOON HATCHED ยามจันทรามาเยือน** / SARAH A. PARKER — [ศูนย์หนังสือจุฬาฯ สั่งจอง](https://www.chulabook.com/product/237216) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **จิตวิทยาต่อรอง : จะต้องพูดและทำอะไรในการต่อรองที่แพ้ไม่ได้ : Never Split the Difference** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/zrca8zfuanp09v5112l4) · ใหม่สัปดาห์นี้
+- **ที่ไหนสักแห่งระหว่างตรงนี้กับจุดที่ทุกอย่างเป็นไปได้** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b9%84%e0%b8%ab%e0%b8%99%e0%b8%aa%e0%b8%b1%e0%b8%81%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%a3%e0%b8%b0%e0%b8%ab%e0%b8%a7%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%95%e0%b8%a3/) · ใหม่สัปดาห์นี้
+- **Funny Story วุ่นนักรักนี้ เรื่องมีอยู่ว่า** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/2bq9ewxru344xbs1utpi) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **THE SEVEN YEAR SLIP รักนี้เมื่อเจ็บปีที่แล้ว** — [Salmon ขายดี #9](https://salmonbooks.net/product/the-seven-year-slip/) · [Salmon ออกใหม่](https://salmonbooks.net/product/the-seven-year-slip/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
 
 ## แนะนำ
 
 - **การบัญชีขั้นต้น** / ณัฐชานนท์ โกมุทพุฒิพงศ์ และคณะ — [ศูนย์หนังสือจุฬาฯ ขายดี #7](https://www.chulabook.com/product/205384) · [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/205384) · ใหม่สัปดาห์นี้
-- **Bitcoin Age ไขประวัติศาสตร์เงินแห่งอนาคต** — [SE-ED แนะนำ](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **ฆาตกรรมปิดตายในคฤหาสน์แม่มด** — [SE-ED แนะนำ](https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc) · ใหม่สัปดาห์นี้
-- **Data Analysis และ Data Visualization ด้วย Excel + Claude AI** — [SE-ED แนะนำ](https://www.se-ed.com/physical/99vtzxhrkhwdenqfst37) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **การวิจัยและพัฒนาคุณภาพการศึกษา** / พิชิต ฤทธิ์จรูญ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/244473) · ใหม่สัปดาห์นี้
-- **คริปโต เงินแห่งโลกอนาคต จุดจบของธนาคาร : Cryptocurrency** — [SE-ED แนะนำ](https://www.se-ed.com/physical/q9pm7iolvkhaj50vu97x) · ใหม่สัปดาห์นี้
-- **คลั่งรักอาหารไทย** — [SE-ED แนะนำ](https://www.se-ed.com/physical/wlyetqfmnzpw3du4ircs) · ใหม่สัปดาห์นี้
-- **คู่มือการเขียนให้ชนะใจนักอ่านงานยุ่ง** — [SE-ED แนะนำ](https://www.se-ed.com/physical/xwabvhrcsu64j5wgbgrz) · ใหม่สัปดาห์นี้
-- **ดุจก้อนหินในมหาสมุทรดวงดาว** — [SE-ED แนะนำ](https://www.se-ed.com/physical/kpxxyd8lwtvekopsdob4) · ใหม่สัปดาห์นี้
-- **ด้วยรักจากวงโคจร : Orbital** — [SE-ED แนะนำ](https://www.se-ed.com/physical/o9kddnr4e2igj4c951mr) · ใหม่สัปดาห์นี้
-- **ทฤษฎีดนตรี** / ณัชชา พันธุ์เจริญ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/160940) · ใหม่สัปดาห์นี้
-- **ทางสายเอกโหราศาสตร์ไทย** — [SE-ED แนะนำ](https://www.se-ed.com/physical/hoyyh2kbvl3dwi1nukdd) · ใหม่สัปดาห์นี้
-- **ทำเงิน 1,000,000 ด้วย VDO + AI 24 ชั่วโมง** — [SE-ED แนะนำ](https://www.se-ed.com/physical/g1lyleaghelsfu24tw2w) · ใหม่สัปดาห์นี้
 - **ทุกอย่างที่เธอเป็น...ดีเสมอ : เยียวยาบาดแผลทางใจ กลับมาเป็นหนึ่งเดียวกับตัวเองอีกครั้งด้วยแนวทาง IFS** — [SE-ED แนะนำ](https://www.se-ed.com/physical/1pl96pb86kjusb87hfxi) · ใหม่สัปดาห์นี้
+- **Bitcoin Age ไขประวัติศาสตร์เงินแห่งอนาคต** — [SE-ED แนะนำ](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/43z6fi7rthfm5n7ekc1f) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **Data Analysis และ Data Visualization ด้วย Excel + Claude AI** — [SE-ED แนะนำ](https://www.se-ed.com/physical/99vtzxhrkhwdenqfst37) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
+- **ทำเงิน 1,000,000 ด้วย VDO + AI 24 ชั่วโมง** — [SE-ED แนะนำ](https://www.se-ed.com/physical/g1lyleaghelsfu24tw2w) · ใหม่สัปดาห์นี้
 - **ปฏิทินฤกษ์มงคล (พ.ศ. 2570)** — [SE-ED แนะนำ](https://www.se-ed.com/physical/4ppvw6zlexocrhgl7ufa) · ใหม่สัปดาห์นี้
+- **ศาสตร์การสอน :องค์ความรู้เพื่อการจัดกระบวนการเรียนรู้ที่มีประสิทธิภาพ** / ทิศนา แขมมณี — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/63689) · ใหม่สัปดาห์นี้
+- **ทางสายเอกโหราศาสตร์ไทย** — [SE-ED แนะนำ](https://www.se-ed.com/physical/hoyyh2kbvl3dwi1nukdd) · ใหม่สัปดาห์นี้
+- **ด้วยรักจากวงโคจร : Orbital** — [SE-ED แนะนำ](https://www.se-ed.com/physical/o9kddnr4e2igj4c951mr) · ใหม่สัปดาห์นี้
+- **สรุปการบัญชีขั้นต้น (FUNDAMENTAL ACCOUNTING)** / พจณี สีลาคำ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/227849) · ใหม่สัปดาห์นี้
+- **การวิจัยและพัฒนาคุณภาพการศึกษา** / พิชิต ฤทธิ์จรูญ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/244473) · ใหม่สัปดาห์นี้
+- **ทฤษฎีดนตรี** / ณัชชา พันธุ์เจริญ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/160940) · ใหม่สัปดาห์นี้
+- **รวยหุ้นง่าย ๆ สไตล์ Hybrid ฉบับอัปเดต เพิ่มบทใหม่** — [SE-ED แนะนำ](https://www.se-ed.com/physical/hq0ctpmvkzwvcizm6czr) · ใหม่สัปดาห์นี้
+- **คลั่งรักอาหารไทย** — [SE-ED แนะนำ](https://www.se-ed.com/physical/wlyetqfmnzpw3du4ircs) · ใหม่สัปดาห์นี้
+- **คริปโต เงินแห่งโลกอนาคต จุดจบของธนาคาร : Cryptocurrency** — [SE-ED แนะนำ](https://www.se-ed.com/physical/q9pm7iolvkhaj50vu97x) · ใหม่สัปดาห์นี้
 
 ## บทความเกี่ยวกับหนังสือ
 

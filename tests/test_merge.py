@@ -146,6 +146,15 @@ class ArticleTest(unittest.TestCase):
         self.assertEqual(out, [{"source": "the101", "title": "รีวิวหนังสือ อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
                                 "url": "https://x/1", "published": "Sat, 03 Oct 2026", "matched_keys": ["isbn:" + ISBN_A]}])
 
+    def test_part_of_a_title_before_a_colon_does_not_match(self):
+        books = merge.merge_entries([
+            entry("seed", "new", 1, "Manifest : 7 ขั้นตอนสู่ทุกสิ่งที่ปรารถนา", "https://a")], {}, WEEK)
+        out = merge.attach_articles(books, [
+            {"source": "the101", "title": "อ่าน Communist Manifesto ใหม่ในวันที่สำนักพิมพ์เล็กกำลังหายไป",
+             "url": "https://x/9", "published": "", "summary": ""}])
+        self.assertEqual(out[0]["matched_keys"], [])
+        self.assertEqual(books[0]["source_count"], 1)
+
     def test_short_titles_never_match(self):
         merge.attach_articles(self.books, [
             {"source": "aday", "title": "หนังสือว่าด้วยความรัก", "url": "https://x/2", "published": "", "summary": ""}])

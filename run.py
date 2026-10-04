@@ -22,6 +22,20 @@ def load_prev(path):
         return {}
 
 
+def load_history(out):
+    """Earliest first_seen per key across every weekly snapshot and latest.json.
+
+    Reading only last week's file would make a book look new again after one week away
+    (for example when its feed was down).
+    """
+    history = {}
+    for path in sorted((out / "weekly").glob("*.json")) + [out / "latest.json"]:
+        for key, week in load_prev(path).items():
+            if isinstance(week, str) and (key not in history or week < history[key]):
+                history[key] = week
+    return history
+
+
 def main(out_dir=".", getter=fetch.get, feeds=None):
     out = pathlib.Path(out_dir)
     statuses, entries, articles = [], [], []
@@ -36,7 +50,7 @@ def main(out_dir=".", getter=fetch.get, feeds=None):
 
     now = fetch.now()
     week = render.week_id(now)
-    books = merge.merge_entries(entries, load_prev(out / "latest.json"), week)
+    books = merge.merge_entries(entries, load_history(out), week)
     out_articles = merge.attach_articles(books, articles)
     merge.sort_books(books)
     data = render.build_data(now, week, statuses, books, out_articles)

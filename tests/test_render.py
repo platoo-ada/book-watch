@@ -77,6 +77,18 @@ class MarkdownTest(unittest.TestCase):
         self.assertIn("- **เล่มอันดับสี่** — [SE-ED ขายดี #4](https://seed/6)", ranked)
         self.assertNotRegex(ranked, r"(?m)^\d+\. ")
 
+    def test_new_and_recommended_sections_follow_store_rank_not_alphabet(self):
+        entries = [entry("seed", "new", 30 - i, f"Latin title {i:02d}", f"https://seed/n{i}") for i in range(25)]
+        entries += [entry("amarin", "new", 1, "เล่มใหม่อันดับหนึ่งของร้าน", "https://amarin/1"),
+                    entry("seed", "recommended", 9, "Aaa recommended ninth", "https://seed/r9"),
+                    entry("chula", "recommended", 1, "เล่มแนะนำอันดับหนึ่ง", "https://chula/r1")]
+        md = render.to_markdown(make_data(entries))
+        new = md.split("## ออกใหม่และสั่งจอง")[1].split("\n## ")[0]
+        self.assertEqual(new.strip().split("\n")[0].split("**")[1], "เล่มใหม่อันดับหนึ่งของร้าน")
+        self.assertEqual(new.count("\n- "), 20)
+        rec = md.split("## แนะนำ")[1].split("\n## ")[0]
+        self.assertLess(rec.index("เล่มแนะนำอันดับหนึ่ง"), rec.index("Aaa recommended ninth"))
+
     def test_excluded_books_do_not_appear(self):
         self.assertNotIn("พจนานุกรมไทย", render.to_markdown(make_data(FULL)))
 

@@ -105,7 +105,7 @@ def merge_entries(entries, prev_first_seen, week):
 def attach_articles(books, articles):
     index = []
     for b in books:
-        short = title_key(b["title"].split(":")[0])
+        short = title_key(b["title"])
         if len(short) >= MIN_MATCH_LEN:
             index.append((short, b))
 

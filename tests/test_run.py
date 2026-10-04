@@ -78,6 +78,21 @@ class MainTest(unittest.TestCase):
         self.assertEqual(again["books"][0]["first_seen"], "2026-W01")
 
 
+    def test_first_seen_survives_a_week_where_the_book_was_missing(self):
+        # Week 1 saw the book; last week's latest.json did not (its feed was down).
+        (self.out / "weekly").mkdir()
+        (self.out / "weekly" / "2026-W01.json").write_text(json.dumps({"books": [
+            {"key": "isbn:9786168224465", "title": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน", "first_seen": "2026-W01"}]}),
+            encoding="utf-8")
+        (self.out / "weekly" / "2026-W02.json").write_text('{"books": []}', encoding="utf-8")
+        (self.out / "weekly" / "broken.json").write_text("{not json", encoding="utf-8")
+        (self.out / "latest.json").write_text('{"books": []}', encoding="utf-8")
+        run.main(self.out, ok_getter, FEEDS)
+        data = json.loads((self.out / "latest.json").read_text(encoding="utf-8"))
+        self.assertEqual(data["books"][0]["first_seen"], "2026-W01")
+        self.assertIn("ใหม่สัปดาห์นี้: 0 เล่ม", (self.out / "brief.txt").read_text(encoding="utf-8"))
+
+
 class LoadPrevTest(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()

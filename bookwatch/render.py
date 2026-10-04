@@ -47,6 +47,14 @@ def _book_line(book, week):
     return f"- {head} — " + " · ".join(parts)
 
 
+def _by_list_rank(books, kinds):
+    """Books on any of the given lists, best store rank first, so each store's top picks survive the cut."""
+    def best(b):
+        return min(m["rank"] for m in b["mentions"] if m["list"] in kinds)
+    picked = [b for b in books if set(kinds) & set(b["list_types"])]
+    return sorted(picked, key=lambda b: (-b["source_count"], best(b), b["title"]))
+
+
 def _section(title, lines):
     return [f"## {title}", ""] + (lines or [EMPTY]) + [""]
 
@@ -73,9 +81,9 @@ def to_markdown(data):
     out += _section("อันดับที่ร้านประกาศ", ranked[:-1] if ranked else [])
 
     out += _section("ออกใหม่และสั่งจอง",
-                    [_book_line(b, week) for b in featured if {"new", "preorder"} & set(b["list_types"])][:20])
+                    [_book_line(b, week) for b in _by_list_rank(featured, ("new", "preorder"))][:20])
     out += _section("แนะนำ",
-                    [_book_line(b, week) for b in featured if "recommended" in b["list_types"]][:15])
+                    [_book_line(b, week) for b in _by_list_rank(featured, ("recommended",))][:15])
     out += _section("บทความเกี่ยวกับหนังสือ",
                     [f"- [{_esc(a['title'])}]({a['url']}) ({_name(a['source'])}, {a['published']})"
                      for a in data["articles"]][:10])
