@@ -1,6 +1,6 @@
 # HANDOFF — book-watch
 
-อัปเดตล่าสุด: 2026-10-04 บ่าย (Engine shipped, รอรอบ cron แรกจันทร์ 2026-10-05, Board shipped ขึ้น prod แล้ว)
+อัปเดตล่าสุด: 2026-10-04 บ่าย (Engine + Board + project card shipped ทั้งหมด; รอบ cron แรกจันทร์ 2026-10-05 ยังไม่ถึง; ขั้นถัดไป = brainstorm โปรเจกต์ย่อย 3)
 
 ## 1. เป้าหมาย
 
@@ -10,7 +10,7 @@
 
 1. **Engine** (รีโปนี้): **shipped 2026-10-04**
 2. Board บน Aquarium `/monitor/book-watch`: **shipped 2026-10-04** https://aquarium-platoo.vercel.app/monitor/book-watch (Aquarium commit `a461f74`) test 29 ตัว ตรวจ prod แล้ว รายละเอียดและ minor 4 ข้อที่ยังไม่แก้อยู่ใน `HANDOFF.md` ของ Aquarium project card: https://aquarium-platoo.vercel.app/projects/book-watch (2026-10-04)
-3. ต่อ `latest.json` เข้า skill `wnv-publish`: ยังไม่เริ่ม ต้องมี spec ของตัวเอง
+3. ต่อ `latest.json` เข้า skill `wnv-publish`: **ยังไม่เริ่ม** ไม่มี spec ไม่มีโค้ด ข้อมูลตั้งต้นสำหรับ brainstorm อยู่ข้อ 8a
 
 ## 2. สถานะปัจจุบัน
 
@@ -91,7 +91,7 @@
 ## 8. งานที่เหลือ เรียงตามลำดับ
 
 1. ดูผลรอบ cron แรก จันทร์ 2026-10-05: Actions เขียวไหม มี commit `data:` ไหม (เช็คเมื่อ 2026-10-04 12:56: ยังไม่มี run แบบ `schedule` เพราะยังไม่ถึงเวลา ไม่ได้สั่งรันมือ)
-2. Brainstorm โปรเจกต์ย่อย 3 (`wnv-publish`) ต้องมี spec ของตัวเอง
+2. Brainstorm โปรเจกต์ย่อย 3 (`wnv-publish`) ต้องมี spec ของตัวเอง (ข้อมูลตั้งต้นข้อ 8a)
 3. เติมแหล่ง MEB, Matichon, B2S, Ookbee ทีละแหล่ง เพื่อให้หมวด "เล่มเด่น" มีของ
 
 ข้อ Minor จาก final review 10 ข้อ: แก้ครบแล้ว แต่ละข้อมี test ที่เห็น fail ก่อน (ดู spec ข้อ 14 แถวที่ลงท้าย "review")
@@ -103,22 +103,32 @@
 - timeout 40 วินาทีนับต่อการอ่านแต่ละครั้ง ไม่ใช่ต่อคำขอ (job มี timeout 10 นาทีครอบ)
 - GitHub ปิด cron เองเมื่อรีโปไม่มีความเคลื่อนไหว 60 วัน (bot commit ทุกสัปดาห์น่าจะกันได้ ยังไม่ได้พิสูจน์)
 
+## 8a. ข้อมูลตั้งต้นของโปรเจกต์ย่อย 3 (ยังไม่มีการตัดสินใจใด เป็นข้อเท็จจริงที่เช็คแล้ว 2026-10-04)
+
+- **โจทย์ที่ Platoo ยกเป็นตัวอย่าง:** สั่งใน session ใหม่ว่า "เขียนบทความหนังสืออันดับ 1 ของสำนักพิมพ์ Salmon ลง WnV" แล้วได้บทความ ตอนนี้ทำได้ด้วย prompt ยาว 5 ข้อที่ต้องบอกให้อ่าน `latest.json` เอง โปรเจกต์ย่อย 3 คือทำให้สั่งสั้นได้ ยังไม่ได้ถามว่า Platoo อยากได้แค่นี้หรือมากกว่า (เช่น เลือกจาก New this week, เลือกหลายเล่ม, รายสัปดาห์อัตโนมัติ)
+- **`latest.json` รู้อะไรต่อเล่ม:** ชื่อ, ผู้เขียน (มีแค่บางแหล่ง W40 มี 23 จาก 134 เล่ม), ISBN, หมวดของร้าน, อันดับ, ป้ายรายการของร้าน, ลิงก์หน้าร้าน, URL ปก, `first_seen`, `maybe_translated` **ไม่มีเนื้อหาในเล่ม ไม่มีคำโปรย** บทความจึงต้องหาข้อมูลเล่มจากที่อื่น นี่คือช่องว่างหลักที่ spec ต้องตอบ
+- **วิธีหาอันดับ 1 ของร้าน:** เล่มที่ `featured: true` และมี mention `source` = id ร้าน, `list` = `bestseller`, `rank` น้อยสุด (W40 ของ Salmon = "BUDDHIST HOLY DAY หนีตามพระพุทธเจ้า") ตรรกะเดียวกันมีใน Aquarium `lib/book-watch.ts` (`storeRankings`) เป็น TypeScript ใช้ซ้ำจาก skill ไม่ได้ตรงๆ
+- **กับดักคำ:** อันดับของ Amarin และ Salmon คือ "ยอดนิยมในร้านสำนักพิมพ์" ไม่ใช่ยอดขาย อันดับของ SE-ED มี 3 ชุด เลขซ้ำได้ บทความห้ามเขียนว่า "ขายดีอันดับ 1" โดยไม่ดูป้าย `label`
+- **ฝั่ง `wnv-publish`:** skill อยู่ `~/.claude/skills/wnv-publish/` (มี `SKILL.md` + `scripts/`) รับ draft เป็นไฟล์ `*_draft.md` หรือชื่อเรื่องกับเนื้อหา inline และมี mode 3 = Ada เขียนเอง ต้องอ่าน `~/Website_whaleandvibe/docs/EDITORIAL.md` §3, §3b, §5b ก่อน package ต้องมี field `sources` session นี้ **ยังไม่ได้อ่าน SKILL.md ทั้งไฟล์และยังไม่ได้อ่าน EDITORIAL.md** ต้องอ่านก่อนถาม Platoo
+- **ข้อจำกัดที่ติดมา:** ntfy topic ห้ามพิมพ์หรือเขียนลงรีโป, รีโปนี้ public ห้ามข้อมูลงาน, `schema_version: 1` เป็นสัญญา ถ้าโปรเจกต์ย่อย 3 ต้องการ field ใหม่ (เช่น คำโปรย) ต้องขยับ schema และแก้ board ใน Aquarium ด้วย (board ปฏิเสธ schema ที่ไม่ใช่ 1)
+
 ## 9. ขั้นถัดไปทันที
 
-1. เช็ครอบ cron แรก (หลังจันทร์ 2026-10-05 08:30 อาจช้าได้หลายชั่วโมง)
+1. **เริ่มโปรเจกต์ย่อย 3** (ไม่ต้องรอข้อ 2): invoke `superpowers:brainstorming` ก่อนเขียนอะไร อ่านข้อ 8a ของไฟล์นี้, `~/.claude/skills/wnv-publish/SKILL.md` ทั้งไฟล์, `~/Website_whaleandvibe/HANDOFF.md` (ส่วน RESUME STATE) และ `~/Website_whaleandvibe/docs/EDITORIAL.md` ก่อนถาม Platoo คำถามแรกควรเป็นเรื่องขอบเขต: อยากสั่งแบบไหนและบ่อยแค่ไหน จบที่ spec ที่ Platoo อนุมัติ เก็บที่ `docs/superpowers/specs/` ของรีโปนี้ ยังไม่ build
+2. เช็ครอบ cron แรก (หลังจันทร์ 2026-10-05 08:30 อาจช้าได้หลายชั่วโมง) ห้ามสั่งรันมือแทน (จะยิง ntfy และไม่ได้พิสูจน์ cron)
 
        gh run list -R platoo-ada/book-watch --workflow fetch.yml --limit 3
        git -C ~/Work-space/book-watch pull && git -C ~/Work-space/book-watch log --format='%h %an %s' -3
 
    ผ่านเมื่อ: มี run ที่ event เป็น `schedule` สถานะ success และมี commit `data:` จาก "book-watch bot" (ถ้าข้อมูลเหมือนเดิมทุกตัวอักษรจะไม่มี commit ใหม่ ไม่ถือว่าพัง) สัปดาห์จะเป็น `2026-W41` และควรมีเล่มที่ไม่ติดป้าย "ใหม่สัปดาห์นี้" เป็นครั้งแรก
-   ไม่ผ่าน: `gh run view <id> -R platoo-ada/book-watch --log-failed` แล้วแก้ด้วย TDD
-2. หลัง cron แรกผ่าน เปิด https://aquarium-platoo.vercel.app/monitor/book-watch ดูตาราง New this week กับข้อมูล W41 (ยังไม่เคยเห็นกับข้อมูลจริง เห็นแล้วแค่กับข้อมูลแต่งขึ้น) หน้าเก่าได้ถึง 1 ชั่วโมงหลัง bot commit
-3. เริ่มโปรเจกต์ย่อย 3: invoke `superpowers:brainstorming` เรื่องต่อ `latest.json` เข้า skill `wnv-publish`
+   ไม่ผ่าน: `gh run view <id> -R platoo-ada/book-watch --log-failed` แล้วแก้ด้วย TDD ห้ามลด assertion ก่อน push ถามยืนยัน
+3. หลัง cron แรกผ่าน เปิด https://aquarium-platoo.vercel.app/monitor/book-watch ดูตาราง New this week กับข้อมูล W41 (ยังไม่เคยเห็นกับข้อมูลจริง) หน้าเก่าได้ถึง 1 ชั่วโมงหลัง bot commit ถ้า Platoo ต้องการ ถ่าย screenshot ใหม่ให้ project card (`public/projects/book-watch/mock-01.webp` ใน Aquarium ถ่ายไว้ตอน W40)
 
 ## 10. อ่านก่อนเริ่ม และ skill ที่ควรใช้
 
 อ่านตามลำดับ: ไฟล์นี้, `README.md`, spec (เมื่อจะแตะโครง `latest.json`)
 
 - แก้โค้ด: `superpowers:test-driven-development` (ทุกการแก้ต้องมี test ที่เห็น fail ก่อน)
-- โปรเจกต์ย่อย 2 และ 3: เริ่มที่ `superpowers:brainstorming`
+- โปรเจกต์ย่อย 3: เริ่มที่ `superpowers:brainstorming` แล้ว `superpowers:writing-plans`; ตอนเขียนบทความจริงใช้ skill `wnv-publish`
+- งานฝั่ง Aquarium (board, card): อ่าน `~/Work-space/Aquarium/HANDOFF.md` ก่อน; เพิ่ม card ใช้ skill `aquarium-add-card`
 - ก่อนบอกว่าเสร็จ: `superpowers:verification-before-completion`
