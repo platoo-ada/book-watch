@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T14:17+07:00",
- "week": "2026-W41",
+ "generated_at": "2026-10-12T14:34+07:00",
+ "week": "2026-W42",
  "sources": [
   {
    "id": "seed",
@@ -9,8 +9,8 @@
    "url": "https://mp-api.se-ed.com/web-bff/homepage-layout",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
-   "count": 100
+   "fetched_at": "2026-10-12T14:33+07:00",
+   "count": 106
   },
   {
    "id": "seed",
@@ -18,7 +18,7 @@
    "url": "https://m2.se-ed.com/product/bestseller/1",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:33+07:00",
    "count": 20
   },
   {
@@ -27,8 +27,8 @@
    "url": "https://www.chulabook.com/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
-   "count": 101
+   "fetched_at": "2026-10-12T14:33+07:00",
+   "count": 99
   },
   {
    "id": "amarin",
@@ -36,7 +36,7 @@
    "url": "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:33+07:00",
    "count": 20
   },
   {
@@ -45,7 +45,7 @@
    "url": "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=date&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:34+07:00",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "url": "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:34+07:00",
    "count": 20
   },
   {
@@ -63,7 +63,7 @@
    "url": "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=date&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:34+07:00",
    "count": 20
   },
   {
@@ -72,7 +72,7 @@
    "url": "https://www.the101.world/feed/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:34+07:00",
    "count": 15
   },
   {
@@ -81,7 +81,7 @@
    "url": "https://adaymagazine.com/feed/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-10-05T14:17+07:00",
+   "fetched_at": "2026-10-12T14:34+07:00",
    "count": 10
   }
  ],
@@ -239,6 +239,82 @@
    ]
   },
   {
+   "key": "isbn:9786168224847",
+   "isbn": "9786168224847",
+   "title": "Money Monster Book เกมนี้ คนรวยรู้",
+   "author": null,
+   "translator": null,
+   "category": "ทั่วไป",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller",
+    "preorder"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 18,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "Money Monster Book เกมนี้ คนรวยรู้",
+     "url": "https://m2.se-ed.com/Detail/Money-Monster-Book-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%99%E0%B8%B5%E0%B9%89-%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A2%E0%B8%A3%E0%B8%B9%E0%B9%89/9786168224847",
+     "cover": null
+    },
+    {
+     "source": "seed",
+     "list": "preorder",
+     "rank": 1,
+     "label": "PRE-ORDER : สินค้าสั่งจอง",
+     "title_raw": "Money Monster Book เกมนี้ คนรวยรู้ (สินค้าสั่งจอง)",
+     "url": "https://www.se-ed.com/physical/7c5pjy8knz9coc2uqsl3",
+     "cover": "https://mp-static.se-ed.com/physical/cover/7c5pjy8knz9coc2uqsl3/image/e1al1pyy"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786162986819",
+   "isbn": "9786162986819",
+   "title": "HIDDEN LAYER ประวัติศาสตร์ข้างหลังภาพ",
+   "author": null,
+   "translator": null,
+   "category": "Books",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller",
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "salmon",
+     "list": "bestseller",
+     "rank": 20,
+     "label": "ยอดนิยมในร้านสำนักพิมพ์",
+     "title_raw": "HIDDEN LAYER ประวัติศาสตร์ข้างหลังภาพ",
+     "url": "https://salmonbooks.net/product/hiddenlayer/",
+     "cover": "https://salmonbooks.net/wp-content/uploads/2026/03/260320-Hidden-Salmon-1-scaled.png"
+    },
+    {
+     "source": "salmon",
+     "list": "new",
+     "rank": 11,
+     "label": "ออกใหม่",
+     "title_raw": "HIDDEN LAYER ประวัติศาสตร์ข้างหลังภาพ",
+     "url": "https://salmonbooks.net/product/hiddenlayer/",
+     "cover": "https://salmonbooks.net/wp-content/uploads/2026/03/260320-Hidden-Salmon-1-scaled.png"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786160476046",
    "isbn": "9786160476046",
    "title": "ฆาตกรรมปิดตายในคฤหาสน์แม่มด",
@@ -268,7 +344,7 @@
     {
      "source": "seed",
      "list": "preorder",
-     "rank": 6,
+     "rank": 3,
      "label": "PRE-ORDER : สินค้าสั่งจอง",
      "title_raw": "ฆาตกรรมปิดตายในคฤหาสน์แม่มด (สินค้าสั่งจอง)",
      "url": "https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc",
@@ -333,6 +409,34 @@
    ]
   },
   {
+   "key": "isbn:9786160857111",
+   "isbn": "9786160857111",
+   "title": "Beauty Investor Unfiltered : เรื่องจริงของโลกการเงินที่ขายความกลัว!",
+   "author": null,
+   "translator": null,
+   "category": "หุ้น",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 1,
+     "label": "สินค้าขายดีประจำวัน",
+     "title_raw": "Beauty Investor Unfiltered : เรื่องจริงของโลกการเงินที่ขายความกลัว!",
+     "url": "https://www.se-ed.com/physical/0olunfg101txdi5bm4df",
+     "cover": "https://mp-static.se-ed.com/physical/cover/0olunfg101txdi5bm4df/image/q97fejyj"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786166362633",
    "isbn": "9786166362633",
    "title": "หงส์ลายมังกร",
@@ -357,6 +461,62 @@
      "title_raw": "หงส์ลายมังกร (ปกแข็ง)",
      "url": "https://www.chulabook.com/product/254348",
      "cover": "https://api.chulabook.com/images/pid-254348.webp"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786168224465",
+   "isbn": "9786168224465",
+   "title": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
+   "author": null,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 1,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99/9786168224465",
+     "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786168224762",
+   "isbn": "9786168224762",
+   "title": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 2,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
+     "url": "https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762",
+     "cover": null
     }
    ]
   },
@@ -389,12 +549,12 @@
    ]
   },
   {
-   "key": "isbn:9786168224465",
-   "isbn": "9786168224465",
-   "title": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
+   "key": "isbn:9786168224670",
+   "isbn": "9786168224670",
+   "title": "40 เรื่องเล่า 100 ล้านวิว อ่านแล้วชีวิตโคตรดี",
    "author": null,
    "translator": null,
-   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "category": null,
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -403,16 +563,44 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 2,
+     "rank": 3,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99/9786168224465",
+     "title_raw": "40 เรื่องเล่า 100 ล้านวิว อ่านแล้วชีวิตโคตรดี",
+     "url": "https://m2.se-ed.com/Detail/40-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%B2-100-%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B9%82%E0%B8%84%E0%B8%95%E0%B8%A3%E0%B8%94%E0%B8%B5/9786168224670",
      "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160857135",
+   "isbn": "9786160857135",
+   "title": "Money by Doctor เงินไม่ป่วย ชีวิตเลือกได้",
+   "author": null,
+   "translator": null,
+   "category": "การเงินการลงทุนทั่วไป",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 3,
+     "label": "สินค้าขายดีประจำวัน",
+     "title_raw": "Money by Doctor เงินไม่ป่วย ชีวิตเลือกได้",
+     "url": "https://www.se-ed.com/physical/ebwcdl4dfjjz81aeb8tt",
+     "cover": "https://mp-static.se-ed.com/physical/cover/ebwcdl4dfjjz81aeb8tt/image/sze6hffh"
     }
    ]
   },
@@ -441,34 +629,6 @@
      "title_raw": "WORD ODYSSEY คำสัมพันธ์ศัพท์ซ้อน",
      "url": "https://salmonbooks.net/product/wordodyssey/",
      "cover": "https://salmonbooks.net/wp-content/uploads/2024/10/WORD-ODYSSEY_ปกขาย-Sgopee-01.png"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786168224762",
-   "isbn": "9786168224762",
-   "title": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 3,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
-     "url": "https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762",
-     "cover": null
     }
    ]
   },
@@ -529,6 +689,34 @@
    ]
   },
   {
+   "key": "isbn:9786160838257",
+   "isbn": "9786160838257",
+   "title": "Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น",
+   "author": null,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 5,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น",
+     "url": "https://www.se-ed.com/physical/g1tpcxr5mp0kgi29i65j",
+     "cover": "https://mp-static.se-ed.com/physical/cover/g1tpcxr5mp0kgi29i65j/image/onanjhv7"
+    }
+   ]
+  },
+  {
    "key": "title:จอมเวทแสนร้ายจอมใจแสนรัก13เล่มจบ",
    "isbn": null,
    "title": "จอมเวทแสนร้าย จอมใจแสนรัก 1-3 เล่มจบ",
@@ -557,9 +745,9 @@
    ]
   },
   {
-   "key": "isbn:9786162876080",
-   "isbn": "9786162876080",
-   "title": "จิตวิทยาสายดาร์ก",
+   "key": "isbn:9786165620871",
+   "isbn": "9786165620871",
+   "title": "ร่างแปลง: สมรภูมิแห่งความวิปลาสของเนื้อหนัง",
    "author": null,
    "translator": null,
    "category": null,
@@ -571,15 +759,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
      "rank": 5,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "จิตวิทยาสายดาร์ก",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81/9786162876080",
+     "title_raw": "ร่างแปลง: สมรภูมิแห่งความวิปลาสของเนื้อหนัง",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87-%E0%B8%AA%E0%B8%A1%E0%B8%A3%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87/9786165620871",
      "cover": null
     }
    ]
@@ -613,34 +801,6 @@
    ]
   },
   {
-   "key": "isbn:9786160838257",
-   "isbn": "9786160838257",
-   "title": "Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น",
-   "author": null,
-   "translator": null,
-   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 6,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น",
-     "url": "https://www.se-ed.com/physical/g1tpcxr5mp0kgi29i65j",
-     "cover": "https://mp-static.se-ed.com/physical/cover/g1tpcxr5mp0kgi29i65j/image/onanjhv7"
-    }
-   ]
-  },
-  {
    "key": "title:intothemagicshopเราทุกคนล้วนมีร้านเวทมนตร์อยู่ในใจ",
    "isbn": null,
    "title": "INTO THE MAGIC SHOP : เราทุกคนล้วนมีร้านเวทมนตร์อยู่ในใจ",
@@ -669,12 +829,12 @@
    ]
   },
   {
-   "key": "isbn:9786166090987",
-   "isbn": "9786166090987",
-   "title": "จิตวิทยาแค่ 1% ทำให้คุณ \"เหนือ\" คน : Do It 1% Smarter Then Them",
+   "key": "isbn:9786160854981",
+   "isbn": "9786160854981",
+   "title": "คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie",
    "author": null,
    "translator": null,
-   "category": null,
+   "category": "การเงินการลงทุนทั่วไป",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -690,9 +850,65 @@
      "list": "bestseller",
      "rank": 6,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "จิตวิทยาแค่ 1% ทำให้คุณ \"เหนือ\" คน : Do It 1% Smarter Then Them",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B9%88-1-%E0%B8%97%E0%B8%B3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%B8%E0%B8%93-%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD-%E0%B8%84%E0%B8%99-Do-It-1-Smarter-Then-Them/9786166090987",
+     "title_raw": "คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%84%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B5%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%B5-%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C-Poor-Charlie-s-Almanack/9786160854981",
      "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160857166",
+   "isbn": "9786160857166",
+   "title": "ปีศาจตัวเล็กส่องเส้นทางอภิมหาเศรษฐี",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 7,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "ปีศาจตัวเล็กส่องเส้นทางอภิมหาเศรษฐี",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%AA%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%A0%E0%B8%B4%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%B5/9786160857166",
+     "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160852680",
+   "isbn": "9786160852680",
+   "title": "พ่อรวยสอนลูก Rich Dad Poor Dad ฉบับครบรอบ 25 ปี",
+   "author": null,
+   "translator": null,
+   "category": "การเงินการลงทุนทั่วไป",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 7,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "พ่อรวยสอนลูก Rich Dad Poor Dad ฉบับครบรอบ 25 ปี",
+     "url": "https://www.se-ed.com/physical/b304ej8e38rdbtbhust8",
+     "cover": "https://mp-static.se-ed.com/physical/cover/b304ej8e38rdbtbhust8/image/9xm7nret"
     }
    ]
   },
@@ -721,62 +937,6 @@
      "title_raw": "เลี้ยงลูกอย่างไรให้ได้ EF",
      "url": "https://amarinbooks.com/product/%e0%b9%80%e0%b8%a5%e0%b8%b5%e0%b9%89%e0%b8%a2%e0%b8%87%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b8%ad%e0%b8%a2%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b9%84%e0%b8%a3%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b9%84%e0%b8%94%e0%b9%89-e/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2018/02/EF-01.png"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786161844899",
-   "isbn": "9786161844899",
-   "title": "ใช้คลื่นพลังบวกดึงดูดพลังสุข",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 7,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "ใช้คลื่นพลังบวกดึงดูดพลังสุข",
-     "url": "https://m2.se-ed.com/Detail/%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9A%E0%B8%A7%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%82/9786161844899",
-     "cover": null
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786168224434",
-   "isbn": "9786168224434",
-   "title": "Money Mastery มั่งคั่งทั้งชีวิต",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 8,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Money Mastery มั่งคั่งทั้งชีวิต",
-     "url": "https://m2.se-ed.com/Detail/Money-Mastery-%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95/9786168224434",
-     "cover": null
     }
    ]
   },
@@ -837,9 +997,9 @@
    ]
   },
   {
-   "key": "isbn:9786160852680",
-   "isbn": "9786160852680",
-   "title": "พ่อรวยสอนลูก Rich Dad Poor Dad ฉบับครบรอบ 25 ปี",
+   "key": "isbn:9786160845705",
+   "isbn": "9786160845705",
+   "title": "พ่อรวยสอนลูก # 2 : เงินสี่ด้าน",
    "author": null,
    "translator": null,
    "category": "การเงินการลงทุนทั่วไป",
@@ -858,9 +1018,9 @@
      "list": "bestseller",
      "rank": 8,
      "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "พ่อรวยสอนลูก Rich Dad Poor Dad ฉบับครบรอบ 25 ปี",
-     "url": "https://www.se-ed.com/physical/b304ej8e38rdbtbhust8",
-     "cover": "https://mp-static.se-ed.com/physical/cover/b304ej8e38rdbtbhust8/image/9xm7nret"
+     "title_raw": "พ่อรวยสอนลูก # 2 : เงินสี่ด้าน",
+     "url": "https://www.se-ed.com/physical/nsgu2xd4pyktgrxaensz",
+     "cover": "https://mp-static.se-ed.com/physical/cover/nsgu2xd4pyktgrxaensz/image/8dsga0km"
     }
    ]
   },
@@ -893,9 +1053,9 @@
    ]
   },
   {
-   "key": "isbn:9786162878329",
-   "isbn": "9786162878329",
-   "title": "The Black Book of Manifest",
+   "key": "isbn:9786169477044",
+   "isbn": "9786169477044",
+   "title": "ทำแบบนี้ สมองดีขึ้นทันที 100 เท่า!",
    "author": null,
    "translator": null,
    "category": null,
@@ -914,37 +1074,9 @@
      "list": "bestseller",
      "rank": 9,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "The Black Book of Manifest",
-     "url": "https://m2.se-ed.com/Detail/The-Black-Book-of-Manifest/9786162878329",
+     "title_raw": "ทำแบบนี้ สมองดีขึ้นทันที 100 เท่า!",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%99%E0%B8%B5%E0%B9%89-%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B5%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5-100-%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%B2/9786169477044",
      "cover": null
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160854981",
-   "isbn": "9786160854981",
-   "title": "คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie's Almanack",
-   "author": null,
-   "translator": null,
-   "category": "การเงินการลงทุนทั่วไป",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 9,
-     "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie's Almanack",
-     "url": "https://www.se-ed.com/physical/kgq010d2kruj86y2spiq",
-     "cover": "https://mp-static.se-ed.com/physical/cover/kgq010d2kruj86y2spiq/image/t69uyeab"
     }
    ]
   },
@@ -977,12 +1109,12 @@
    ]
   },
   {
-   "key": "isbn:9786160845705",
-   "isbn": "9786160845705",
-   "title": "พ่อรวยสอนลูก # 2 : เงินสี่ด้าน",
+   "key": "isbn:9786162878329",
+   "isbn": "9786162878329",
+   "title": "The Black Book of Manifest",
    "author": null,
    "translator": null,
-   "category": "การเงินการลงทุนทั่วไป",
+   "category": null,
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -996,11 +1128,11 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 9,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "พ่อรวยสอนลูก # 2 : เงินสี่ด้าน",
-     "url": "https://www.se-ed.com/physical/nsgu2xd4pyktgrxaensz",
-     "cover": "https://mp-static.se-ed.com/physical/cover/nsgu2xd4pyktgrxaensz/image/8dsga0km"
+     "rank": 10,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "The Black Book of Manifest",
+     "url": "https://m2.se-ed.com/Detail/The-Black-Book-of-Manifest/9786162878329",
+     "cover": null
     }
    ]
   },
@@ -1089,12 +1221,12 @@
    ]
   },
   {
-   "key": "isbn:9786168366127",
-   "isbn": "9786168366127",
-   "title": "ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart",
+   "key": "isbn:9786160835867",
+   "isbn": "9786160835867",
+   "title": "ภาษาจีนระดับต้น 1 (ฉบับปรับปรุง) +MP3",
    "author": null,
    "translator": null,
-   "category": null,
+   "category": "ภาษาจีน-Grammar",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -1109,10 +1241,66 @@
      "source": "seed",
      "list": "bestseller",
      "rank": 10,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "ภาษาจีนระดับต้น 1 (ฉบับปรับปรุง) +MP3",
+     "url": "https://www.se-ed.com/physical/ig3ltuh6nbv84f08s6g2",
+     "cover": "https://mp-static.se-ed.com/physical/cover/ig3ltuh6nbv84f08s6g2/image/xqq0f2t5"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786164302198",
+   "isbn": "9786164302198",
+   "title": "100 คำถามอะไรเอ่ย ฉบับ ท้าให้ทาย กระจายมุกป่วน",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W41",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 11,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%87-A-Guide-to-Fighting-the-Demons-in-My-Heart/9786168366127",
+     "title_raw": "100 คำถามอะไรเอ่ย ฉบับ ท้าให้ทาย กระจายมุกป่วน",
+     "url": "https://m2.se-ed.com/Detail/100-%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%AD%E0%B9%88%E0%B8%A2-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A-%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%97%E0%B8%B2%E0%B8%A2-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%A2%E0%B8%A1%E0%B8%B8%E0%B8%81%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%99/9786164302198",
      "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160854097",
+   "isbn": "9786160854097",
+   "title": "Passive Income เครื่องทุ่นแรงสู่อิสรภาพการเงิน",
+   "author": null,
+   "translator": null,
+   "category": "การเงินการลงทุนทั่วไป",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 11,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "Passive Income เครื่องทุ่นแรงสู่อิสรภาพการเงิน",
+     "url": "https://www.se-ed.com/physical/snj010z3gxqd4tdnszil",
+     "cover": "https://mp-static.se-ed.com/physical/cover/snj010z3gxqd4tdnszil/image/0kpi66kc"
     }
    ]
   },
@@ -1145,90 +1333,6 @@
    ]
   },
   {
-   "key": "isbn:9786162878961",
-   "isbn": "9786162878961",
-   "title": "The Red Book of Manifest วาจาประกาศิต",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 11,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "The Red Book of Manifest วาจาประกาศิต",
-     "url": "https://m2.se-ed.com/Detail/The-Red-Book-of-Manifest-%E0%B8%A7%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%B4%E0%B8%95/9786162878961",
-     "cover": null
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160835867",
-   "isbn": "9786160835867",
-   "title": "ภาษาจีนระดับต้น 1 (ฉบับปรับปรุง) +MP3",
-   "author": null,
-   "translator": null,
-   "category": "ภาษาจีน-Grammar",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 11,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "ภาษาจีนระดับต้น 1 (ฉบับปรับปรุง) +MP3",
-     "url": "https://www.se-ed.com/physical/ig3ltuh6nbv84f08s6g2",
-     "cover": "https://mp-static.se-ed.com/physical/cover/ig3ltuh6nbv84f08s6g2/image/xqq0f2t5"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160854097",
-   "isbn": "9786160854097",
-   "title": "Passive Income เครื่องทุ่นแรงสู่อิสรภาพการเงิน",
-   "author": null,
-   "translator": null,
-   "category": "การเงินการลงทุนทั่วไป",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 12,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "Passive Income เครื่องทุ่นแรงสู่อิสรภาพการเงิน",
-     "url": "https://www.se-ed.com/physical/snj010z3gxqd4tdnszil",
-     "cover": "https://mp-static.se-ed.com/physical/cover/snj010z3gxqd4tdnszil/image/0kpi66kc"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786162986246",
    "isbn": "9786162986246",
    "title": "THAILAND STATIONERY ร้านเครื่องเขียนไทยใกล้ฉัน",
@@ -1257,9 +1361,9 @@
    ]
   },
   {
-   "key": "isbn:9786164031265",
-   "isbn": "9786164031265",
-   "title": "ช่างแม่งเถอะ",
+   "key": "isbn:9786162876080",
+   "isbn": "9786162876080",
+   "title": "จิตวิทยาสายดาร์ก",
    "author": null,
    "translator": null,
    "category": null,
@@ -1271,15 +1375,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W40",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
      "rank": 12,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "ช่างแม่งเถอะ",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0/9786164031265",
+     "title_raw": "จิตวิทยาสายดาร์ก",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81/9786162876080",
      "cover": null
     }
    ]
@@ -1341,9 +1445,9 @@
    ]
   },
   {
-   "key": "isbn:9786168350225",
-   "isbn": "9786168350225",
-   "title": "Wealth Within",
+   "key": "isbn:9786168187937",
+   "isbn": "9786168187937",
+   "title": "The Art of Spending Money ศิลปะแห่งการใช้เงิน",
    "author": null,
    "translator": null,
    "category": null,
@@ -1362,16 +1466,16 @@
      "list": "bestseller",
      "rank": 13,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Wealth Within",
-     "url": "https://m2.se-ed.com/Detail/Wealth-Within/9786168350225",
+     "title_raw": "The Art of Spending Money ศิลปะแห่งการใช้เงิน",
+     "url": "https://m2.se-ed.com/Detail/The-Art-of-Spending-Money-%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99/9786168187937",
      "cover": null
     }
    ]
   },
   {
-   "key": "isbn:9786160850396",
-   "isbn": "9786160850396",
-   "title": "Money 101",
+   "key": "isbn:9786160853526",
+   "isbn": "9786160853526",
+   "title": "เศรษฐศาสตร์เล่มเดียวจบ : Economics in One Lesson",
    "author": null,
    "translator": null,
    "category": "การเงินการลงทุนทั่วไป",
@@ -1388,11 +1492,11 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 14,
-     "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "Money 101 (ปกอ่อน)",
-     "url": "https://www.se-ed.com/physical/4q3fbwwfp61cr5yyvkf8",
-     "cover": "https://mp-static.se-ed.com/physical/cover/4q3fbwwfp61cr5yyvkf8/image/txcjs85g"
+     "rank": 13,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "เศรษฐศาสตร์เล่มเดียวจบ : Economics in One Lesson",
+     "url": "https://www.se-ed.com/physical/1oxvi0wbqhmxghrjynbl",
+     "cover": "https://mp-static.se-ed.com/physical/cover/1oxvi0wbqhmxghrjynbl/image/w0qbsfd9"
     }
    ]
   },
@@ -1425,34 +1529,6 @@
    ]
   },
   {
-   "key": "isbn:9786169526407",
-   "isbn": "9786169526407",
-   "title": "มดไม่ขึ้นโรงน้ำตาล",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 14,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "มดไม่ขึ้นโรงน้ำตาล",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%A1%E0%B8%94%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%B2%E0%B8%A5/9786169526407",
-     "cover": null
-    }
-   ]
-  },
-  {
    "key": "title:ศิลปะการอยู่ร่วมกับคนเฮงซวย",
    "isbn": null,
    "title": "ศิลปะการอยู่ร่วมกับคนเฮงซวย",
@@ -1481,9 +1557,9 @@
    ]
   },
   {
-   "key": "isbn:9786160853526",
-   "isbn": "9786160853526",
-   "title": "เศรษฐศาสตร์เล่มเดียวจบ : Economics in One Lesson",
+   "key": "isbn:9786160850396",
+   "isbn": "9786160850396",
+   "title": "Money 101",
    "author": null,
    "translator": null,
    "category": "การเงินการลงทุนทั่วไป",
@@ -1500,49 +1576,21 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 14,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "เศรษฐศาสตร์เล่มเดียวจบ : Economics in One Lesson",
-     "url": "https://www.se-ed.com/physical/1oxvi0wbqhmxghrjynbl",
-     "cover": "https://mp-static.se-ed.com/physical/cover/1oxvi0wbqhmxghrjynbl/image/w0qbsfd9"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160856572",
-   "isbn": "9786160856572",
-   "title": "คนรักตัวเอง เขามีนิสัยแบบไหน? Love Yourself First!",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
      "rank": 15,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "คนรักตัวเอง เขามีนิสัยแบบไหน? Love Yourself First!",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AD%E0%B8%87-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%AA%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%84%E0%B8%AB%E0%B8%99-Love-Yourself-First/9786160856572",
-     "cover": null
+     "label": "สินค้าขายดีประจำวัน",
+     "title_raw": "Money 101 (ปกอ่อน)",
+     "url": "https://www.se-ed.com/physical/4q3fbwwfp61cr5yyvkf8",
+     "cover": "https://mp-static.se-ed.com/physical/cover/4q3fbwwfp61cr5yyvkf8/image/txcjs85g"
     }
    ]
   },
   {
-   "key": "isbn:9786165726627",
-   "isbn": "9786165726627",
-   "title": "พรหมญาณ พยากรณ์ +ไพ่พรหมญาณ (บรรจุกล่อง)",
+   "key": "isbn:9786160839667",
+   "isbn": "9786160839667",
+   "title": "เปลี่ยนหนี้เป็นอิสรภาพการเงิน",
    "author": null,
    "translator": null,
-   "category": "การทำนาย",
+   "category": "การเงินการลงทุนทั่วไป",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -1557,10 +1605,10 @@
      "source": "seed",
      "list": "bestseller",
      "rank": 15,
-     "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "พรหมญาณ พยากรณ์ +ไพ่พรหมญาณ (บรรจุกล่อง)",
-     "url": "https://www.se-ed.com/physical/fdqcu09kj9gjhamz8gof",
-     "cover": "https://mp-static.se-ed.com/physical/cover/fdqcu09kj9gjhamz8gof/image/3679424j"
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "เปลี่ยนหนี้เป็นอิสรภาพการเงิน",
+     "url": "https://www.se-ed.com/physical/wlmejxz3p34ropvxqm2b",
+     "cover": "https://mp-static.se-ed.com/physical/cover/wlmejxz3p34ropvxqm2b/image/sf1oycuf"
     }
    ]
   },
@@ -1593,9 +1641,9 @@
    ]
   },
   {
-   "key": "isbn:9786162871429",
-   "isbn": "9786162871429",
-   "title": "กล้าที่จะถูกเกลียด",
+   "key": "isbn:9786162878961",
+   "isbn": "9786162878961",
+   "title": "The Red Book of Manifest วาจาประกาศิต",
    "author": null,
    "translator": null,
    "category": null,
@@ -1614,8 +1662,8 @@
      "list": "bestseller",
      "rank": 16,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "กล้าที่จะถูกเกลียด",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B0%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%94/9786162871429",
+     "title_raw": "The Red Book of Manifest วาจาประกาศิต",
+     "url": "https://m2.se-ed.com/Detail/The-Red-Book-of-Manifest-%E0%B8%A7%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%B4%E0%B8%95/9786162878961",
      "cover": null
     }
    ]
@@ -1649,12 +1697,12 @@
    ]
   },
   {
-   "key": "isbn:9786160839667",
-   "isbn": "9786160839667",
-   "title": "เปลี่ยนหนี้เป็นอิสรภาพการเงิน",
+   "key": "isbn:9786165726627",
+   "isbn": "9786165726627",
+   "title": "พรหมญาณ พยากรณ์ +ไพ่พรหมญาณ (บรรจุกล่อง)",
    "author": null,
    "translator": null,
-   "category": "การเงินการลงทุนทั่วไป",
+   "category": "การทำนาย",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -1669,38 +1717,10 @@
      "source": "seed",
      "list": "bestseller",
      "rank": 16,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "เปลี่ยนหนี้เป็นอิสรภาพการเงิน",
-     "url": "https://www.se-ed.com/physical/wlmejxz3p34ropvxqm2b",
-     "cover": "https://mp-static.se-ed.com/physical/cover/wlmejxz3p34ropvxqm2b/image/sf1oycuf"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786164302198",
-   "isbn": "9786164302198",
-   "title": "100 คำถามอะไรเอ่ย ฉบับ ท้าให้ทาย กระจายมุกป่วน",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 17,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "100 คำถามอะไรเอ่ย ฉบับ ท้าให้ทาย กระจายมุกป่วน",
-     "url": "https://m2.se-ed.com/Detail/100-%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%AD%E0%B9%88%E0%B8%A2-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A-%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%97%E0%B8%B2%E0%B8%A2-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%A2%E0%B8%A1%E0%B8%B8%E0%B8%81%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%99/9786164302198",
-     "cover": null
+     "label": "สินค้าขายดีประจำวัน",
+     "title_raw": "พรหมญาณ พยากรณ์ +ไพ่พรหมญาณ (บรรจุกล่อง)",
+     "url": "https://www.se-ed.com/physical/fdqcu09kj9gjhamz8gof",
+     "cover": "https://mp-static.se-ed.com/physical/cover/fdqcu09kj9gjhamz8gof/image/3679424j"
     }
    ]
   },
@@ -1733,9 +1753,9 @@
    ]
   },
   {
-   "key": "isbn:9786164302242",
-   "isbn": "9786164302242",
-   "title": "100 คำถามอะไรเอ่ย ฉบับ ทายเถอะ...หักมุมฮา ใครว่าบ้าก็ยอม",
+   "key": "isbn:9789744437969",
+   "isbn": "9789744437969",
+   "title": "มินนะ โนะ นิฮงโกะ 1 (2nd Edition) +เฉลย",
    "author": null,
    "translator": null,
    "category": null,
@@ -1747,15 +1767,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 18,
+     "rank": 17,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "100 คำถามอะไรเอ่ย ฉบับ ทายเถอะ...หักมุมฮา ใครว่าบ้าก็ยอม",
-     "url": "https://m2.se-ed.com/Detail/100-%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%AD%E0%B9%88%E0%B8%A2-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A-%E0%B8%97%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-%E0%B8%AB%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%AE%E0%B8%B2-%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%81%E0%B9%87%E0%B8%A2%E0%B8%AD%E0%B8%A1/9786164302242",
+     "title_raw": "มินนะ โนะ นิฮงโกะ 1 (2nd Edition) +เฉลย",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%99%E0%B8%B0-%E0%B9%82%E0%B8%99%E0%B8%B0-%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%87%E0%B9%82%E0%B8%81%E0%B8%B0-1-(2nd-Edition)-%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%A2/9789744437969",
      "cover": null
     }
    ]
@@ -1817,12 +1837,12 @@
    ]
   },
   {
-   "key": "isbn:9786168224182",
-   "isbn": "9786168224182",
-   "title": "Money Summary สรุปเรื่องเงินให้เข้าใจง่ายใน 1 เล่ม",
+   "key": "isbn:9786160831326",
+   "isbn": "9786160831326",
+   "title": "เริ่มต้นเรียนจีน 1",
    "author": null,
    "translator": null,
-   "category": null,
+   "category": "ภาษาจีน-Grammar",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -1831,16 +1851,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W40",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 19,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Money Summary สรุปเรื่องเงินให้เข้าใจง่ายใน 1 เล่ม",
-     "url": "https://m2.se-ed.com/Detail/Money-Summary-%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99-1-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1/9786168224182",
-     "cover": null
+     "rank": 18,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "เริ่มต้นเรียนจีน 1 (ฉบับปรับปรุงล่าสุด)",
+     "url": "https://www.se-ed.com/physical/35utqlzuin83vh2w1e01",
+     "cover": "https://mp-static.se-ed.com/physical/cover/35utqlzuin83vh2w1e01/image/zplj0hru"
     }
    ]
   },
@@ -1873,37 +1893,9 @@
    ]
   },
   {
-   "key": "isbn:9786160831326",
-   "isbn": "9786160831326",
-   "title": "เริ่มต้นเรียนจีน 1",
-   "author": null,
-   "translator": null,
-   "category": "ภาษาจีน-Grammar",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 19,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "เริ่มต้นเรียนจีน 1 (ฉบับปรับปรุงล่าสุด)",
-     "url": "https://www.se-ed.com/physical/35utqlzuin83vh2w1e01",
-     "cover": "https://mp-static.se-ed.com/physical/cover/35utqlzuin83vh2w1e01/image/zplj0hru"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786169477044",
-   "isbn": "9786169477044",
-   "title": "ทำแบบนี้ สมองดีขึ้นทันที 100 เท่า!",
+   "key": "isbn:9786168350225",
+   "isbn": "9786168350225",
+   "title": "Wealth Within",
    "author": null,
    "translator": null,
    "category": null,
@@ -1920,21 +1912,49 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 20,
+     "rank": 19,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "ทำแบบนี้ สมองดีขึ้นทันที 100 เท่า!",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%97%E0%B8%B3%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%99%E0%B8%B5%E0%B9%89-%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B5%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5-100-%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%B2/9786169477044",
+     "title_raw": "Wealth Within",
+     "url": "https://m2.se-ed.com/Detail/Wealth-Within/9786168350225",
      "cover": null
     }
    ]
   },
   {
-   "key": "isbn:9786168390238",
-   "isbn": "9786168390238",
-   "title": "101 ข้อคิด ที่จะทำให้คุณรักชีวิตมากขึ้น",
+   "key": "isbn:9786168166994",
+   "isbn": "9786168166994",
+   "title": "พัสดุจากดาวหมา",
    "author": null,
    "translator": null,
-   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 20,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "พัสดุจากดาวหมา",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%9E%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%AB%E0%B8%A1%E0%B8%B2/9786168166994",
+     "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160473151",
+   "isbn": "9786160473151",
+   "title": "\"ฉันไม่มีอะไรเลย\"",
+   "author": null,
+   "translator": null,
+   "category": "ทักษะการเรียน การทำงาน การใช้ชีวิต",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -1943,16 +1963,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
      "list": "new",
-     "rank": 3,
+     "rank": 11,
      "label": "สินค้าออกใหม่",
-     "title_raw": "101 ข้อคิด ที่จะทำให้คุณรักชีวิตมากขึ้น",
-     "url": "https://www.se-ed.com/physical/nbs0u6mfs7lyfblobbc2",
-     "cover": "https://mp-static.se-ed.com/physical/cover/nbs0u6mfs7lyfblobbc2/image/zq0pn54l"
+     "title_raw": "[สระแก้ว] \"ฉันไม่มีอะไรเลย\"",
+     "url": "https://www.se-ed.com/physical/g5wytkzzn6ssrgteyfc0",
+     "cover": "https://mp-static.se-ed.com/physical/cover/g5wytkzzn6ssrgteyfc0/image/1ndf6rl5"
     }
    ]
   },
@@ -2004,11 +2024,39 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 14,
+     "rank": 18,
      "label": "ออกใหม่",
      "title_raw": "Angels & Demons เทวากับซาตาน พิมพ์ 34 (re-newed)",
      "url": "https://amarinbooks.com/product/angels-demons-%e0%b9%80%e0%b8%97%e0%b8%a7%e0%b8%b2%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%8b%e0%b8%b2%e0%b8%95%e0%b8%b2%e0%b8%99-1-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3%e0%b8%b2%e0%b8%a7/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294144-Angels-Demons-เทวากับซาตาน-1-New.jpg"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9789990200348",
+   "isbn": "9789990200348",
+   "title": "BRIMSTONE บริมสโตน",
+   "author": "CALLIE HART",
+   "translator": null,
+   "category": "literature",
+   "maybe_translated": true,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "preorder"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "chula",
+     "list": "preorder",
+     "rank": 10,
+     "label": "Pre-Order",
+     "title_raw": "BRIMSTONE บริมสโตน (พร้อมสินค้าพรีเมี่ยม) (เฉพาะจอง)",
+     "url": "https://www.chulabook.com/product/240768",
+     "cover": "https://api.chulabook.com/images/pid-240768.webp"
     }
    ]
   },
@@ -2032,7 +2080,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 16,
+     "rank": 20,
      "label": "ออกใหม่",
      "title_raw": "DIY เปลี่ยนสมุดธรรมดาให้เป็นสมุดสุดน่ารัก",
      "url": "https://amarinbooks.com/product/diy-%e0%b9%80%e0%b8%9b%e0%b8%a5%e0%b8%b5%e0%b9%88%e0%b8%a2%e0%b8%99%e0%b8%aa%e0%b8%a1%e0%b8%b8%e0%b8%94%e0%b8%98%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%94%e0%b8%b2%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b9%80/",
@@ -2069,12 +2117,12 @@
    ]
   },
   {
-   "key": "isbn:9786166316810",
-   "isbn": "9786166316810",
-   "title": "Elephant Leadership นำอย่างช้าง แข็งแกร่งอย่างอ่อนโยน",
+   "key": "title:greatartexplainedศิลปะชิ้นเอก",
+   "isbn": null,
+   "title": "Great Art Explained ศิลปะชิ้นเอก",
    "author": null,
    "translator": null,
-   "category": "ความเป็นผู้นำ การอ่านคน การปฏิสัมพันธ์กับผู้อื่น",
+   "category": "บทความ/สารคดี",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -2083,128 +2131,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W42",
    "mentions": [
     {
-     "source": "seed",
+     "source": "amarin",
      "list": "new",
-     "rank": 4,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "Elephant Leadership นำอย่างช้าง แข็งแกร่งอย่างอ่อนโยน",
-     "url": "https://www.se-ed.com/physical/gkl2na43axg6ts19s6eu",
-     "cover": "https://mp-static.se-ed.com/physical/cover/gkl2na43axg6ts19s6eu/image/xm5ksrwd"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160476657",
-   "isbn": "9786160476657",
-   "title": "Fearless ความกลัวสูญสิ้น",
-   "author": null,
-   "translator": null,
-   "category": "นิยายแฟนตาซี, นิยายผจญภัย",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "preorder",
-     "rank": 2,
-     "label": "PRE-ORDER : สินค้าสั่งจอง",
-     "title_raw": "Fearless ความกลัวสูญสิ้น (สินค้าสั่งจอง)",
-     "url": "https://www.se-ed.com/physical/ynj6u18e5ij3lnjs2ses",
-     "cover": "https://mp-static.se-ed.com/physical/cover/ynj6u18e5ij3lnjs2ses/image/5duk8khr"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160476664",
-   "isbn": "9786160476664",
-   "title": "Fearless ความกลัวสูญสิ้น ฉบับพิเศษ",
-   "author": null,
-   "translator": null,
-   "category": "นิยายแฟนตาซี, นิยายผจญภัย",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "preorder",
-     "rank": 3,
-     "label": "PRE-ORDER : สินค้าสั่งจอง",
-     "title_raw": "Fearless ความกลัวสูญสิ้น ฉบับพิเศษ (สินค้าสั่งจอง)",
-     "url": "https://www.se-ed.com/physical/aj5t2pe7jvmlqhz09mlr",
-     "cover": "https://mp-static.se-ed.com/physical/cover/aj5t2pe7jvmlqhz09mlr/image/a44jsybl"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786164877740",
-   "isbn": "9786164877740",
-   "title": "Funny Story วุ่นนักรักนี้ เรื่องมีอยู่ว่า",
-   "author": null,
-   "translator": null,
-   "category": "นิยายโรแมนติก, นิยาย 18+",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "preorder",
-     "rank": 4,
-     "label": "PRE-ORDER : สินค้าสั่งจอง",
-     "title_raw": "Funny Story วุ่นนักรักนี้ เรื่องมีอยู่ว่า (สินค้าสั่งจอง)",
-     "url": "https://www.se-ed.com/physical/2bq9ewxru344xbs1utpi",
-     "cover": "https://mp-static.se-ed.com/physical/cover/2bq9ewxru344xbs1utpi/image/wjabej1g"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786162986819",
-   "isbn": "9786162986819",
-   "title": "HIDDEN LAYER ประวัติศาสตร์ข้างหลังภาพ",
-   "author": null,
-   "translator": null,
-   "category": "Books",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "salmon",
-     "list": "new",
-     "rank": 11,
+     "rank": 1,
      "label": "ออกใหม่",
-     "title_raw": "HIDDEN LAYER ประวัติศาสตร์ข้างหลังภาพ",
-     "url": "https://salmonbooks.net/product/hiddenlayer/",
-     "cover": "https://salmonbooks.net/wp-content/uploads/2026/03/260320-Hidden-Salmon-1-scaled.png"
+     "title_raw": "Great Art Explained ศิลปะชิ้นเอก",
+     "url": "https://amarinbooks.com/product/great-art-explained-%e0%b8%a8%e0%b8%b4%e0%b8%a5%e0%b8%9b%e0%b8%b0%e0%b8%8a%e0%b8%b4%e0%b9%89%e0%b8%99%e0%b9%80%e0%b8%ad%e0%b8%81/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294265-Great-Art-Explained-ศิลปะชิ้นเอก.jpg"
     }
    ]
   },
@@ -2228,11 +2164,39 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 13,
+     "rank": 17,
      "label": "ออกใหม่",
      "title_raw": "Inferno สู่นรกภูมิ 4 (New)",
      "url": "https://amarinbooks.com/product/inferno-%e0%b8%aa%e0%b8%b9%e0%b9%88%e0%b8%99%e0%b8%a3%e0%b8%81%e0%b8%a0%e0%b8%b9%e0%b8%a1%e0%b8%b4-4-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3%e0%b8%b2%e0%b8%a7%e0%b8%99%e0%b9%8c/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294006-Inferno-สู่นรกภูมิ-4-New.jpg"
+    }
+   ]
+  },
+  {
+   "key": "title:lifestylemedicineทำสุขภาพดีให้อยู่ในวิถีชีวิต",
+   "isbn": null,
+   "title": "Lifestyle Medicine ทำสุขภาพดีให้อยู่ในวิถีชีวิต",
+   "author": null,
+   "translator": null,
+   "category": "สุขภาพ ความงาม",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "amarin",
+     "list": "new",
+     "rank": 4,
+     "label": "ออกใหม่",
+     "title_raw": "Lifestyle Medicine ทำสุขภาพดีให้อยู่ในวิถีชีวิต",
+     "url": "https://amarinbooks.com/product/lifestyle-medicine-%e0%b8%97%e0%b8%b3%e0%b8%aa%e0%b8%b8%e0%b8%82%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%94%e0%b8%b5%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%b9%e0%b9%88%e0%b9%83%e0%b8%99%e0%b8%af/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294141-Lifestyle-Medicine-ทำสุขภาพดีให้อยู่ในวิถีชีวิต.jpg"
     }
    ]
   },
@@ -2265,34 +2229,6 @@
    ]
   },
   {
-   "key": "isbn:9786168224847",
-   "isbn": "9786168224847",
-   "title": "Money Monster Book เกมนี้ คนรวยรู้",
-   "author": null,
-   "translator": null,
-   "category": "ทั่วไป",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "preorder",
-     "rank": 1,
-     "label": "PRE-ORDER : สินค้าสั่งจอง",
-     "title_raw": "Money Monster Book เกมนี้ คนรวยรู้ (สินค้าสั่งจอง)",
-     "url": "https://www.se-ed.com/physical/7c5pjy8knz9coc2uqsl3",
-     "cover": "https://mp-static.se-ed.com/physical/cover/7c5pjy8knz9coc2uqsl3/image/e1al1pyy"
-    }
-   ]
-  },
-  {
    "key": "title:neighborบ้านข้างโลงเคียง",
    "isbn": null,
    "title": "Neighbor บ้านข้าง…โลงเคียง",
@@ -2312,11 +2248,39 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 10,
+     "rank": 14,
      "label": "ออกใหม่",
      "title_raw": "Neighbor บ้านข้าง…โลงเคียง",
      "url": "https://amarinbooks.com/product/neighbor-%e0%b8%9a%e0%b9%89%e0%b8%b2%e0%b8%99%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b8%87-%e0%b9%82%e0%b8%a5%e0%b8%87%e0%b9%80%e0%b8%84%e0%b8%b5%e0%b8%a2%e0%b8%87-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b8%b4%e0%b8%99/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000293961-Neighbor-บ้านข้าง.โลงเคียง.jpg"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786162878305",
+   "isbn": "9786162878305",
+   "title": "Open When...เปิดอ่าน...เมื่อชีวิตต้องการคำตอบ",
+   "author": null,
+   "translator": null,
+   "category": "แรงบันดาลใจ กำลังใจ ฮีลใจ",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 15,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] Open When...เปิดอ่าน...เมื่อชีวิตต้องการคำตอบ",
+     "url": "https://www.se-ed.com/physical/xayygq9a4t0sgypkgtrk",
+     "cover": "https://mp-static.se-ed.com/physical/cover/xayygq9a4t0sgypkgtrk/image/zuajljke"
     }
    ]
   },
@@ -2340,7 +2304,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 11,
+     "rank": 15,
      "label": "ออกใหม่",
      "title_raw": "Origin ออริจิน พิมพ์ 9 (re-newed)",
      "url": "https://amarinbooks.com/product/origin-%e0%b8%ad%e0%b8%ad%e0%b8%a3%e0%b8%b4%e0%b8%88%e0%b8%b4%e0%b8%99-5-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3%e0%b8%b2%e0%b8%a7%e0%b8%99%e0%b9%8c/",
@@ -2368,7 +2332,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 9,
+     "rank": 13,
      "label": "ออกใหม่",
      "title_raw": "Read or Die ไม่อ่านก็ตาย",
      "url": "https://amarinbooks.com/product/read-or-die-%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%ad%e0%b9%88%e0%b8%b2%e0%b8%99%e0%b8%81%e0%b9%87%e0%b8%95%e0%b8%b2%e0%b8%a2-r-wangjinda/",
@@ -2424,7 +2388,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 3,
+     "rank": 7,
      "label": "ออกใหม่",
      "title_raw": "Super Stimulated สุขซ่อนพิษ",
      "url": "https://amarinbooks.com/product/super-stimulated-%e0%b8%aa%e0%b8%b8%e0%b8%82%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%99%e0%b8%9e%e0%b8%b4%e0%b8%a9/",
@@ -2480,7 +2444,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 7,
+     "rank": 6,
      "label": "Pre-Order",
      "title_raw": "THE EDUCATION OF A VALUE INVESTOR บทเรียนชีวิตและหุ้นของผู้จัดการกองทุน กาย สเปียร์",
      "url": "https://www.chulabook.com/product/240291",
@@ -2508,7 +2472,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 6,
+     "rank": 5,
      "label": "Pre-Order",
      "title_raw": "TREND FOLLOWING MINDSET จิตวิทยาเทรดตามเทรนด์",
      "url": "https://www.chulabook.com/product/240290",
@@ -2536,7 +2500,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 2,
+     "rank": 1,
      "label": "Pre-Order",
      "title_raw": "TWO TWISTED CROWNS สองมงกุฎวิปริต (พร้อมสินค้าพรีเมี่ยม 1 ชุด) (ราคาปก 495.-) (เฉพาะจอง)",
      "url": "https://www.chulabook.com/product/230186",
@@ -2564,39 +2528,11 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 5,
+     "rank": 9,
      "label": "ออกใหม่",
      "title_raw": "The Ageless Brain สมองแกร่ง ไม่มีวันแก่",
      "url": "https://amarinbooks.com/product/the-ageless-brain-%e0%b8%aa%e0%b8%a1%e0%b8%ad%e0%b8%87%e0%b9%81%e0%b8%81%e0%b8%a3%e0%b9%88%e0%b8%87-%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b8%a1%e0%b8%b5%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b9%81%e0%b8%81%e0%b9%88/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294140-The-Ageless-Brain-สมองแกร่ง-ไม่มีวันแก่-1.jpg"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786168390252",
-   "isbn": "9786168390252",
-   "title": "The Brain at Rest สมองพักร้อน",
-   "author": null,
-   "translator": null,
-   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 2,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "The Brain at Rest สมองพักร้อน",
-     "url": "https://www.se-ed.com/physical/inqgjoh10p8b4diuszxp",
-     "cover": "https://mp-static.se-ed.com/physical/cover/inqgjoh10p8b4diuszxp/image/b68n00u0"
     }
    ]
   },
@@ -2620,7 +2556,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 15,
+     "rank": 19,
      "label": "ออกใหม่",
      "title_raw": "The Da Vinci Code รหัสลับดาวินชี พิมพ์ 49 (re-newed)",
      "url": "https://amarinbooks.com/product/the-da-vinci-code-%e0%b8%a3%e0%b8%ab%e0%b8%b1%e0%b8%aa%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b8%94%e0%b8%b2%e0%b8%a7%e0%b8%b4%e0%b8%99%e0%b8%8a%e0%b8%b5-2-new-%e0%b9%81%e0%b8%94%e0%b8%99-%e0%b8%9a%e0%b8%a3/",
@@ -2648,11 +2584,39 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 12,
+     "rank": 16,
      "label": "ออกใหม่",
      "title_raw": "The Lost Symbol สาส์นลับที่สาบสูญ 3(New)",
      "url": "https://amarinbooks.com/product/the-lost-symbol-%e0%b8%aa%e0%b8%b2%e0%b8%aa%e0%b9%8c%e0%b8%99%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%aa%e0%b8%b2%e0%b8%9a%e0%b8%aa%e0%b8%b9%e0%b8%8d-3new/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294005-The-Lost-Symbol-สาส์นลับที่สาบสูญ-3New.jpg"
+    }
+   ]
+  },
+  {
+   "key": "title:thesecretofsecretsความลับแห่งความลับ",
+   "isbn": null,
+   "title": "The Secret of Secrets ความลับแห่งความลับ",
+   "author": null,
+   "translator": null,
+   "category": "นิยาย, นิยายสืบสวน",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "amarin",
+     "list": "new",
+     "rank": 2,
+     "label": "ออกใหม่",
+     "title_raw": "The Secret of Secrets ความลับแห่งความลับ",
+     "url": "https://amarinbooks.com/product/the-secret-of-secrets-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a-%e0%b9%81/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294271-The-Secret-of-Secrets-ความลับแห่งความลับ.jpg"
     }
    ]
   },
@@ -2685,6 +2649,34 @@
    ]
   },
   {
+   "key": "isbn:9786168109748",
+   "isbn": "9786168109748",
+   "title": "Ultralearning วิธีเรียน 1 วัน ให้ได้ผลเท่า 100 ชั่วโมง",
+   "author": null,
+   "translator": null,
+   "category": "ทักษะการเรียน การทำงาน การใช้ชีวิต",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 16,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] Ultralearning วิธีเรียน 1 วัน ให้ได้ผลเท่า 100 ชั่วโมง",
+     "url": "https://www.se-ed.com/physical/lithz5yj9ffslm18ajzp",
+     "cover": "https://mp-static.se-ed.com/physical/cover/lithz5yj9ffslm18ajzp/image/ud118q1m"
+    }
+   ]
+  },
+  {
    "key": "isbn:9789990199000",
    "isbn": "9789990199000",
    "title": "WHEN THE MOON HATCHED ยามจันทรามาเยือน",
@@ -2704,7 +2696,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 4,
+     "rank": 3,
      "label": "Pre-Order",
      "title_raw": "WHEN THE MOON HATCHED ยามจันทรามาเยือน (พร้อมชุดที่คั่นไดคัต) (ราคาปก 795.-) (เฉพาะจอง)",
      "url": "https://www.chulabook.com/product/237216",
@@ -2732,7 +2724,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 8,
+     "rank": 10,
      "label": "หนังสือใหม่",
      "title_raw": "การจัดการทรัพยากรสารสนเทศอิเล็กทรอนิกส์ในห้องสมุด (ELECTRONIC RESOURCE MANAGEMENT IN LIBRARIES)",
      "url": "https://www.chulabook.com/product/256312",
@@ -2769,13 +2761,41 @@
    ]
   },
   {
+   "key": "isbn:9786160476923",
+   "isbn": "9786160476923",
+   "title": "กาลครั้งหนึ่งเมื่อเจ้าหญิงสลับตัว เล่ม 2",
+   "author": null,
+   "translator": null,
+   "category": "วรรณกรรมเยาวชน",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "preorder"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "preorder",
+     "rank": 2,
+     "label": "PRE-ORDER : สินค้าสั่งจอง",
+     "title_raw": "กาลครั้งหนึ่งเมื่อเจ้าหญิงสลับตัว เล่ม 2 (สินค้าสั่งจอง)",
+     "url": "https://www.se-ed.com/physical/uwnc24h19mhbmtwyz1l0",
+     "cover": "https://mp-static.se-ed.com/physical/cover/uwnc24h19mhbmtwyz1l0/image/fq05s1rj"
+    }
+   ]
+  },
+  {
    "key": "title:กูจีกูจีกับเมฆน้อยผจญภัย",
    "isbn": null,
    "title": "กูจี กูจี กับเมฆน้อยผจญภัย",
    "author": null,
-   "translator": null,
+   "translator": "หงฮั่นถัง",
    "category": "หนังสือนิทาน, หนังสือเด็ก",
-   "maybe_translated": false,
+   "maybe_translated": true,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
@@ -2788,39 +2808,11 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 2,
+     "rank": 6,
      "label": "ออกใหม่",
      "title_raw": "กูจี กูจี กับเมฆน้อยผจญภัย (ปกแข็ง)",
-     "url": "https://amarinbooks.com/product/%e0%b8%81%e0%b8%b9%e0%b8%88%e0%b8%b5-%e0%b8%81%e0%b8%b9%e0%b8%88%e0%b8%b5-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%a1%e0%b8%86%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%9c%e0%b8%88%e0%b8%8d%e0%b8%a0/",
+     "url": "https://amarinbooks.com/product/guji-guji-and-little-clouds-typhoon-adventure/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000293963-กูจี-กูจี-กับเมฆน้อยผจญภัย-ปกแข็ง.jpg"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786169409793",
-   "isbn": "9786169409793",
-   "title": "ขอให้เสียงเศร้าสร่างซา : is this a cry for help?",
-   "author": null,
-   "translator": null,
-   "category": "วรรณกรรมทั่วไป, นิยาย",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 1,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "ขอให้เสียงเศร้าสร่างซา : is this a cry for help?",
-     "url": "https://www.se-ed.com/physical/9kqwjwnxcjv5wdwh9k97",
-     "cover": "https://mp-static.se-ed.com/physical/cover/9kqwjwnxcjv5wdwh9k97/image/k26pob9n"
     }
    ]
   },
@@ -2844,7 +2836,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 6,
+     "rank": 10,
      "label": "ออกใหม่",
      "title_raw": "คดีฆาตกรรมในคฤหาสน์มืด เล่ม 3",
      "url": "https://amarinbooks.com/product/%e0%b8%84%e0%b8%94%e0%b8%b5%e0%b8%86%e0%b8%b2%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b9%83%e0%b8%99%e0%b8%84%e0%b8%a4%e0%b8%ab%e0%b8%b2%e0%b8%aa%e0%b8%99%e0%b9%8c%e0%b8%a1%e0%b8%b7%e0%b8%94-3/",
@@ -2853,13 +2845,13 @@
    ]
   },
   {
-   "key": "title:ครอบครัวหนูกับบ้านต้นไม้",
-   "isbn": null,
-   "title": "ครอบครัวหนูกับบ้านต้นไม้",
+   "key": "isbn:9786162878541",
+   "isbn": "9786162878541",
+   "title": "คบแบบห่าง ๆ คือทางแห่งความสุข",
    "author": null,
-   "translator": "หนึ่งฤทัย ปราดเปรียว",
-   "category": "หนังสือนิทาน, หนังสือเด็ก",
-   "maybe_translated": true,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
@@ -2867,16 +2859,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W42",
    "mentions": [
     {
-     "source": "amarin",
+     "source": "seed",
      "list": "new",
-     "rank": 19,
-     "label": "ออกใหม่",
-     "title_raw": "ครอบครัวหนูกับบ้านต้นไม้ (ปกอ่อน)",
-     "url": "https://amarinbooks.com/product/the-mouse-family-and-the-tree-house/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000293296-ครอบครัวหนูกับบ้านต้นไม้-ปกอ่อน.jpg"
+     "rank": 13,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] คบแบบห่าง ๆ คือทางแห่งความสุข",
+     "url": "https://www.se-ed.com/physical/qnd0ljnpdra3637f0d2a",
+     "cover": "https://mp-static.se-ed.com/physical/cover/qnd0ljnpdra3637f0d2a/image/a8bivzf0"
     }
    ]
   },
@@ -2937,6 +2929,34 @@
    ]
   },
   {
+   "key": "isbn:9789740344704",
+   "isbn": "9789740344704",
+   "title": "คู่มือการวิจัย :การวิจัยเชิงปฏิบัติ",
+   "author": "วิเชียร เกตุสิงห์",
+   "translator": null,
+   "category": "education",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "chula",
+     "list": "new",
+     "rank": 3,
+     "label": "หนังสือใหม่",
+     "title_raw": "คู่มือการวิจัย :การวิจัยเชิงปฏิบัติ",
+     "url": "https://www.chulabook.com/product/257113",
+     "cover": "https://api.chulabook.com/images/pid-257113.webp"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786168388532",
    "isbn": "9786168388532",
    "title": "คู่มือการเขียนให้ชนะใจนักอ่านงานยุ่ง",
@@ -2984,7 +3004,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 1,
+     "rank": 5,
      "label": "ออกใหม่",
      "title_raw": "ฆาตกรจอมเลียนแบบ เล่ม 5",
      "url": "https://amarinbooks.com/product/%e0%b8%86%e0%b8%b2%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%a5%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%81%e0%b8%9a%e0%b8%9a-5-%e0%b8%a1%e0%b8%b4%e0%b8%a2%e0%b8%b2%e0%b9%80/",
@@ -2993,12 +3013,12 @@
    ]
   },
   {
-   "key": "isbn:9786165630894",
-   "isbn": "9786165630894",
-   "title": "จิ๊กซอว์กับลมฟ้าอากาศ Puzzle and Weather",
+   "key": "isbn:9786161892920",
+   "isbn": "9786161892920",
+   "title": "จัดบ้านสวยให้รวยโชค",
    "author": null,
    "translator": null,
-   "category": "วรรณกรรมทั่วไป, นิยาย",
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -3007,72 +3027,44 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
      "list": "new",
-     "rank": 9,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "จิ๊กซอว์กับลมฟ้าอากาศ Puzzle and Weather",
-     "url": "https://www.se-ed.com/physical/vu27tywp228744z5rr0o",
-     "cover": "https://mp-static.se-ed.com/physical/cover/vu27tywp228744z5rr0o/image/mfevjma6"
-    }
-   ]
-  },
-  {
-   "key": "title:ชุดset3เล่มครบรอบ50ปี6ตุลาฯ",
-   "isbn": null,
-   "title": "ชุด SET 3 เล่ม ครบรอบ 50 ปี 6 ตุลาฯ",
-   "author": "รวมนักเขียน",
-   "translator": null,
-   "category": "history-religion-culture-politics-government",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "chula",
-     "list": "preorder",
      "rank": 2,
-     "label": "Pre-Order",
-     "title_raw": "PREORDER ชุด SET 3 เล่ม ครบรอบ 50 ปี 6 ตุลาฯ (พร้อมโปสการ์ด+ที่คั่น) (ราคาปก 1280.-) (เฉพาะจอง)",
-     "url": "https://www.chulabook.com/product/256529",
-     "cover": "https://api.chulabook.com/images/pid-256529.webp"
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] จัดบ้านสวยให้รวยโชค",
+     "url": "https://www.se-ed.com/physical/siym6fcea9uw3oq8rl7a",
+     "cover": "https://mp-static.se-ed.com/physical/cover/siym6fcea9uw3oq8rl7a/image/lo3bnzh5"
     }
    ]
   },
   {
-   "key": "title:ชุดชีรีส์เกมสืบมรณะbookset2เล่ม",
-   "isbn": null,
-   "title": "ชุด ชีรีส์ \"เกมสืบมรณะ\" (Book Set : 2 เล่ม)",
+   "key": "isbn:9786168109823",
+   "isbn": "9786168109823",
+   "title": "ดื้อให้ฉลาด : วิชาความเก่งนอกระบบ ในโลกที่ทุกคนถูกป้อนคำตอบ Awaken Your Genius",
    "author": null,
    "translator": null,
-   "category": "นิยายสืบสวน ซ่อนเงื่อน สยองขวัญ",
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
-    "preorder"
+    "new"
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
-     "list": "preorder",
-     "rank": 5,
-     "label": "PRE-ORDER : สินค้าสั่งจอง",
-     "title_raw": "ชุด ชีรีส์ \"เกมสืบมรณะ\" (Book Set : 2 เล่ม) (สินค้าสั่งจอง)",
-     "url": "https://www.se-ed.com/physical/4lx841vhbghirdm8g43r",
-     "cover": "https://mp-static.se-ed.com/physical/cover/4lx841vhbghirdm8g43r/image/qpexisi3"
+     "list": "new",
+     "rank": 8,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] ดื้อให้ฉลาด : วิชาความเก่งนอกระบบ ในโลกที่ทุกคนถูกป้อนคำตอบ Awaken Your Genius",
+     "url": "https://www.se-ed.com/physical/noh3z04lpv4ifvuuwo4w",
+     "cover": "https://mp-static.se-ed.com/physical/cover/noh3z04lpv4ifvuuwo4w/image/vlv9lgsr"
     }
    ]
   },
@@ -3100,7 +3092,7 @@
      "label": "สินค้าแนะนำประจำสัปดาห์",
      "title_raw": "ดุจก้อนหินในมหาสมุทรดวงดาว",
      "url": "https://www.se-ed.com/physical/kpxxyd8lwtvekopsdob4",
-     "cover": "https://mp-static.se-ed.com/physical/cover/kpxxyd8lwtvekopsdob4/image/afh27nwy"
+     "cover": "https://mp-static.se-ed.com/physical/cover/kpxxyd8lwtvekopsdob4/image/nmvryrnd"
     }
    ]
   },
@@ -3184,7 +3176,7 @@
      "label": "สินค้าแนะนำประจำสัปดาห์",
      "title_raw": "ทางสายเอกโหราศาสตร์ไทย",
      "url": "https://www.se-ed.com/physical/hoyyh2kbvl3dwi1nukdd",
-     "cover": "https://mp-static.se-ed.com/physical/cover/hoyyh2kbvl3dwi1nukdd/image/t5qbwor9"
+     "cover": "https://mp-static.se-ed.com/physical/cover/hoyyh2kbvl3dwi1nukdd/image/31otr4ua"
     }
    ]
   },
@@ -3236,7 +3228,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 4,
+     "rank": 8,
      "label": "ออกใหม่",
      "title_raw": "ที่ไหนสักแห่งระหว่างตรงนี้กับจุดที่ทุกอย่างเป็นไปได้",
      "url": "https://amarinbooks.com/product/%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b9%84%e0%b8%ab%e0%b8%99%e0%b8%aa%e0%b8%b1%e0%b8%81%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%a3%e0%b8%b0%e0%b8%ab%e0%b8%a7%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%95%e0%b8%a3/",
@@ -3292,7 +3284,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 8,
+     "rank": 12,
      "label": "ออกใหม่",
      "title_raw": "นางคุก",
      "url": "https://amarinbooks.com/product/%e0%b8%99%e0%b8%b2%e0%b8%87%e0%b8%84%e0%b8%b8%e0%b8%81-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b8%b4%e0%b8%99%e0%b8%b1%e0%b8%a2/",
@@ -3301,58 +3293,58 @@
    ]
   },
   {
-   "key": "title:บริษัทรับสร้างบ้านขนมหวาน",
+   "key": "title:นิตยสารบ้านและสวนรายเดือน",
    "isbn": null,
-   "title": "บริษัทรับสร้างบ้านขนมหวาน",
-   "author": null,
-   "translator": "สุธีรา ศรีตระกูล",
-   "category": "หนังสือนิทาน, หนังสือเด็ก",
-   "maybe_translated": true,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "amarin",
-     "list": "new",
-     "rank": 18,
-     "label": "ออกใหม่",
-     "title_raw": "บริษัทรับสร้างบ้านขนมหวาน (ปกแข็ง)",
-     "url": "https://amarinbooks.com/product/borisat-rub-srang-ban-kanom-wan/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000293517-บริษัทรับสร้างบ้านขนมหวาน-ปกแข็ง.jpg"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160635856",
-   "isbn": "9786160635856",
-   "title": "บันทึกจอมเวทแห่งกาอน เล่ม 3 (จบ)",
+   "title": "นิตยสาร บ้านและสวน (รายเดือน)",
    "author": null,
    "translator": null,
-   "category": "นิยายแฟนตาซี, นิยายผจญภัย",
+   "category": "บ้านและที่อยู่อาศัย",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
-    "new"
+    "preorder"
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
-     "list": "new",
-     "rank": 11,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "บันทึกจอมเวทแห่งกาอน เล่ม 3 (จบ)",
-     "url": "https://www.se-ed.com/physical/9c29jns89hb4r56q0jpb",
-     "cover": "https://mp-static.se-ed.com/physical/cover/9c29jns89hb4r56q0jpb/image/2tfphvvu"
+     "list": "preorder",
+     "rank": 9,
+     "label": "PRE-ORDER : สินค้าสั่งจอง",
+     "title_raw": "นิตยสาร บ้านและสวน (รายเดือน) (สินค้าสั่งจอง)",
+     "url": "https://www.se-ed.com/physical/h2cj36puw3u3jiwty9zu",
+     "cover": "https://mp-static.se-ed.com/physical/cover/h2cj36puw3u3jiwty9zu/image/chnqrwma"
+    }
+   ]
+  },
+  {
+   "key": "title:นิตยสารแพรวราย2เดือน",
+   "isbn": null,
+   "title": "นิตยสาร แพรว (ราย 2 เดือน)",
+   "author": null,
+   "translator": null,
+   "category": "ไลฟ์สไตล์ แฟชั่น",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "preorder"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "preorder",
+     "rank": 7,
+     "label": "PRE-ORDER : สินค้าสั่งจอง",
+     "title_raw": "นิตยสาร แพรว (ราย 2 เดือน) (สินค้าสั่งจอง)",
+     "url": "https://www.se-ed.com/physical/391yo67d3ijjd8cp0sim",
+     "cover": "https://mp-static.se-ed.com/physical/cover/391yo67d3ijjd8cp0sim/image/oql2b0i0"
     }
    ]
   },
@@ -3404,7 +3396,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 3,
+     "rank": 5,
      "label": "หนังสือใหม่",
      "title_raw": "ปรัชญาทั่วไป (ฉบับปรับปรุง)",
      "url": "https://www.chulabook.com/product/256741",
@@ -3441,34 +3433,6 @@
    ]
   },
   {
-   "key": "isbn:9786166246902",
-   "isbn": "9786166246902",
-   "title": "ผมเนี่ยนะ...ชายแปด! เล่ม 23",
-   "author": null,
-   "translator": null,
-   "category": "นิยายไลท์โนเวล (Light Novel)",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 8,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "ผมเนี่ยนะ...ชายแปด! เล่ม 23",
-     "url": "https://www.se-ed.com/physical/5vqj826up41otfc0kmel",
-     "cover": "https://mp-static.se-ed.com/physical/cover/5vqj826up41otfc0kmel/image/l1tf2q7p"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786169536703",
    "isbn": "9786169536703",
    "title": "พม่า :ประวัติศาสตร์ รัฐประหารและรูปแบบรัฐ",
@@ -3488,7 +3452,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 2,
+     "rank": 4,
      "label": "หนังสือใหม่",
      "title_raw": "พม่า :ประวัติศาสตร์ รัฐประหารและรูปแบบรัฐ",
      "url": "https://www.chulabook.com/product/256526",
@@ -3497,13 +3461,13 @@
    ]
   },
   {
-   "key": "title:ย้อนเวลากลับไปก่อนสามีจะถูกตอนเล่ม4",
-   "isbn": null,
-   "title": "ย้อนเวลากลับไปก่อนสามีจะถูกตอน เล่ม 4",
+   "key": "isbn:9786168381427",
+   "isbn": "9786168381427",
+   "title": "พลังแห่งการปล่อยวาง : How To Let Things Go",
    "author": null,
-   "translator": "ย้วยยี้ชนะเลิศ",
-   "category": "นิยาย, นิยายโรแมนติก",
-   "maybe_translated": true,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
@@ -3511,16 +3475,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W42",
    "mentions": [
     {
-     "source": "amarin",
+     "source": "seed",
      "list": "new",
-     "rank": 20,
-     "label": "ออกใหม่",
-     "title_raw": "ย้อนเวลากลับไปก่อนสามีจะถูกตอน เล่ม 4",
-     "url": "https://amarinbooks.com/product/hui-dao-lao-gong-zi-gong-qian-4/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294150-ย้อนเวลากลับไปก่อนสามีจะถูกตอน-4.jpg"
+     "rank": 17,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] พลังแห่งการปล่อยวาง : How To Let Things Go",
+     "url": "https://www.se-ed.com/physical/lof7ne7p0bpngl1o5bbb",
+     "cover": "https://mp-static.se-ed.com/physical/cover/lof7ne7p0bpngl1o5bbb/image/v0l42wrn"
     }
    ]
   },
@@ -3572,7 +3536,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 7,
+     "rank": 9,
      "label": "หนังสือใหม่",
      "title_raw": "ร่างกายใต้บงการ :ปฐมบทแห่งอำนาจในวิถีสมัยใหม่ (LES CORPS DOCILES)",
      "url": "https://www.chulabook.com/product/256373",
@@ -3605,6 +3569,62 @@
      "title_raw": "วิกฤตแห่งมนุษย์ : The Human Crisis",
      "url": "https://www.se-ed.com/physical/prcbosmkkpuubgmesxrn",
      "cover": "https://mp-static.se-ed.com/physical/cover/prcbosmkkpuubgmesxrn/image/sfqzh9t0"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786164440753",
+   "isbn": "9786164440753",
+   "title": "วิธีบริหารจัดการ ชีวิตการงาน ให้มีประสิทธิภาพที่สุดในแต่ละวัน ฉบับปรับปรุง",
+   "author": null,
+   "translator": null,
+   "category": "ทักษะการเรียน การทำงาน การใช้ชีวิต",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 4,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] วิธีบริหารจัดการ ชีวิตการงาน ให้มีประสิทธิภาพที่สุดในแต่ละวัน ฉบับปรับปรุง",
+     "url": "https://www.se-ed.com/physical/cfdue4ymvkvhwjs9up0j",
+     "cover": "https://mp-static.se-ed.com/physical/cover/cfdue4ymvkvhwjs9up0j/image/jpo35iel"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786166375534",
+   "isbn": "9786166375534",
+   "title": "ศัพท์สันนิษฐาน เล่ม 3 :ไขศัพท์ย้อนยุคถึงปัจจุบัน",
+   "author": "ประสิทธิ์ ไชยชมพู",
+   "translator": null,
+   "category": "education",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "chula",
+     "list": "new",
+     "rank": 2,
+     "label": "หนังสือใหม่",
+     "title_raw": "ศัพท์สันนิษฐาน เล่ม 3 :ไขศัพท์ย้อนยุคถึงปัจจุบัน",
+     "url": "https://www.chulabook.com/product/257109",
+     "cover": "https://api.chulabook.com/images/pid-257109.webp"
     }
    ]
   },
@@ -3665,13 +3685,13 @@
    ]
   },
   {
-   "key": "isbn:9786166247183",
-   "isbn": "9786166247183",
-   "title": "สืบคดีปริศนา หมอยาตำรับโคมแดง เล่ม 16",
+   "key": "title:เชิญรับแมวเป็นยาที่เคาน์เตอร์ด้านหน้าได้เลยครับเล่ม4",
+   "isbn": null,
+   "title": "เชิญรับแมวเป็นยาที่เคาน์เตอร์ด้านหน้าได้เลยครับ เล่ม 4",
    "author": null,
-   "translator": null,
-   "category": "นิยายไลท์โนเวล (Light Novel)",
-   "maybe_translated": false,
+   "translator": "อาคิรา รัตนาภิรัต",
+   "category": "นิยาย, วรรณกรรม",
+   "maybe_translated": true,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
@@ -3679,16 +3699,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W41",
+   "first_seen": "2026-W42",
    "mentions": [
     {
-     "source": "seed",
+     "source": "amarin",
      "list": "new",
-     "rank": 6,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "สืบคดีปริศนา หมอยาตำรับโคมแดง เล่ม 16",
-     "url": "https://www.se-ed.com/physical/05i8n5xqh0rs7wox72s6",
-     "cover": "https://mp-static.se-ed.com/physical/cover/05i8n5xqh0rs7wox72s6/image/3b8eiz6g"
+     "rank": 3,
+     "label": "ออกใหม่",
+     "title_raw": "เชิญรับแมวเป็นยาที่เคาน์เตอร์ด้านหน้าได้เลยครับ เล่ม 4",
+     "url": "https://amarinbooks.com/product/neko-o-shohou-itashimasu-4/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294142-เชิญรับแมวเป็นยาที่เคาน์เตอร์ด้านหน้าได้เลยครับ-เล่ม-4.jpg"
     }
    ]
   },
@@ -3721,13 +3741,13 @@
    ]
   },
   {
-   "key": "title:เรื่องของสัตว์อันตรายน่ากลัวที่สุดในโลก",
-   "isbn": null,
-   "title": "เรื่องของสัตว์อันตรายน่ากลัวที่สุดในโลก",
+   "key": "isbn:9786162876585",
+   "isbn": "9786162876585",
+   "title": "เรื่องที่สำคัญจนต้องกระซิบเสียงเบา",
    "author": null,
-   "translator": "ลิลี่ตินติน",
-   "category": "หนังสือนิทาน, หนังสือเด็ก",
-   "maybe_translated": true,
+   "translator": null,
+   "category": "ทักษะการเรียน การทำงาน การใช้ชีวิต",
+   "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
@@ -3735,16 +3755,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W42",
    "mentions": [
     {
-     "source": "amarin",
+     "source": "seed",
      "list": "new",
-     "rank": 17,
-     "label": "ออกใหม่",
-     "title_raw": "เรื่องของสัตว์อันตรายน่ากลัวที่สุดในโลก (อ่อน)",
-     "url": "https://amarinbooks.com/product/the-worlds-most-atrocious-fearsome-animals/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/08/1000293518-เรื่องของสัตว์อันตรายน่ากลัวที่สุดในโลก-อ่อน.jpg"
+     "rank": 14,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] เรื่องที่สำคัญจนต้องกระซิบเสียงเบา",
+     "url": "https://www.se-ed.com/physical/h9sgr6ccfkbm3wtj1o3e",
+     "cover": "https://mp-static.se-ed.com/physical/cover/h9sgr6ccfkbm3wtj1o3e/image/q8eqt0fl"
     }
    ]
   },
@@ -3768,95 +3788,11 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 7,
+     "rank": 11,
      "label": "ออกใหม่",
      "title_raw": "เรื่องสยองของยายเฟื้อง",
      "url": "https://amarinbooks.com/product/%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%aa%e0%b8%a2%e0%b8%ad%e0%b8%87%e0%b8%82%e0%b8%ad%e0%b8%87%e0%b8%a2%e0%b8%b2%e0%b8%a2%e0%b9%80%e0%b8%9f%e0%b8%b7%e0%b9%89%e0%b8%ad%e0%b8%87/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/09/1000294148-เรื่องสยองของยายเฟื้อง.jpg"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786166247404",
-   "isbn": "9786166247404",
-   "title": "เส้นทางจาริกอาถรรพ์",
-   "author": null,
-   "translator": null,
-   "category": "นิยายไลท์โนเวล (Light Novel)",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 5,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เส้นทางจาริกอาถรรพ์",
-     "url": "https://www.se-ed.com/physical/z59dxucyol6m207u1ya0",
-     "cover": "https://mp-static.se-ed.com/physical/cover/z59dxucyol6m207u1ya0/image/fp4h64ql"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786164830561",
-   "isbn": "9786164830561",
-   "title": "เหนือห้วงมหรรณพ เล่ม 1",
-   "author": null,
-   "translator": null,
-   "category": "ศาสนาและปรัชญา",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 10,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เหนือห้วงมหรรณพ เล่ม 1",
-     "url": "https://www.se-ed.com/physical/j7wvommwbk87s7hkkjpv",
-     "cover": "https://mp-static.se-ed.com/physical/cover/j7wvommwbk87s7hkkjpv/image/3mao166a"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786166247107",
-   "isbn": "9786166247107",
-   "title": "เอาแล้วไง ยัยแฟนเก่าดันเป็นลูกสาวแม่ใหม่ เล่ม 10",
-   "author": null,
-   "translator": null,
-   "category": "นิยายไลท์โนเวล (Light Novel)",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 7,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เอาแล้วไง ยัยแฟนเก่าดันเป็นลูกสาวแม่ใหม่ เล่ม 10",
-     "url": "https://www.se-ed.com/physical/x2uw8sbvx4gyh6o7iq5f",
-     "cover": "https://mp-static.se-ed.com/physical/cover/x2uw8sbvx4gyh6o7iq5f/image/gwzfn1rz"
     }
    ]
   },
@@ -3880,7 +3816,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 5,
+     "rank": 4,
      "label": "Pre-Order",
      "title_raw": "แพ็กชุดPOCKET POTTERS :ดัมเบิลดอร์ ลูนาเลิฟกู๊ด (2เล่ม)(พร้อมที่คั่น+สติ๊กเกอร์)(ปก 540.-)(เฉพาะจอง)",
      "url": "https://www.chulabook.com/product/238361",
@@ -3908,39 +3844,11 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 8,
+     "rank": 7,
      "label": "Pre-Order",
      "title_raw": "แมวที่หายไปกับวันวุ่นวายของมินาโตะโฮเต็ล (พร้อมที่แขวนประตูคิราตะ+ใบคั่น) (ราคาปก 295.-) (เฉพาะจอง)",
      "url": "https://www.chulabook.com/product/240342",
      "cover": "https://api.chulabook.com/images/pid-240342.webp"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786168292181",
-   "isbn": "9786168292181",
-   "title": "ใต้ลมทะเลเอเชีย :อยุธยาจากเส้นทางจากญี่ปุ่นสู่อาระเบีย",
-   "author": "ชาญวิทย์ เกษตรศิริ :บรรณาธิการ และคณะ",
-   "translator": null,
-   "category": "history-religion-culture-politics-government",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "chula",
-     "list": "new",
-     "rank": 9,
-     "label": "หนังสือใหม่",
-     "title_raw": "ใต้ลมทะเลเอเชีย :อยุธยาจากเส้นทางจากญี่ปุ่นสู่อาระเบีย",
-     "url": "https://www.chulabook.com/product/255747",
-     "cover": "https://api.chulabook.com/images/pid-255747.webp"
     }
    ]
   },
@@ -3964,7 +3872,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 9,
+     "rank": 8,
      "label": "Pre-Order",
      "title_raw": "ไฉ่ซิ้ง มั่งคั่งอย่างเทพ (พร้อมโปสการ์ดลายเซ็นนักเขียน) (ราคาปก 280.-) (เฉพาะจอง)",
      "url": "https://www.chulabook.com/product/240553",
@@ -3992,11 +3900,105 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 10,
+     "rank": 9,
      "label": "Pre-Order",
      "title_raw": "ไฉ่ซิ้ง มั่งคั่งอย่างเทพ SET คู่ (2 เล่ม) (พร้อมโปสการ์ดลายเซ็นนักเขียน) (ราคาปก 560.-) (เฉพาะจอง)",
      "url": "https://www.chulabook.com/product/240613",
      "cover": "https://api.chulabook.com/images/pid-240613.webp"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786161892494",
+   "isbn": "9786161892494",
+   "title": "ไต่ระดับลับสมองขั้นกว่า!!! ด้วยคำถามเชิงตรรกะ (เล่มใหม่ท้าทายกว่าเดิม)",
+   "author": null,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 3,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] ไต่ระดับลับสมองขั้นกว่า!!! ด้วยคำถามเชิงตรรกะ (เล่มใหม่ท้าทายกว่าเดิม)",
+     "url": "https://www.se-ed.com/physical/fcmwskbj378azpacn03j",
+     "cover": "https://mp-static.se-ed.com/physical/cover/fcmwskbj378azpacn03j/image/cwty9r3a"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786161879105",
+   "isbn": "9786161879105",
+   "title": "ไต่ระดับลับสมองด้วยคำถามเชิงตรรกะ",
+   "author": null,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 1,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] ไต่ระดับลับสมองด้วยคำถามเชิงตรรกะ",
+     "url": "https://www.se-ed.com/physical/c3ye0t7xc9v8y0t1ufay",
+     "cover": "https://mp-static.se-ed.com/physical/cover/c3ye0t7xc9v8y0t1ufay/image/z9yxrie4"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786165988612",
+   "isbn": "9786165988612",
+   "title": "เตรียมสอบ TPAT3 ความถนัดด้านวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
+   "author": "ศิษย์เก่าจุฬาฯ ทุนรัฐบาลต่างประเทศ เพจสอบติด",
+   "translator": null,
+   "category": "test-prep",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 2,
+   "list_types": [
+    "recommended",
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "chula",
+     "list": "recommended",
+     "rank": 3,
+     "label": "คู่มือสอบ ม.ปลาย ขายดี",
+     "title_raw": "เตรียมสอบ TPAT3 ความถนัดด้านวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
+     "url": "https://www.chulabook.com/product/177126",
+     "cover": "https://api.chulabook.com/images/pid-177126.webp"
+    },
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 5,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] เตรียมสอบ TPAT3 ความถนัดด้านวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
+     "url": "https://www.se-ed.com/physical/fau96ceasgynntpvweye",
+     "cover": "https://mp-static.se-ed.com/physical/cover/fau96ceasgynntpvweye/image/fmn0z6s7"
     }
    ]
   },
@@ -4025,7 +4027,7 @@
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "หน้ากากอนามัย Welcare Mask V95 ทรง 3D V-shape บรรจุ 30 ชิ้น สีขาว",
      "url": "https://www.se-ed.com/physical/2kgh0j3dweurxjhuvxl0",
-     "cover": "https://mp-static.se-ed.com/physical/cover/2kgh0j3dweurxjhuvxl0/image/w8yb7qbk"
+     "cover": "https://mp-static.se-ed.com/physical/cover/2kgh0j3dweurxjhuvxl0/image/n4r54a7t"
     },
     {
      "source": "seed",
@@ -4034,7 +4036,7 @@
      "label": "สินค้าไลฟ์สไตล์แนะนำ",
      "title_raw": "หน้ากากอนามัย Welcare Mask V95 ทรง 3D V-shape บรรจุ 30 ชิ้น สีขาว",
      "url": "https://www.se-ed.com/physical/2kgh0j3dweurxjhuvxl0",
-     "cover": "https://mp-static.se-ed.com/physical/cover/2kgh0j3dweurxjhuvxl0/image/w8yb7qbk"
+     "cover": "https://mp-static.se-ed.com/physical/cover/2kgh0j3dweurxjhuvxl0/image/n4r54a7t"
     }
    ]
   },
@@ -4097,7 +4099,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 3,
+     "rank": 4,
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "การบูรหอม ตราเฌอเอม ขนาด 35 กรัม",
      "url": "https://www.se-ed.com/physical/nf6vzz1hb9gzdsyycin6",
@@ -4111,44 +4113,6 @@
      "title_raw": "การบูรหอม ตราเฌอเอม ขนาด 35 กรัม",
      "url": "https://www.se-ed.com/physical/nf6vzz1hb9gzdsyycin6",
      "cover": "https://mp-static.se-ed.com/physical/cover/nf6vzz1hb9gzdsyycin6/image/y8ctyxge"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786166211191",
-   "isbn": "9786166211191",
-   "title": "แนวข้อสอบจำลอง A-LEVEL ชีววิทยา สำหรับสอบเข้ามหาวิทยาลัย (A-LEVEL BIOLOGY: SYSTEM THINKING",
-   "author": "ณภัค เวชสุรียะกุล",
-   "translator": null,
-   "category": "test-prep",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller",
-    "new"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "chula",
-     "list": "bestseller",
-     "rank": 4,
-     "label": "หนังสือขายดี",
-     "title_raw": "แนวข้อสอบจำลอง A-LEVEL ชีววิทยา สำหรับสอบเข้ามหาวิทยาลัย (A-LEVEL BIOLOGY: SYSTEM THINKING",
-     "url": "https://www.chulabook.com/product/254413",
-     "cover": "https://api.chulabook.com/images/pid-254413.webp"
-    },
-    {
-     "source": "chula",
-     "list": "new",
-     "rank": 10,
-     "label": "หนังสือใหม่",
-     "title_raw": "แนวข้อสอบจำลอง A-LEVEL ชีววิทยา สำหรับสอบเข้ามหาวิทยาลัย (A-LEVEL BIOLOGY: SYSTEM THINKING",
-     "url": "https://www.chulabook.com/product/254413",
-     "cover": "https://api.chulabook.com/images/pid-254413.webp"
     }
    ]
   },
@@ -4211,7 +4175,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 6,
+     "rank": 7,
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "ยาหม่องตราถ้วยทอง สูตรไพล 50 กรัม",
      "url": "https://www.se-ed.com/physical/4oamct7si2xqnodwm5lq",
@@ -4249,7 +4213,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 10,
+     "rank": 11,
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "แผนที่ประเทศไทยทางหลวง",
      "url": "https://www.se-ed.com/physical/plzj22espkzw7148gu07",
@@ -4287,11 +4251,11 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 17,
+     "rank": 18,
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "หน้ากากอนามัย Welcare Mask V95 ทรง 3D V-shape บรรจุ 30 ชิ้น สีดำ",
      "url": "https://www.se-ed.com/physical/8tn806258r47x4pnuutu",
-     "cover": "https://mp-static.se-ed.com/physical/cover/8tn806258r47x4pnuutu/image/vfq77bl8"
+     "cover": "https://mp-static.se-ed.com/physical/cover/8tn806258r47x4pnuutu/image/n22fntga"
     },
     {
      "source": "seed",
@@ -4300,45 +4264,17 @@
      "label": "สินค้าไลฟ์สไตล์แนะนำ",
      "title_raw": "หน้ากากอนามัย Welcare Mask V95 ทรง 3D V-shape บรรจุ 30 ชิ้น สีดำ",
      "url": "https://www.se-ed.com/physical/8tn806258r47x4pnuutu",
-     "cover": "https://mp-static.se-ed.com/physical/cover/8tn806258r47x4pnuutu/image/vfq77bl8"
+     "cover": "https://mp-static.se-ed.com/physical/cover/8tn806258r47x4pnuutu/image/n22fntga"
     }
    ]
   },
   {
-   "key": "title:bearfriendscoloringbook",
-   "isbn": null,
-   "title": "Bear & Friends Coloring Book",
+   "key": "isbn:9786160828913",
+   "isbn": "9786160828913",
+   "title": "พจนานุกรมไทย ฉบับทันสมัย",
    "author": null,
    "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": false,
-   "excluded_reason": "not_book",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 1,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Bear & Friends Coloring Book",
-     "url": "https://m2.se-ed.com/Detail/Bear-Friends-Coloring-Book/5524300004247",
-     "cover": null
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160847037",
-   "isbn": "9786160847037",
-   "title": "TGAT2 & TGAT3 การคิดอย่างมีเหตุผล และสมรรถนะการทำงาน by อ.ขลุ่ย & ทีมติวเตอร์",
-   "author": null,
-   "translator": null,
-   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
+   "category": "พจนานุกรมไทย ",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -4353,10 +4289,10 @@
      "source": "seed",
      "list": "bestseller",
      "rank": 1,
-     "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "TGAT2 & TGAT3 การคิดอย่างมีเหตุผล และสมรรถนะการทำงาน by อ.ขลุ่ย & ทีมติวเตอร์",
-     "url": "https://www.se-ed.com/physical/hbwucv304s6c4o5ejmc7",
-     "cover": "https://mp-static.se-ed.com/physical/cover/hbwucv304s6c4o5ejmc7/image/fq91kyxb"
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "พจนานุกรมไทย ฉบับทันสมัย",
+     "url": "https://www.se-ed.com/physical/tkiiw12vllghx97ms6ar",
+     "cover": "https://mp-static.se-ed.com/physical/cover/tkiiw12vllghx97ms6ar/image/xlzi3k24"
     }
    ]
   },
@@ -4389,12 +4325,12 @@
    ]
   },
   {
-   "key": "isbn:9786160828913",
-   "isbn": "9786160828913",
-   "title": "พจนานุกรมไทย ฉบับทันสมัย",
+   "key": "isbn:9786160849222",
+   "isbn": "9786160849222",
+   "title": "พจนานุกรมอังกฤษ-ไทย ฉบับกะทัดรัด : SE-ED's New Compact English-Thai Dictionary",
    "author": null,
    "translator": null,
-   "category": "พจนานุกรมไทย ",
+   "category": "พจนานุกรม ปทานุกรม สารานุกรม-พจนานกรมอังกฤษ - ไทย",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -4410,9 +4346,9 @@
      "list": "bestseller",
      "rank": 2,
      "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "พจนานุกรมไทย ฉบับทันสมัย",
-     "url": "https://www.se-ed.com/physical/tkiiw12vllghx97ms6ar",
-     "cover": "https://mp-static.se-ed.com/physical/cover/tkiiw12vllghx97ms6ar/image/xlzi3k24"
+     "title_raw": "พจนานุกรมอังกฤษ-ไทย ฉบับกะทัดรัด : SE-ED's New Compact English-Thai Dictionary",
+     "url": "https://www.se-ed.com/physical/pp8xgqdvyq6wv8bvy687",
+     "cover": "https://mp-static.se-ed.com/physical/cover/pp8xgqdvyq6wv8bvy687/image/lvguyz36"
     }
    ]
   },
@@ -4445,12 +4381,12 @@
    ]
   },
   {
-   "key": "isbn:9786160849222",
-   "isbn": "9786160849222",
-   "title": "พจนานุกรมอังกฤษ-ไทย ฉบับกะทัดรัด : SE-ED's New Compact English-Thai Dictionary",
+   "key": "isbn:9786160846474",
+   "isbn": "9786160846474",
+   "title": "พจนานุกรมอังกฤษ-ไทย & ไทย-อังกฤษ ฉบับทันสมัย : SE-ED's Modern English-Thai Thai-English Dictionary (Contemporary Edition)",
    "author": null,
    "translator": null,
-   "category": "พจนานุกรม ปทานุกรม สารานุกรม-พจนานกรมอังกฤษ - ไทย",
+   "category": "พจนานุกรม ปทานุกรม สารานุกรม-พจนานุกรมไทย - อังกฤษ",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -4466,37 +4402,9 @@
      "list": "bestseller",
      "rank": 3,
      "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "พจนานุกรมอังกฤษ-ไทย ฉบับกะทัดรัด : SE-ED's New Compact English-Thai Dictionary",
-     "url": "https://www.se-ed.com/physical/pp8xgqdvyq6wv8bvy687",
-     "cover": "https://mp-static.se-ed.com/physical/cover/pp8xgqdvyq6wv8bvy687/image/lvguyz36"
-    }
-   ]
-  },
-  {
-   "key": "title:fundoodlescoloringbook",
-   "isbn": null,
-   "title": "Fun Doodles Coloring Book",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": false,
-   "excluded_reason": "not_book",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 4,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Fun Doodles Coloring Book",
-     "url": "https://m2.se-ed.com/Detail/Fun-Doodles-Coloring-Book/5524300004254",
-     "cover": null
+     "title_raw": "พจนานุกรมอังกฤษ-ไทย & ไทย-อังกฤษ ฉบับทันสมัย : SE-ED's Modern English-Thai Thai-English Dictionary (Contemporary Edition)",
+     "url": "https://www.se-ed.com/physical/11zjgame38snlm20fst6",
+     "cover": "https://mp-static.se-ed.com/physical/cover/11zjgame38snlm20fst6/image/ympxpu9b"
     }
    ]
   },
@@ -4529,34 +4437,6 @@
    ]
   },
   {
-   "key": "isbn:9786160846474",
-   "isbn": "9786160846474",
-   "title": "พจนานุกรมอังกฤษ-ไทย & ไทย-อังกฤษ ฉบับทันสมัย : SE-ED's Modern English-Thai Thai-English Dictionary (Contemporary Edition)",
-   "author": null,
-   "translator": null,
-   "category": "พจนานุกรม ปทานุกรม สารานุกรม-พจนานุกรมไทย - อังกฤษ",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 4,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "พจนานุกรมอังกฤษ-ไทย & ไทย-อังกฤษ ฉบับทันสมัย : SE-ED's Modern English-Thai Thai-English Dictionary (Contemporary Edition)",
-     "url": "https://www.se-ed.com/physical/11zjgame38snlm20fst6",
-     "cover": "https://mp-static.se-ed.com/physical/cover/11zjgame38snlm20fst6/image/ympxpu9b"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786160845897",
    "isbn": "9786160845897",
    "title": "พจนานุกรมอังกฤษ-ไทย ฉบับทันสมัยและสมบูรณ์ที่สุด : SE-ED's Modern English-Thai Dictionary (Complete & Updated) Super-Mini Edition",
@@ -4576,7 +4456,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 5,
+     "rank": 4,
      "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
      "title_raw": "พจนานุกรมอังกฤษ-ไทย ฉบับทันสมัยและสมบูรณ์ที่สุด : SE-ED's Modern English-Thai Dictionary (Complete & Updated) Super-Mini Edition",
      "url": "https://www.se-ed.com/physical/d0gzpatfqn3xly7a0kn5",
@@ -4585,12 +4465,12 @@
    ]
   },
   {
-   "key": "isbn:9786165948630",
-   "isbn": "9786165948630",
-   "title": "แนวข้อสอบ TGAT ภาษาอังกฤษ",
-   "author": null,
+   "key": "isbn:9786166211191",
+   "isbn": "9786166211191",
+   "title": "แนวข้อสอบจำลอง A-LEVEL ชีววิทยา สำหรับสอบเข้ามหาวิทยาลัย (A-LEVEL BIOLOGY: SYSTEM THINKING",
+   "author": "ณภัค เวชสุรียะกุล",
    "translator": null,
-   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
+   "category": "test-prep",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -4602,13 +4482,13 @@
    "first_seen": "2026-W40",
    "mentions": [
     {
-     "source": "seed",
+     "source": "chula",
      "list": "bestseller",
-     "rank": 5,
-     "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "แนวข้อสอบ TGAT ภาษาอังกฤษ",
-     "url": "https://www.se-ed.com/physical/29pj3esxqybdglt0zqjv",
-     "cover": "https://mp-static.se-ed.com/physical/cover/29pj3esxqybdglt0zqjv/image/f23i83ah"
+     "rank": 4,
+     "label": "หนังสือขายดี",
+     "title_raw": "แนวข้อสอบจำลอง A-LEVEL ชีววิทยา สำหรับสอบเข้ามหาวิทยาลัย (A-LEVEL BIOLOGY: SYSTEM THINKING",
+     "url": "https://www.chulabook.com/product/254413",
+     "cover": "https://api.chulabook.com/images/pid-254413.webp"
     }
    ]
   },
@@ -4660,11 +4540,39 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 7,
+     "rank": 6,
      "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
      "title_raw": "ติวเข้มพิชิตโจทย์ TGAT 1-2-3 by อ.ขลุ่ย & ทีมติวเตอร์",
      "url": "https://www.se-ed.com/physical/el8zrkdbl1467zszjhhq",
      "cover": "https://mp-static.se-ed.com/physical/cover/el8zrkdbl1467zszjhhq/image/p6f8cehn"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786165948630",
+   "isbn": "9786165948630",
+   "title": "แนวข้อสอบ TGAT ภาษาอังกฤษ",
+   "author": null,
+   "translator": null,
+   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 6,
+     "label": "สินค้าขายดีประจำวัน",
+     "title_raw": "แนวข้อสอบ TGAT ภาษาอังกฤษ",
+     "url": "https://www.se-ed.com/physical/29pj3esxqybdglt0zqjv",
+     "cover": "https://mp-static.se-ed.com/physical/cover/29pj3esxqybdglt0zqjv/image/f23i83ah"
     }
    ]
   },
@@ -4688,7 +4596,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 7,
+     "rank": 8,
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "พจนานุกรมไทย-อังกฤษ ฉบับกะทัดรัด : SE-ED's New Compact Thai-English Dictionary",
      "url": "https://www.se-ed.com/physical/rucfrwq3utzez4gid11r",
@@ -4716,7 +4624,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 8,
+     "rank": 9,
      "label": "สินค้าขายดีประจำวัน",
      "title_raw": "ตะลุยโจทย์ ชัวร์ก่อนสอบ TGAT2 การคิดอย่างมีเหตุผล by อ.ขลุ่ย & ทีมติวเตอร์",
      "url": "https://www.se-ed.com/physical/jtio0s3ywql4hn9znekj",
@@ -4781,6 +4689,34 @@
    ]
   },
   {
+   "key": "isbn:9786160827442",
+   "isbn": "9786160827442",
+   "title": "พจนานุกรมนักเรียน ฉบับทันสมัย",
+   "author": null,
+   "translator": null,
+   "category": "พจนานุกรมไทย ",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 12,
+     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
+     "title_raw": "พจนานุกรมนักเรียน ฉบับทันสมัย",
+     "url": "https://www.se-ed.com/physical/36u90z19s45kpdzp3p5s",
+     "cover": "https://mp-static.se-ed.com/physical/cover/36u90z19s45kpdzp3p5s/image/mtk5jy0p"
+    }
+   ]
+  },
+  {
    "key": "title:ที่คั่นนาก1ชุด4แบบเมื่อซื้อครบ1000บาท1สิทธิ์ใบเสร็จ",
    "isbn": null,
    "title": "ที่คั่นนาก1 ชุด 4 แบบ เมื่อซื้อครบ 1,000 บาท (1สิทธิ์/ใบเสร็จ)",
@@ -4809,12 +4745,12 @@
    ]
   },
   {
-   "key": "isbn:9786160827442",
-   "isbn": "9786160827442",
-   "title": "พจนานุกรมนักเรียน ฉบับทันสมัย",
+   "key": "title:spotitจับผิดเพลินเกินห้ามใจมาเล่นกับเหมียว",
+   "isbn": null,
+   "title": "Spot it! จับผิดเพลิน เกินห้ามใจ : มาเล่นกับเหมียว",
    "author": null,
    "translator": null,
-   "category": "พจนานุกรมไทย ",
+   "category": null,
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -4822,17 +4758,17 @@
     "bestseller"
    ],
    "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W40",
+   "excluded_reason": "not_book",
+   "first_seen": "2026-W42",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 13,
-     "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
-     "title_raw": "พจนานุกรมนักเรียน ฉบับทันสมัย",
-     "url": "https://www.se-ed.com/physical/36u90z19s45kpdzp3p5s",
-     "cover": "https://mp-static.se-ed.com/physical/cover/36u90z19s45kpdzp3p5s/image/mtk5jy0p"
+     "rank": 14,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "Spot it! จับผิดเพลิน เกินห้ามใจ : มาเล่นกับเหมียว",
+     "url": "https://m2.se-ed.com/Detail/Spot-it-%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%94%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B8%99-%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B9%83%E0%B8%88-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%A7/5524300004155",
+     "cover": null
     }
    ]
   },
@@ -4893,34 +4829,6 @@
    ]
   },
   {
-   "key": "isbn:9786163211811",
-   "isbn": "9786163211811",
-   "title": "สรุปเข้ม Vocab พร้อมแนวข้อสอบ",
-   "author": null,
-   "translator": null,
-   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 16,
-     "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "สรุปเข้ม Vocab พร้อมแนวข้อสอบ",
-     "url": "https://www.se-ed.com/physical/vu4rypxq009hkbehg1go",
-     "cover": "https://mp-static.se-ed.com/physical/cover/vu4rypxq009hkbehg1go/image/2cv20ake"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786160846207",
    "isbn": "9786160846207",
    "title": "TOPIK 1",
@@ -4940,7 +4848,7 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 17,
+     "rank": 16,
      "label": "หนังสือขายดี สำนักพิมพ์ซีเอ็ด SE-ED Publisher",
      "title_raw": "TOPIK 1 (ฉบับปรับปรุง)",
      "url": "https://www.se-ed.com/physical/nafo2k8m5uwvvnw4d24o",
@@ -4977,12 +4885,12 @@
    ]
   },
   {
-   "key": "isbn:9786167970042",
-   "isbn": "9786167970042",
-   "title": "พจนานุกรมไทย สำหรับนักเรียน",
+   "key": "isbn:9786163211811",
+   "isbn": "9786163211811",
+   "title": "สรุปเข้ม Vocab พร้อมแนวข้อสอบ",
    "author": null,
    "translator": null,
-   "category": "พจนานุกรมไทย ",
+   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -4996,11 +4904,11 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 18,
+     "rank": 17,
      "label": "สินค้าขายดีประจำวัน",
-     "title_raw": "พจนานุกรมไทย สำหรับนักเรียน",
-     "url": "https://www.se-ed.com/physical/xoo6npewc71a1d6hekl9",
-     "cover": "https://mp-static.se-ed.com/physical/cover/xoo6npewc71a1d6hekl9/image/55669qi5"
+     "title_raw": "สรุปเข้ม Vocab พร้อมแนวข้อสอบ",
+     "url": "https://www.se-ed.com/physical/vu4rypxq009hkbehg1go",
+     "cover": "https://mp-static.se-ed.com/physical/cover/vu4rypxq009hkbehg1go/image/2cv20ake"
     }
    ]
   },
@@ -5033,6 +4941,34 @@
    ]
   },
   {
+   "key": "isbn:9786167970042",
+   "isbn": "9786167970042",
+   "title": "พจนานุกรมไทย สำหรับนักเรียน",
+   "author": null,
+   "translator": null,
+   "category": "พจนานุกรมไทย ",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 19,
+     "label": "สินค้าขายดีประจำวัน",
+     "title_raw": "พจนานุกรมไทย สำหรับนักเรียน",
+     "url": "https://www.se-ed.com/physical/xoo6npewc71a1d6hekl9",
+     "cover": "https://mp-static.se-ed.com/physical/cover/xoo6npewc71a1d6hekl9/image/55669qi5"
+    }
+   ]
+  },
+  {
    "key": "title:ที่คั่นน้องนากหัดสวย",
    "isbn": null,
    "title": "ที่คั่นน้องนาก(หัด)สวย",
@@ -5057,34 +4993,6 @@
      "title_raw": "ที่คั่นน้องนาก(หัด)สวย",
      "url": "https://amarinbooks.com/product/%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%84%e0%b8%b1%e0%b9%88%e0%b8%99%e0%b8%99%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b8%99%e0%b8%b2%e0%b8%81%e0%b8%ab%e0%b8%b1%e0%b8%94%e0%b8%aa%e0%b8%a7%e0%b8%a2/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2018/07/S__1163274-03.png"
-    }
-   ]
-  },
-  {
-   "key": "title:workไร้balancesticker",
-   "isbn": null,
-   "title": "‘WORK ไร้ BALANCE’ STICKER",
-   "author": null,
-   "translator": null,
-   "category": "SALMART",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": false,
-   "excluded_reason": "not_book",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "salmon",
-     "list": "bestseller",
-     "rank": 20,
-     "label": "ยอดนิยมในร้านสำนักพิมพ์",
-     "title_raw": "‘WORK ไร้ BALANCE’ STICKER",
-     "url": "https://salmonbooks.net/product/work-%e0%b9%84%e0%b8%a3%e0%b9%89-balance-sticker/",
-     "cover": "https://salmonbooks.net/wp-content/uploads/2024/05/04.png"
     }
    ]
   },
@@ -5136,7 +5044,7 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 6,
+     "rank": 5,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "BIRDS OF THAILAND",
      "url": "https://www.chulabook.com/product/208395",
@@ -5173,34 +5081,6 @@
    ]
   },
   {
-   "key": "isbn:9781009826723",
-   "isbn": "9781009826723",
-   "title": "CAMBRIDGE IELTS 21 ACADEMIC: STUDENT'S BOOK WITH ANSWERS WITH DIGITAL PACK",
-   "author": "CAMBRIDGE UNIVERSITY PRESS.",
-   "translator": null,
-   "category": "test-prep",
-   "maybe_translated": true,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "recommended"
-   ],
-   "featured": false,
-   "excluded_reason": "not_thai",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "chula",
-     "list": "recommended",
-     "rank": 2,
-     "label": "หนังสือต่างประเทศ",
-     "title_raw": "CAMBRIDGE IELTS 21 ACADEMIC: STUDENT'S BOOK WITH ANSWERS WITH DIGITAL PACK",
-     "url": "https://www.chulabook.com/product/253865",
-     "cover": "https://api.chulabook.com/images/pid-253865.webp"
-    }
-   ]
-  },
-  {
    "key": "isbn:9781465482495",
    "isbn": "9781465482495",
    "title": "DINOSAURS AND PREHISTORIC LIFE: THE DEFINITIVE VISUAL GUIDE TO PREHISTORIC ANIMALS (HC)",
@@ -5220,7 +5100,7 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 7,
+     "rank": 6,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "DINOSAURS AND PREHISTORIC LIFE: THE DEFINITIVE VISUAL GUIDE TO PREHISTORIC ANIMALS (HC)",
      "url": "https://www.chulabook.com/product/44070",
@@ -5248,7 +5128,7 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 3,
+     "rank": 2,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "FIRST AID FOR THE USMLE STEP 1, 2025: A STUDENT-TO-STUDENT GUIDE (IE) **",
      "url": "https://www.chulabook.com/product/220334",
@@ -5281,34 +5161,6 @@
      "title_raw": "HAIR CLIPS: GRIZZALY BISCUIT BUTTER",
      "url": "https://salmonbooks.net/product/grizzaly-hairclips/",
      "cover": "https://salmonbooks.net/wp-content/uploads/2026/07/260703-α╕uα╕╣α╕¢α╕eα╕▓α╕oα╕uα╕┤α╣eα╕U-GRIZZALY-α╕Nα╕cα╣Cα╕oα╣cα╕U-SALMON-scaled.png"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9788880016977",
-   "isbn": "9788880016977",
-   "title": "HARRY POTTER AND THE HALF-BLOOD PRINCE (ILLUSTRATED EDITION) (HC)",
-   "author": "J.K. ROWLING",
-   "translator": null,
-   "category": "literature",
-   "maybe_translated": true,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": false,
-   "excluded_reason": "not_thai",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "chula",
-     "list": "preorder",
-     "rank": 1,
-     "label": "Pre-Order",
-     "title_raw": "HARRY POTTER AND THE HALF-BLOOD PRINCE (ILLUSTRATED EDITION) (HC) (เฉพาะจอง)",
-     "url": "https://www.chulabook.com/product/256186",
-     "cover": "https://api.chulabook.com/images/pid-256186.webp"
     }
    ]
   },
@@ -5472,7 +5324,7 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 9,
+     "rank": 8,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "OFFICIAL TOEFL IBT TESTS SAVINGS BUNDLE",
      "url": "https://www.chulabook.com/product/195371",
@@ -5500,11 +5352,39 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 10,
+     "rank": 9,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "OFFICIAL TOEFL IBT TESTS: VOLUME 1",
      "url": "https://www.chulabook.com/product/195369",
      "cover": "https://api.chulabook.com/images/pid-195369.webp"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9781265481636",
+   "isbn": "9781265481636",
+   "title": "OFFICIAL TOEFL IBT TESTS: VOLUME 2",
+   "author": "EDUCATIONAL TESTING SERVICE",
+   "translator": null,
+   "category": "test-prep",
+   "maybe_translated": true,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "recommended"
+   ],
+   "featured": false,
+   "excluded_reason": "not_thai",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "chula",
+     "list": "recommended",
+     "rank": 10,
+     "label": "หนังสือต่างประเทศ",
+     "title_raw": "OFFICIAL TOEFL IBT TESTS: VOLUME 2",
+     "url": "https://www.chulabook.com/product/195370",
+     "cover": "https://api.chulabook.com/images/pid-195370.webp"
     }
    ]
   },
@@ -5528,11 +5408,39 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 5,
+     "rank": 4,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "ORGANIC CHEMISTRY (ISE)",
      "url": "https://www.chulabook.com/product/170703",
      "cover": "https://api.chulabook.com/images/pid-170703.webp"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786163810878",
+   "isbn": "9786163810878",
+   "title": "Perfect Science สรุปเข้มวิทยาศาสตร์ มัธยมต้น",
+   "author": null,
+   "translator": null,
+   "category": "มัธยมต้น",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 6,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] Perfect Science สรุปเข้มวิทยาศาสตร์ มัธยมต้น",
+     "url": "https://www.se-ed.com/physical/27h0x4fafhydhqe4umky",
+     "cover": "https://mp-static.se-ed.com/physical/cover/27h0x4fafhydhqe4umky/image/j2l72f3a"
     }
    ]
   },
@@ -5696,7 +5604,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 3,
+     "rank": 2,
      "label": "Pre-Order",
      "title_raw": "STORYTELLING WITH DATA: A DATA VISUALIZATION GUIDE FOR BUSINESS PROFESSIONALS (10 ANNIVERSARY ED) **",
      "url": "https://www.chulabook.com/product/236061",
@@ -5724,7 +5632,7 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 4,
+     "rank": 3,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "STRATEGIC MANAGEMENT: CONCEPTS (2026 RELEASE) (ISE)",
      "url": "https://www.chulabook.com/product/243931",
@@ -5757,6 +5665,34 @@
      "title_raw": "SUPER MATHS สรุปคณิตศาสตร์ ม.ต้น",
      "url": "https://www.chulabook.com/product/17337",
      "cover": "https://api.chulabook.com/images/pid-17337.webp"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786163815644",
+   "isbn": "9786163815644",
+   "title": "Super Easy TGAT TGAT1 TGAT2 TGAT3 เลกเชอร์ให้ อ่านง่ายสุด ๆ ฉบับพกพา",
+   "author": null,
+   "translator": null,
+   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 7,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] Super Easy TGAT TGAT1 TGAT2 TGAT3 เลกเชอร์ให้ อ่านง่ายสุด ๆ ฉบับพกพา",
+     "url": "https://www.se-ed.com/physical/prrpwjx3yh2pjewxp1tv",
+     "cover": "https://mp-static.se-ed.com/physical/cover/prrpwjx3yh2pjewxp1tv/image/q79zrn2d"
     }
    ]
   },
@@ -5864,7 +5800,7 @@
     {
      "source": "chula",
      "list": "recommended",
-     "rank": 8,
+     "rank": 7,
      "label": "หนังสือต่างประเทศ",
      "title_raw": "THE OFFICIAL GUIDE TO THE TOEFL IBT TEST",
      "url": "https://www.chulabook.com/product/195368",
@@ -5924,7 +5860,7 @@
      "label": "สินค้าแนะนำประจำสัปดาห์",
      "title_raw": "The Stellar Chemistry สรุปหลักเคมี ม.ปลาย ฉบับสมบูรณ์",
      "url": "https://www.se-ed.com/physical/fsgoik8z1pwxlrdno9zb",
-     "cover": "https://mp-static.se-ed.com/physical/cover/fsgoik8z1pwxlrdno9zb/image/5lhgfcqw"
+     "cover": "https://mp-static.se-ed.com/physical/cover/fsgoik8z1pwxlrdno9zb/image/7k0lez39"
     }
    ]
   },
@@ -5953,6 +5889,34 @@
      "title_raw": "Very Easy เก่งภาษาไทย ม.ต้น 1-2-3 ฉบับ ง่าย ๆ ทำข้อสอบได้ทุกวัน",
      "url": "https://www.se-ed.com/physical/xhy9lacsq8g2svoj7cud",
      "cover": "https://mp-static.se-ed.com/physical/cover/xhy9lacsq8g2svoj7cud/image/z57ddsn9"
+    }
+   ]
+  },
+  {
+   "key": "title:veryeasyเรียนเก่งม1ทุกวิชาหลักฉบับง่ายๆทำข้อสอบได้ทุกวัน",
+   "isbn": null,
+   "title": "Very Easy เรียนเก่ง ม.1 ทุกวิชาหลัก ฉบับ ง่าย ๆ ทำข้อสอบได้ทุกวัน",
+   "author": null,
+   "translator": null,
+   "category": "มัธยมต้น",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 9,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] Very Easy เรียนเก่ง ม.1 ทุกวิชาหลัก ฉบับ ง่าย ๆ ทำข้อสอบได้ทุกวัน",
+     "url": "https://www.se-ed.com/physical/hhngigc2ih59h5vkt1vg",
+     "cover": "https://mp-static.se-ed.com/physical/cover/hhngigc2ih59h5vkt1vg/image/klswxf09"
     }
    ]
   },
@@ -6088,7 +6052,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 4,
+     "rank": 6,
      "label": "หนังสือใหม่",
      "title_raw": "การพยาบาลนรีเวช :ปัญหาที่พบบ่อย (GYNAECOLOGICAL NURSING: COMMON PROBLEMS)",
      "url": "https://www.chulabook.com/product/256072",
@@ -6461,6 +6425,34 @@
    ]
   },
   {
+   "key": "isbn:9786160855414",
+   "isbn": "9786160855414",
+   "title": "คู่มือสอบใบขับขี่รถยนต์และจักรยานยนต์",
+   "author": null,
+   "translator": null,
+   "category": "สอบอื่นๆ",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 20,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] คู่มือสอบใบขับขี่รถยนต์และจักรยานยนต์",
+     "url": "https://www.se-ed.com/physical/cnb9u2y16floy41tywuj",
+     "cover": "https://mp-static.se-ed.com/physical/cover/cnb9u2y16floy41tywuj/image/i58o1st0"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786166375039",
    "isbn": "9786166375039",
    "title": "จบ! A-LEVEL คณิตประยุกต์ 2 ใน 30 วัน!",
@@ -6648,7 +6640,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 6,
+     "rank": 8,
      "label": "หนังสือใหม่",
      "title_raw": "ตำนานโจทย์ชีววิทยา เข้า เตรียมอุดมศึกษา-มหิดลวิทยานุสรณ์ กำเนิดวิทย์ (เพิ่มแนวข้อสอบชีววิทยา UNSEEN",
      "url": "https://www.chulabook.com/product/255654",
@@ -6816,7 +6808,7 @@
     {
      "source": "chula",
      "list": "new",
-     "rank": 5,
+     "rank": 7,
      "label": "หนังสือใหม่",
      "title_raw": "ประลองโจทย์สังคม พิชิตเตรียม",
      "url": "https://www.chulabook.com/product/255940",
@@ -7077,6 +7069,34 @@
    ]
   },
   {
+   "key": "title:รูปสีเฮฮาแบบฝึกนึกสนุกสีรูปร่างแบบรูป",
+   "isbn": null,
+   "title": "รูปสี เฮฮา แบบฝึกนึกสนุก สี รูปร่าง แบบรูป",
+   "author": null,
+   "translator": null,
+   "category": "อนุบาล",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 19,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] รูปสี เฮฮา แบบฝึกนึกสนุก สี รูปร่าง แบบรูป",
+     "url": "https://www.se-ed.com/physical/nby53dvktzb4d1somzak",
+     "cover": "https://mp-static.se-ed.com/physical/cover/nby53dvktzb4d1somzak/image/8ztmsr1b"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786164000957",
    "isbn": "9786164000957",
    "title": "ลุยโจทย์คลังข้อสอบคณิตศาสตร์์ ม.ต้น (ม.1-2-3) ฉบับพิชิตข้อสอบเตรียมศึกษาต่อสถาบันต่างๆ(ปรับปรุงใหม่)",
@@ -7129,6 +7149,62 @@
      "title_raw": "สรุปบัญชี ภาษี สำหรับธุรกิจ (ฟรีแฟ้มเอกสารการปฏิบัติเรียน)",
      "url": "https://www.chulabook.com/product/147463",
      "cover": "https://api.chulabook.com/images/pid-147463.webp"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160851751",
+   "isbn": "9786160851751",
+   "title": "สรุปวิทย์หรรษา ประถมปลาย",
+   "author": null,
+   "translator": null,
+   "category": "ประถมปลาย",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 12,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] สรุปวิทย์หรรษา ประถมปลาย",
+     "url": "https://www.se-ed.com/physical/gu4i4l9vgjz8qkr5bbmc",
+     "cover": "https://mp-static.se-ed.com/physical/cover/gu4i4l9vgjz8qkr5bbmc/image/o3cu7yqn"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786169419570",
+   "isbn": "9786169419570",
+   "title": "หนังสือข้อสอบสังคมศึกษา A-Level",
+   "author": null,
+   "translator": null,
+   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 18,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] หนังสือข้อสอบสังคมศึกษา A-Level",
+     "url": "https://www.se-ed.com/physical/00nop4w40l3pm9xzwilr",
+     "cover": "https://mp-static.se-ed.com/physical/cover/00nop4w40l3pm9xzwilr/image/th80ifvo"
     }
    ]
   },
@@ -7212,7 +7288,7 @@
      "label": "สินค้าไลฟ์สไตล์แนะนำ",
      "title_raw": "หน้ากากอนามัยทางการแพทย์ Double A Surgical Mask Blue 3 Layer บรรจุ 50 ชิ้น",
      "url": "https://www.se-ed.com/physical/74m8x5ysihx1si2phf5l",
-     "cover": "https://mp-static.se-ed.com/physical/cover/74m8x5ysihx1si2phf5l/image/bnmfbi5d"
+     "cover": "https://mp-static.se-ed.com/physical/cover/74m8x5ysihx1si2phf5l/image/ycxr3i2r"
     }
    ]
   },
@@ -7240,7 +7316,7 @@
      "label": "สินค้าไลฟ์สไตล์แนะนำ",
      "title_raw": "หน้ากากอนามัยทางการแพทย์ Double A Surgical Mask White 3 Layer บรรจุ 50 ชิ้น",
      "url": "https://www.se-ed.com/physical/9sth9dja98blspc91h23",
-     "cover": "https://mp-static.se-ed.com/physical/cover/9sth9dja98blspc91h23/image/lww2396c"
+     "cover": "https://mp-static.se-ed.com/physical/cover/9sth9dja98blspc91h23/image/bei0xb6a"
     }
    ]
   },
@@ -7268,7 +7344,7 @@
      "label": "สินค้าไลฟ์สไตล์แนะนำ",
      "title_raw": "หน้ากากอนามัยทางการแพทย์ Double A V-Shape Surgical Mask White บรรจุ 50 ชิ้น",
      "url": "https://www.se-ed.com/physical/28ess4wf5oh3ezs4dpwd",
-     "cover": "https://mp-static.se-ed.com/physical/cover/28ess4wf5oh3ezs4dpwd/image/adb6fnwl"
+     "cover": "https://mp-static.se-ed.com/physical/cover/28ess4wf5oh3ezs4dpwd/image/dqmaxx30"
     }
    ]
   },
@@ -7464,7 +7540,7 @@
      "label": "สินค้าแนะนำประจำสัปดาห์",
      "title_raw": "เก็งข้อสอบใหม่ วิทยาศาสตร์ เข้า ม.4 ห้อง GIFTED / ห้องโครงการ / ห้องเรียนพิเศษ",
      "url": "https://www.se-ed.com/physical/ltgctb1p2bbgj4ui5978",
-     "cover": "https://mp-static.se-ed.com/physical/cover/ltgctb1p2bbgj4ui5978/image/z1rbvox6"
+     "cover": "https://mp-static.se-ed.com/physical/cover/ltgctb1p2bbgj4ui5978/image/r87phugf"
     }
    ]
   },
@@ -7521,34 +7597,6 @@
      "title_raw": "เฉลยข้อสอบชีววิทยา เข้าค่าย 1 สอวน. พ.ศ.2560-2565",
      "url": "https://www.chulabook.com/product/170475",
      "cover": "https://api.chulabook.com/images/pid-170475.webp"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786165988612",
-   "isbn": "9786165988612",
-   "title": "เตรียมสอบ TPAT3 ความถนัดด้านวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
-   "author": "ศิษย์เก่าจุฬาฯ ทุนรัฐบาลต่างประเทศ เพจสอบติด",
-   "translator": null,
-   "category": "test-prep",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "recommended"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "chula",
-     "list": "recommended",
-     "rank": 3,
-     "label": "คู่มือสอบ ม.ปลาย ขายดี",
-     "title_raw": "เตรียมสอบ TPAT3 ความถนัดด้านวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
-     "url": "https://www.chulabook.com/product/177126",
-     "cover": "https://api.chulabook.com/images/pid-177126.webp"
     }
    ]
   },
@@ -7665,6 +7713,34 @@
    ]
   },
   {
+   "key": "title:แบบฝึกหัดสร้างเสริมทักษะพัฒนาสมองคณิตคิดเร็วอนุบาล3",
+   "isbn": null,
+   "title": "แบบฝึกหัดสร้างเสริมทักษะพัฒนาสมอง คณิตคิดเร็ว อนุบาล 3",
+   "author": null,
+   "translator": null,
+   "category": "อนุบาล",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 10,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "[สระแก้ว] แบบฝึกหัดสร้างเสริมทักษะพัฒนาสมอง คณิตคิดเร็ว อนุบาล 3",
+     "url": "https://www.se-ed.com/physical/4cc8lacefdrvhuno8y0i",
+     "cover": "https://mp-static.se-ed.com/physical/cover/4cc8lacefdrvhuno8y0i/image/5v5b7kgl"
+    }
+   ]
+  },
+  {
    "key": "isbn:9789744851772",
    "isbn": "9789744851772",
    "title": "แผนที่ประเทศไทย ฉบับนักศึกษา (แผนที่แผ่นพับ)",
@@ -7768,7 +7844,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 4,
+     "rank": 2,
      "label": "Pre-Order",
      "title_raw": "โปเกมอน เทรดดิ้ง การ์ดเกม 30th Celebration MA6(58)",
      "url": "https://www.chulabook.com/product/253626",
@@ -7796,7 +7872,7 @@
     {
      "source": "chula",
      "list": "preorder",
-     "rank": 3,
+     "rank": 1,
      "label": "Pre-Order",
      "title_raw": "โปเกมอน เทรดดิ้ง การ์ดเกม 30th Celebration MA6-FP(58)",
      "url": "https://www.chulabook.com/product/253625",
@@ -7805,5 +7881,27 @@
    ]
   }
  ],
- "articles": []
+ "articles": [
+  {
+   "source": "the101",
+   "title": "ความน่าจะอ่าน 2026 : The Finalist หมวด Non-Fiction ชุดที่ 1",
+   "url": "https://www.the101.world/notable-books-2026-finalist-non-fiction-1/",
+   "published": "Sun, 11 Oct 2026 09:19:41 +0000",
+   "matched_keys": []
+  },
+  {
+   "source": "the101",
+   "title": "รัฐบาลได้ ประชาชน(ยังคง)เสีย: 1 ขวบปีไทย-กัมพูชา ใต้รัฐบาลอนุทิน",
+   "url": "https://www.the101.world/one-year-thailand-cambodia-conflict-anutin-government/",
+   "published": "Thu, 08 Oct 2026 14:54:02 +0000",
+   "matched_keys": []
+  },
+  {
+   "source": "aday",
+   "title": "ร้านซ่อมหนังสือ ย่านเมืองเก่าสงขลา ชุบชีวิตหนังสือเล่มโปรด ชุบชูใจนักเดินทาง",
+   "url": "https://adaymagazine.com/book-revival/",
+   "published": "Fri, 09 Oct 2026 05:00:00 +0000",
+   "matched_keys": []
+  }
+ ]
 }
