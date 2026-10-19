@@ -1,24 +1,25 @@
-# book-watch 2026-W42
+# book-watch 2026-W43
 
-สร้างเมื่อ 2026-10-12T14:34+07:00 · ดึงได้ 9 จาก 9 แหล่ง
+สร้างเมื่อ 2026-10-19T13:23+07:00 · ดึงได้ 9 จาก 9 แหล่ง
 
 ## เล่มเด่นของสัปดาห์
 
-ไม่มีข้อมูลสัปดาห์นี้
+- **The Secret of Secrets ความลับแห่งความลับ** — [Amarin ออกใหม่](https://amarinbooks.com/product/the-secret-of-secrets-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a-%e0%b9%81/) · [SE-ED ขายดี #2](https://m2.se-ed.com/Detail/The-Secret-of-Secrets-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A/9786161895068)
+- **คดีฆาตกรรมในคฤหาสน์มืด เล่ม 3** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%84%e0%b8%94%e0%b8%b5%e0%b8%86%e0%b8%b2%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b9%83%e0%b8%99%e0%b8%84%e0%b8%a4%e0%b8%ab%e0%b8%b2%e0%b8%aa%e0%b8%99%e0%b9%8c%e0%b8%a1%e0%b8%b7%e0%b8%94-3/) · [SE-ED แนะนำ](https://www.se-ed.com/physical/u56jnrn5jfadvregi6wk)
 
 ## อันดับที่ร้านประกาศ
 
 ### SE-ED
 
-- **Beauty Investor Unfiltered : เรื่องจริงของโลกการเงินที่ขายความกลัว!** — [SE-ED ขายดี #1](https://www.se-ed.com/physical/0olunfg101txdi5bm4df) · ใหม่สัปดาห์นี้
 - **อยากเป็นคนธรรมดา ไม่ต้องอ่าน** — [SE-ED ขายดี #1](https://m2.se-ed.com/Detail/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99/9786168224465)
-- **Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)** — [SE-ED ขายดี #2](https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762)
-- **40 เรื่องเล่า 100 ล้านวิว อ่านแล้วชีวิตโคตรดี** — [SE-ED ขายดี #3](https://m2.se-ed.com/Detail/40-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%B2-100-%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B9%82%E0%B8%84%E0%B8%95%E0%B8%A3%E0%B8%94%E0%B8%B5/9786168224670) · ใหม่สัปดาห์นี้
-- **Money by Doctor เงินไม่ป่วย ชีวิตเลือกได้** — [SE-ED ขายดี #3](https://www.se-ed.com/physical/ebwcdl4dfjjz81aeb8tt) · ใหม่สัปดาห์นี้
+- **The Secret of Secrets ความลับแห่งความลับ** — [Amarin ออกใหม่](https://amarinbooks.com/product/the-secret-of-secrets-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a-%e0%b9%81/) · [SE-ED ขายดี #2](https://m2.se-ed.com/Detail/The-Secret-of-Secrets-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A/9786161895068)
+- **ปีศาจตัวเล็กส่องเส้นทางอภิมหาเศรษฐี** — [SE-ED ขายดี #2](https://www.se-ed.com/physical/padc156matmolkzrd4ai)
+- **Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)** — [SE-ED ขายดี #3](https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762)
+- **Money by Doctor เงินไม่ป่วย ชีวิตเลือกได้** — [SE-ED ขายดี #4](https://m2.se-ed.com/Detail/Money-by-Doctor-%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2-%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%94%E0%B9%89/9786160857135)
 - **Atomic Habits เพราะชีวิตดีได้กว่าที่เป็น** — [SE-ED ขายดี #5](https://www.se-ed.com/physical/g1tpcxr5mp0kgi29i65j)
-- **ร่างแปลง: สมรภูมิแห่งความวิปลาสของเนื้อหนัง** — [SE-ED ขายดี #5](https://m2.se-ed.com/Detail/%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87-%E0%B8%AA%E0%B8%A1%E0%B8%A3%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87/9786165620871) · ใหม่สัปดาห์นี้
-- **คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie** — [SE-ED ขายดี #6](https://m2.se-ed.com/Detail/%E0%B8%84%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B5%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%B5-%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C-Poor-Charlie-s-Almanack/9786160854981)
-- **ปีศาจตัวเล็กส่องเส้นทางอภิมหาเศรษฐี** — [SE-ED ขายดี #7](https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%AA%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%A0%E0%B8%B4%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%B5/9786160857166) · ใหม่สัปดาห์นี้
+- **ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart** — [SE-ED ขายดี #5](https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%87-A-Guide-to-Fighting-the-Demons-in-My-Heart/9786168366127)
+- **นักสืบหน้าก้น ตอน สะดุดรักนักสืบหน้าก้น!?** — [SE-ED ขายดี #6](https://m2.se-ed.com/Detail/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B7%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%99-%E0%B8%95%E0%B8%AD%E0%B8%99-%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%B8%E0%B8%94%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B7%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%99/9786160476640) · ใหม่สัปดาห์นี้
+- **จิตวิทยาสายดาร์ก** — [SE-ED ขายดี #7](https://m2.se-ed.com/Detail/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81/9786162876080)
 - **พ่อรวยสอนลูก Rich Dad Poor Dad ฉบับครบรอบ 25 ปี** — [SE-ED ขายดี #7](https://www.se-ed.com/physical/b304ej8e38rdbtbhust8)
 
 ### ศูนย์หนังสือจุฬาฯ
@@ -56,49 +57,51 @@
 
 ## ออกใหม่และสั่งจอง
 
-- **A BRIGHT RAY OF DARKNESS ในห้วงมืดสนิทไม่มิดแสง** — [Salmon ออกใหม่](https://salmonbooks.net/product/abrightrayofdarkness/)
-- **Great Art Explained ศิลปะชิ้นเอก** — [Amarin ออกใหม่](https://amarinbooks.com/product/great-art-explained-%e0%b8%a8%e0%b8%b4%e0%b8%a5%e0%b8%9b%e0%b8%b0%e0%b8%8a%e0%b8%b4%e0%b9%89%e0%b8%99%e0%b9%80%e0%b8%ad%e0%b8%81/) · ใหม่สัปดาห์นี้
-- **Money Monster Book เกมนี้ คนรวยรู้** — [SE-ED ขายดี #18](https://m2.se-ed.com/Detail/Money-Monster-Book-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%99%E0%B8%B5%E0%B9%89-%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A2%E0%B8%A3%E0%B8%B9%E0%B9%89/9786168224847) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/7c5pjy8knz9coc2uqsl3)
+- **The Secret of Secrets ความลับแห่งความลับ** — [Amarin ออกใหม่](https://amarinbooks.com/product/the-secret-of-secrets-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a-%e0%b9%81/) · [SE-ED ขายดี #2](https://m2.se-ed.com/Detail/The-Secret-of-Secrets-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A/9786161895068)
+- **คดีฆาตกรรมในคฤหาสน์มืด เล่ม 3** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%84%e0%b8%94%e0%b8%b5%e0%b8%86%e0%b8%b2%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b9%83%e0%b8%99%e0%b8%84%e0%b8%a4%e0%b8%ab%e0%b8%b2%e0%b8%aa%e0%b8%99%e0%b9%8c%e0%b8%a1%e0%b8%b7%e0%b8%94-3/) · [SE-ED แนะนำ](https://www.se-ed.com/physical/u56jnrn5jfadvregi6wk)
+- **DEATH OF A BOOKSELLER ร้านนี้ไม่มีวันตายดี** — [Salmon ออกใหม่](https://salmonbooks.net/product/deathofabookseller/) · ใหม่สัปดาห์นี้
+- **Dear Life แด่ชีวิตในวันที่หัวใจโอบกอดความตาย** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/76hvqbznwzqude9ppk3s) · ใหม่สัปดาห์นี้
 - **TWO TWISTED CROWNS สองมงกุฎวิปริต** / RACHEL GILLIG — [ศูนย์หนังสือจุฬาฯ สั่งจอง](https://www.chulabook.com/product/230186) · อาจเป็นงานแปล
-- **ไต่ระดับลับสมองด้วยคำถามเชิงตรรกะ** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/c3ye0t7xc9v8y0t1ufay) · ใหม่สัปดาห์นี้
-- **The Secret of Secrets ความลับแห่งความลับ** — [Amarin ออกใหม่](https://amarinbooks.com/product/the-secret-of-secrets-%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b9%81%e0%b8%ab%e0%b9%88%e0%b8%87%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a-%e0%b9%81/) · ใหม่สัปดาห์นี้
-- **กาลครั้งหนึ่งเมื่อเจ้าหญิงสลับตัว เล่ม 2** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/uwnc24h19mhbmtwyz1l0) · ใหม่สัปดาห์นี้
-- **จัดบ้านสวยให้รวยโชค** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/siym6fcea9uw3oq8rl7a) · ใหม่สัปดาห์นี้
-- **ศัพท์สันนิษฐาน เล่ม 3 :ไขศัพท์ย้อนยุคถึงปัจจุบัน** / ประสิทธิ์ ไชยชมพู — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/257109) · ใหม่สัปดาห์นี้
+- **กาลครั้งหนึ่งเมื่อเจ้าหญิงสลับตัว เล่ม 2** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/uwnc24h19mhbmtwyz1l0)
+- **ขยัน 1% ให้ถูกที่ ชีวิตก็สำเร็จได้** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%82%e0%b8%a2%e0%b8%b1%e0%b8%99-1-%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b8%96%e0%b8%b9%e0%b8%81%e0%b8%97%e0%b8%b5%e0%b9%88-%e0%b8%8a%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%95%e0%b8%81%e0%b9%87%e0%b8%aa/) · ใหม่สัปดาห์นี้
+- **Big Time หนึ่งปีมีตั้ง 8760 ชั่วโมง** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/nswjxphibvqzofu6t93p) · ใหม่สัปดาห์นี้
+- **Eat Your Ice Cream กินของดีน่ะใช่ แต่ต้องอร่อยและมีความสุขด้วย!** — [Amarin ออกใหม่](https://amarinbooks.com/product/eat-your-ice-cream-%e0%b8%81%e0%b8%b4%e0%b8%99%e0%b8%82%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%b5%e0%b8%99%e0%b9%88%e0%b8%b0%e0%b9%83%e0%b8%8a%e0%b9%88%e0%b8%af/) · ใหม่สัปดาห์นี้
+- **ศัพท์สันนิษฐาน เล่ม 3 :ไขศัพท์ย้อนยุคถึงปัจจุบัน** / ประสิทธิ์ ไชยชมพู — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/257109)
+- **Bizarre สมองพิกล คนพิศวง** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/g32qocqeox8dkj69axe4) · ใหม่สัปดาห์นี้
+- **PERFUMATIVE MALE มนุษย์ทำมาหากลิ่น** — [Salmon ออกใหม่](https://salmonbooks.net/product/perfumativemale/) · ใหม่สัปดาห์นี้
 - **WHEN THE MOON HATCHED ยามจันทรามาเยือน** / SARAH A. PARKER — [ศูนย์หนังสือจุฬาฯ สั่งจอง](https://www.chulabook.com/product/237216) · อาจเป็นงานแปล
-- **คู่มือการวิจัย :การวิจัยเชิงปฏิบัติ** / วิเชียร เกตุสิงห์ — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/257113) · ใหม่สัปดาห์นี้
-- **ฆาตกรรมปิดตายในคฤหาสน์แม่มด** — [SE-ED แนะนำ](https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc) · [SE-ED สั่งจอง](https://www.se-ed.com/physical/sujyi5r352c4xqfuyuwc)
-- **หมาแก่ผจญภัย** — [Salmon ยอดนิยม #7](https://salmonbooks.net/product/gohan/) · [Salmon ออกใหม่](https://salmonbooks.net/product/gohan/)
-- **เชิญรับแมวเป็นยาที่เคาน์เตอร์ด้านหน้าได้เลยครับ เล่ม 4** — [Amarin ออกใหม่](https://amarinbooks.com/product/neko-o-shohou-itashimasu-4/) · อาจเป็นงานแปล · ใหม่สัปดาห์นี้
-- **ไต่ระดับลับสมองขั้นกว่า!!! ด้วยคำถามเชิงตรรกะ (เล่มใหม่ท้าทายกว่าเดิม)** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/fcmwskbj378azpacn03j) · ใหม่สัปดาห์นี้
-- **Lifestyle Medicine ทำสุขภาพดีให้อยู่ในวิถีชีวิต** — [Amarin ออกใหม่](https://amarinbooks.com/product/lifestyle-medicine-%e0%b8%97%e0%b8%b3%e0%b8%aa%e0%b8%b8%e0%b8%82%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%94%e0%b8%b5%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b8%b9%e0%b9%88%e0%b9%83%e0%b8%99%e0%b8%af/) · ใหม่สัปดาห์นี้
-- **MYTH UNIVERSE: LOVE-DEATH RELATIONSHIP** — [Salmon ออกใหม่](https://salmonbooks.net/product/myth-universe-2/)
+- **คู่มือการวิจัย :การวิจัยเชิงปฏิบัติ** / วิเชียร เกตุสิงห์ — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/257113)
+- **นิตยสาร แพรว (ราย 2 เดือน)** — [SE-ED สั่งจอง](https://www.se-ed.com/physical/391yo67d3ijjd8cp0sim)
+- **ฤดูร้อนซ่อนศพ** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%a4%e0%b8%94%e0%b8%b9%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99%e0%b8%8b%e0%b9%88%e0%b8%ad%e0%b8%99%e0%b8%a8%e0%b8%9e-%e0%b8%a1%e0%b8%b4%e0%b8%88%e0%b8%b4%e0%b9%82%e0%b8%ad%e0%b8%b0-%e0%b8%8a%e0%b8%b9/) · ใหม่สัปดาห์นี้
+- **STILL HUMAN ยังคงเป็นมนุษย์** — [Salmon ออกใหม่](https://salmonbooks.net/product/stillhuman/) · ใหม่สัปดาห์นี้
+- **กังวลไปทำไม คำตอบที่ใช่อยู่ที่ใจเราเอง** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/3qv23chu09jc36l2tn88) · ใหม่สัปดาห์นี้
 - **พม่า :ประวัติศาสตร์ รัฐประหารและรูปแบบรัฐ** / ดุลยภาค ปรีชารัชช — [ศูนย์หนังสือจุฬาฯ ออกใหม่](https://www.chulabook.com/product/256526)
-- **วิธีบริหารจัดการ ชีวิตการงาน ให้มีประสิทธิภาพที่สุดในแต่ละวัน ฉบับปรับปรุง** — [SE-ED ออกใหม่](https://www.se-ed.com/physical/cfdue4ymvkvhwjs9up0j) · ใหม่สัปดาห์นี้
-- **แพ็กชุดPOCKET POTTERS :ดัมเบิลดอร์ ลูนาเลิฟกู๊ด (2เล่ม)(พร้อมที่คั่น+สติ๊กเกอร์)(ปก 540.-)** / J.K. ROWLING — [ศูนย์หนังสือจุฬาฯ สั่งจอง](https://www.chulabook.com/product/238361) · อาจเป็นงานแปล
+- **วิธีเอาตัวรอดในวงล้อมคนงี่เง่า(บาร์ใหม่)** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b9%80%e0%b8%ad%e0%b8%b2%e0%b8%95%e0%b8%b1%e0%b8%a7%e0%b8%a3%e0%b8%ad%e0%b8%94%e0%b9%83%e0%b8%99%e0%b8%a7%e0%b8%87%e0%b8%a5%e0%b9%89%e0%b8%ad%e0%b8%a1%e0%b8%84/) · ใหม่สัปดาห์นี้
 
 ## แนะนำ
 
+- **คดีฆาตกรรมในคฤหาสน์มืด เล่ม 3** — [Amarin ออกใหม่](https://amarinbooks.com/product/%e0%b8%84%e0%b8%94%e0%b8%b5%e0%b8%86%e0%b8%b2%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b9%83%e0%b8%99%e0%b8%84%e0%b8%a4%e0%b8%ab%e0%b8%b2%e0%b8%aa%e0%b8%99%e0%b9%8c%e0%b8%a1%e0%b8%b7%e0%b8%94-3/) · [SE-ED แนะนำ](https://www.se-ed.com/physical/u56jnrn5jfadvregi6wk)
+- **Bitcoin Age : ไขประวัติศาสตร์เงินแห่งอนาคต** — [SE-ED แนะนำ](https://www.se-ed.com/physical/ysyg0g9eiev3vqubrlio)
 - **การบัญชีขั้นต้น** / ณัฐชานนท์ โกมุทพุฒิพงศ์ และคณะ — [ศูนย์หนังสือจุฬาฯ ขายดี #7](https://www.chulabook.com/product/205384) · [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/205384)
-- **ทุกอย่างที่เธอเป็น...ดีเสมอ : เยียวยาบาดแผลทางใจ กลับมาเป็นหนึ่งเดียวกับตัวเองอีกครั้งด้วยแนวทาง IFS** — [SE-ED แนะนำ](https://www.se-ed.com/physical/1pl96pb86kjusb87hfxi)
+- **Canva AI 2.0 ออกแบบอย่างรวดเร็ว และรู้ใจ ได้ผลงานในระดับมืออาชีพ** — [SE-ED แนะนำ](https://www.se-ed.com/physical/6zd8naasry923kqyboyl) · ใหม่สัปดาห์นี้
+- **รวยหุ้นง่าย ๆ สไตล์ Hybrid ฉบับอัปเดต เพิ่มบทใหม่** — [SE-ED แนะนำ](https://www.se-ed.com/physical/hq0ctpmvkzwvcizm6czr)
 - **Data Analysis และ Data Visualization ด้วย Excel + Claude AI** — [SE-ED แนะนำ](https://www.se-ed.com/physical/99vtzxhrkhwdenqfst37)
-- **ทำเงิน 1,000,000 ด้วย VDO + AI 24 ชั่วโมง** — [SE-ED แนะนำ](https://www.se-ed.com/physical/g1lyleaghelsfu24tw2w)
 - **ปฏิทินฤกษ์มงคล (พ.ศ. 2570)** — [SE-ED แนะนำ](https://www.se-ed.com/physical/4ppvw6zlexocrhgl7ufa)
-- **ทางสายเอกโหราศาสตร์ไทย** — [SE-ED แนะนำ](https://www.se-ed.com/physical/hoyyh2kbvl3dwi1nukdd)
+- **คริปโต เงินแห่งโลกอนาคต จุดจบของธนาคาร : Cryptocurrency** — [SE-ED แนะนำ](https://www.se-ed.com/physical/q9pm7iolvkhaj50vu97x)
 - **ศาสตร์การสอน :องค์ความรู้เพื่อการจัดกระบวนการเรียนรู้ที่มีประสิทธิภาพ** / ทิศนา แขมมณี — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/63689)
-- **ด้วยรักจากวงโคจร : Orbital** — [SE-ED แนะนำ](https://www.se-ed.com/physical/o9kddnr4e2igj4c951mr)
+- **สร้างแอปพลิเคชันใน 14 วัน ด้วย Claude Code** — [SE-ED แนะนำ](https://www.se-ed.com/physical/s8gjk2vfxud5lmrn2btl) · ใหม่สัปดาห์นี้
+- **คู่มือ ChatGPT ใช้งาน Chat, Codex และ Work ให้ทำงานจริงได้แบบ Step By Step** — [SE-ED แนะนำ](https://www.se-ed.com/physical/u9idmk0oc7baw4sgi4lq) · ใหม่สัปดาห์นี้
 - **สรุปการบัญชีขั้นต้น (FUNDAMENTAL ACCOUNTING)** / พจณี สีลาคำ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/227849)
 - **การวิจัยและพัฒนาคุณภาพการศึกษา** / พิชิต ฤทธิ์จรูญ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/244473)
+- **การไม่ลงทุนอาจดีกับคุณมากกว่า : The intelligence of Non Investor** — [SE-ED แนะนำ](https://www.se-ed.com/physical/sp15rks2sgjqr4n39qxq) · ใหม่สัปดาห์นี้
 - **ทฤษฎีดนตรี** / ณัชชา พันธุ์เจริญ — [ศูนย์หนังสือจุฬาฯ แนะนำ](https://www.chulabook.com/product/160940)
-- **รวยหุ้นง่าย ๆ สไตล์ Hybrid ฉบับอัปเดต เพิ่มบทใหม่** — [SE-ED แนะนำ](https://www.se-ed.com/physical/hq0ctpmvkzwvcizm6czr)
-- **คลั่งรักอาหารไทย** — [SE-ED แนะนำ](https://www.se-ed.com/physical/wlyetqfmnzpw3du4ircs)
-- **คริปโต เงินแห่งโลกอนาคต จุดจบของธนาคาร : Cryptocurrency** — [SE-ED แนะนำ](https://www.se-ed.com/physical/q9pm7iolvkhaj50vu97x)
-- **ดุจก้อนหินในมหาสมุทรดวงดาว** — [SE-ED แนะนำ](https://www.se-ed.com/physical/kpxxyd8lwtvekopsdob4)
 
 ## บทความเกี่ยวกับหนังสือ
 
-- [ความน่าจะอ่าน 2026 : The Finalist หมวด Non-Fiction ชุดที่ 1](https://www.the101.world/notable-books-2026-finalist-non-fiction-1/) (The 101, Sun, 11 Oct 2026 09:19:41 +0000)
-- [รัฐบาลได้ ประชาชน(ยังคง)เสีย: 1 ขวบปีไทย-กัมพูชา ใต้รัฐบาลอนุทิน](https://www.the101.world/one-year-thailand-cambodia-conflict-anutin-government/) (The 101, Thu, 08 Oct 2026 14:54:02 +0000)
+- [ความน่าจะอ่าน 2026 : The Finalist หมวดวรรณกรรมแปล ชุดที่ 2](https://www.the101.world/notable-books-2026-the-finalist-fiction-2/) (The 101, Sun, 18 Oct 2026 10:33:48 +0000)
+- [ความน่าจะอ่าน 2026 : Coming of อ่าน – ยิ่งอ่าน ยิ่งโต Book Club ครั้งที่ 1](https://www.the101.world/notable-books-2026-book-club-1/) (The 101, Sun, 18 Oct 2026 10:10:57 +0000)
+- [ทำไมบางสังคมจึงทำให้การอ่านกลายเป็นส่วนหนึ่งของชีวิตประจำวันได้?](https://www.the101.world/why-some-societies-read-more/) (The 101, Fri, 16 Oct 2026 06:04:33 +0000)
+- [ความน่าจะอ่าน 2026 : The Finalist หมวดวรรณกรรมแปล ชุดที่ 1](https://www.the101.world/notable-books-2026-the-finalist-fiction-1/) (The 101, Thu, 15 Oct 2026 09:29:28 +0000)
 - [ร้านซ่อมหนังสือ ย่านเมืองเก่าสงขลา ชุบชีวิตหนังสือเล่มโปรด ชุบชูใจนักเดินทาง](https://adaymagazine.com/book-revival/) (a day, Fri, 09 Oct 2026 05:00:00 +0000)
 
 ## ดึงไม่ได้
