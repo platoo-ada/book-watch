@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T14:50+07:00",
- "week": "2026-W45",
+ "generated_at": "2026-11-09T15:13+07:00",
+ "week": "2026-W46",
  "sources": [
   {
    "id": "seed",
@@ -9,8 +9,8 @@
    "url": "https://mp-api.se-ed.com/web-bff/homepage-layout",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
-   "count": 110
+   "fetched_at": "2026-11-09T15:13+07:00",
+   "count": 108
   },
   {
    "id": "seed",
@@ -18,7 +18,7 @@
    "url": "https://m2.se-ed.com/product/bestseller/1",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 20
   },
   {
@@ -27,7 +27,7 @@
    "url": "https://www.chulabook.com/",
    "ok": false,
    "error": "HTTPError: HTTP Error 307: Temporary Redirect",
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 0
   },
   {
@@ -36,7 +36,7 @@
    "url": "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 20
   },
   {
@@ -45,7 +45,7 @@
    "url": "https://amarinbooks.com/wp-json/wc/store/v1/products?orderby=date&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "url": "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=popularity&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 20
   },
   {
@@ -63,7 +63,7 @@
    "url": "https://salmonbooks.net/wp-json/wc/store/v1/products?orderby=date&order=desc&per_page=20",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 20
   },
   {
@@ -72,7 +72,7 @@
    "url": "https://www.the101.world/feed/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 15
   },
   {
@@ -81,7 +81,7 @@
    "url": "https://adaymagazine.com/feed/",
    "ok": true,
    "error": null,
-   "fetched_at": "2026-11-02T14:50+07:00",
+   "fetched_at": "2026-11-09T15:13+07:00",
    "count": 10
   }
  ],
@@ -181,12 +181,12 @@
    ]
   },
   {
-   "key": "isbn:9786168224465",
-   "isbn": "9786168224465",
-   "title": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
+   "key": "isbn:9786168224762",
+   "isbn": "9786168224762",
+   "title": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
    "author": null,
    "translator": null,
-   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "category": null,
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -202,8 +202,8 @@
      "list": "bestseller",
      "rank": 1,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99/9786168224465",
+     "title_raw": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
+     "url": "https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762",
      "cover": null
     }
    ]
@@ -265,9 +265,37 @@
    ]
   },
   {
-   "key": "isbn:9786169453987",
-   "isbn": "9786169453987",
-   "title": "฿100 Million Investor มีร้อยล้านด้วยการลงทุน",
+   "key": "isbn:9786168224465",
+   "isbn": "9786168224465",
+   "title": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
+   "author": null,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 2,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "อยากเป็นคนธรรมดา ไม่ต้องอ่าน",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%84%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99/9786168224465",
+     "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786168224816",
+   "isbn": "9786168224816",
+   "title": "Stock Investment Summary สรุปวิธีลงทุนหุ้นคุณค่า",
    "author": null,
    "translator": null,
    "category": null,
@@ -279,15 +307,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W44",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 2,
+     "rank": 3,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "฿100 Million Investor มีร้อยล้านด้วยการลงทุน",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%BF100-Million-Investor-%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99/9786169453987",
+     "title_raw": "Stock Investment Summary สรุปวิธีลงทุนหุ้นคุณค่า",
+     "url": "https://m2.se-ed.com/Detail/Stock-Investment-Summary-%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B9%88%E0%B8%B2/9786168224816",
      "cover": null
     }
    ]
@@ -317,34 +345,6 @@
      "title_raw": "WORD ODYSSEY คำสัมพันธ์ศัพท์ซ้อน",
      "url": "https://salmonbooks.net/product/wordodyssey/",
      "cover": "https://salmonbooks.net/wp-content/uploads/2024/10/WORD-ODYSSEY_ปกขาย-Sgopee-01.png"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786168224762",
-   "isbn": "9786168224762",
-   "title": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 3,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Winner Mindset สูตรโกงชีวิต (ที่โรงเรียนไม่สอน)",
-     "url": "https://m2.se-ed.com/Detail/Winner-Mindset-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99)/9786168224762",
-     "cover": null
     }
    ]
   },
@@ -489,34 +489,6 @@
    ]
   },
   {
-   "key": "isbn:9786168224816",
-   "isbn": "9786168224816",
-   "title": "Stock Investment Summary สรุปวิธีลงทุนหุ้นคุณค่า",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W44",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 5,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Stock Investment Summary สรุปวิธีลงทุนหุ้นคุณค่า",
-     "url": "https://m2.se-ed.com/Detail/Stock-Investment-Summary-%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B9%88%E0%B8%B2/9786168224816",
-     "cover": null
-    }
-   ]
-  },
-  {
    "key": "title:จอมเวทแสนร้ายจอมใจแสนรัก13เล่มจบ",
    "isbn": null,
    "title": "จอมเวทแสนร้าย จอมใจแสนรัก 1-3 เล่มจบ",
@@ -540,6 +512,34 @@
      "label": "ยอดนิยมในร้านสำนักพิมพ์",
      "title_raw": "จอมเวทแสนร้าย จอมใจแสนรัก 1-3 เล่มจบ",
      "url": "https://amarinbooks.com/product/%e0%b8%88%e0%b8%ad%e0%b8%a1%e0%b9%80%e0%b8%a7%e0%b8%97%e0%b9%81%e0%b8%aa%e0%b8%99%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%a2-%e0%b8%88%e0%b8%ad%e0%b8%a1%e0%b9%83%e0%b8%88%e0%b9%81%e0%b8%aa%e0%b8%99%e0%b8%a3/",
+     "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786169453987",
+   "isbn": "9786169453987",
+   "title": "฿100 Million Investor มีร้อยล้านด้วยการลงทุน",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W45",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 5,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "฿100 Million Investor มีร้อยล้านด้วยการลงทุน",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%BF100-Million-Investor-%E0%B8%A1%E0%B8%B5%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A5%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99/9786169453987",
      "cover": null
     }
    ]
@@ -601,34 +601,6 @@
    ]
   },
   {
-   "key": "isbn:9786168350294",
-   "isbn": "9786168350294",
-   "title": "กลับมาเป็นมนุษย์",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W44",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 6,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "กลับมาเป็นมนุษย์",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A1%E0%B8%99%E0%B8%B8%E0%B8%A9%E0%B8%A2%E0%B9%8C/9786168350294",
-     "cover": null
-    }
-   ]
-  },
-  {
    "key": "isbn:9786162878961",
    "isbn": "9786162878961",
    "title": "The Red Book of Manifest วาจาประกาศิต",
@@ -648,11 +620,67 @@
     {
      "source": "seed",
      "list": "bestseller",
-     "rank": 7,
+     "rank": 6,
      "label": "หนังสือขายดีรายวัน",
      "title_raw": "The Red Book of Manifest วาจาประกาศิต",
      "url": "https://m2.se-ed.com/Detail/The-Red-Book-of-Manifest-%E0%B8%A7%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%B4%E0%B8%95/9786162878961",
      "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786168224434",
+   "isbn": "9786168224434",
+   "title": "Money Mastery มั่งคั่งทั้งชีวิต",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W41",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 7,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "Money Mastery มั่งคั่งทั้งชีวิต",
+     "url": "https://m2.se-ed.com/Detail/Money-Mastery-%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95/9786168224434",
+     "cover": null
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786162986734",
+   "isbn": "9786162986734",
+   "title": "SEE LANKA เอวังที่ลังกา",
+   "author": null,
+   "translator": null,
+   "category": "Books, E-BOOKS",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "salmon",
+     "list": "bestseller",
+     "rank": 7,
+     "label": "ยอดนิยมในร้านสำนักพิมพ์",
+     "title_raw": "SEE LANKA เอวังที่ลังกา",
+     "url": "https://salmonbooks.net/product/seelanka/",
+     "cover": "https://salmonbooks.net/wp-content/uploads/2025/09/S_SEE-LANKA-เอวังที่ลังกา-01-scaled.png"
     }
    ]
   },
@@ -685,34 +713,6 @@
    ]
   },
   {
-   "key": "isbn:9786162986901",
-   "isbn": "9786162986901",
-   "title": "หมาแก่ผจญภัย",
-   "author": null,
-   "translator": null,
-   "category": "Books",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "salmon",
-     "list": "bestseller",
-     "rank": 7,
-     "label": "ยอดนิยมในร้านสำนักพิมพ์",
-     "title_raw": "หมาแก่ผจญภัย",
-     "url": "https://salmonbooks.net/product/gohan/",
-     "cover": "https://salmonbooks.net/wp-content/uploads/2026/03/260320-หมาแก่ผจญภัย-Salmon-1-scaled.png"
-    }
-   ]
-  },
-  {
    "key": "title:เลี้ยงลูกอย่างไรให้ได้ef",
    "isbn": null,
    "title": "เลี้ยงลูกอย่างไรให้ได้ EF",
@@ -741,12 +741,12 @@
    ]
   },
   {
-   "key": "isbn:9786162986734",
-   "isbn": "9786162986734",
-   "title": "SEE LANKA เอวังที่ลังกา",
+   "key": "isbn:9786161896362",
+   "isbn": "9786161896362",
+   "title": "A Gentle Life",
    "author": null,
    "translator": null,
-   "category": "Books, E-BOOKS",
+   "category": null,
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -755,16 +755,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W44",
    "mentions": [
     {
-     "source": "salmon",
+     "source": "seed",
      "list": "bestseller",
      "rank": 8,
-     "label": "ยอดนิยมในร้านสำนักพิมพ์",
-     "title_raw": "SEE LANKA เอวังที่ลังกา",
-     "url": "https://salmonbooks.net/product/seelanka/",
-     "cover": "https://salmonbooks.net/wp-content/uploads/2025/09/S_SEE-LANKA-เอวังที่ลังกา-01-scaled.png"
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "A Gentle Life",
+     "url": "https://m2.se-ed.com/Detail/A-Gentle-Life/9786161896362",
+     "cover": null
     }
    ]
   },
@@ -825,12 +825,12 @@
    ]
   },
   {
-   "key": "isbn:9786161844899",
-   "isbn": "9786161844899",
-   "title": "ใช้คลื่นพลังบวกดึงดูดพลังสุข",
+   "key": "isbn:9786162986901",
+   "isbn": "9786162986901",
+   "title": "หมาแก่ผจญภัย",
    "author": null,
    "translator": null,
-   "category": null,
+   "category": "Books",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -842,13 +842,13 @@
    "first_seen": "2026-W40",
    "mentions": [
     {
-     "source": "seed",
+     "source": "salmon",
      "list": "bestseller",
      "rank": 8,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "ใช้คลื่นพลังบวกดึงดูดพลังสุข",
-     "url": "https://m2.se-ed.com/Detail/%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9A%E0%B8%A7%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%82/9786161844899",
-     "cover": null
+     "label": "ยอดนิยมในร้านสำนักพิมพ์",
+     "title_raw": "หมาแก่ผจญภัย",
+     "url": "https://salmonbooks.net/product/gohan/",
+     "cover": "https://salmonbooks.net/wp-content/uploads/2026/03/260320-หมาแก่ผจญภัย-Salmon-1-scaled.png"
     }
    ]
   },
@@ -881,9 +881,9 @@
    ]
   },
   {
-   "key": "isbn:9786161895068",
-   "isbn": "9786161895068",
-   "title": "The Secret of Secrets ความลับแห่งความลับ",
+   "key": "isbn:9786168350294",
+   "isbn": "9786168350294",
+   "title": "กลับมาเป็นมนุษย์",
    "author": null,
    "translator": null,
    "category": null,
@@ -895,15 +895,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W42",
+   "first_seen": "2026-W44",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
      "rank": 9,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "The Secret of Secrets ความลับแห่งความลับ",
-     "url": "https://m2.se-ed.com/Detail/The-Secret-of-Secrets-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A5%E0%B8%B1%E0%B8%9A/9786161895068",
+     "title_raw": "กลับมาเป็นมนุษย์",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A1%E0%B8%99%E0%B8%B8%E0%B8%A9%E0%B8%A2%E0%B9%8C/9786168350294",
      "cover": null
     }
    ]
@@ -965,34 +965,6 @@
    ]
   },
   {
-   "key": "isbn:9786166090987",
-   "isbn": "9786166090987",
-   "title": "จิตวิทยาแค่ 1% ทำให้คุณ \"เหนือ\" คน : Do It 1% Smarter Then Them",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 10,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "จิตวิทยาแค่ 1% ทำให้คุณ \"เหนือ\" คน : Do It 1% Smarter Then Them",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B9%88-1-%E0%B8%97%E0%B8%B3%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%84%E0%B8%B8%E0%B8%93-%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD-%E0%B8%84%E0%B8%99-Do-It-1-Smarter-Then-Them/9786166090987",
-     "cover": null
-    }
-   ]
-  },
-  {
    "key": "title:บ้าน100ชั้น",
    "isbn": null,
    "title": "บ้าน 100 ชั้น",
@@ -1045,6 +1017,34 @@
      "title_raw": "ภาษาจีนระดับต้น 1 (ฉบับปรับปรุง) +MP3",
      "url": "https://www.se-ed.com/physical/ig3ltuh6nbv84f08s6g2",
      "cover": "https://mp-static.se-ed.com/physical/cover/ig3ltuh6nbv84f08s6g2/image/xqq0f2t5"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9789744437969",
+   "isbn": "9789744437969",
+   "title": "มินนะ โนะ นิฮงโกะ 1 (2nd Edition) +เฉลย",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W42",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 10,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "มินนะ โนะ นิฮงโกะ 1 (2nd Edition) +เฉลย",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%99%E0%B8%B0-%E0%B9%82%E0%B8%99%E0%B8%B0-%E0%B8%99%E0%B8%B4%E0%B8%AE%E0%B8%87%E0%B9%82%E0%B8%81%E0%B8%B0-1-(2nd-Edition)-%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%A2/9789744437969",
+     "cover": null
     }
    ]
   },
@@ -1161,34 +1161,6 @@
    ]
   },
   {
-   "key": "isbn:9786168350225",
-   "isbn": "9786168350225",
-   "title": "Wealth Within",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 12,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Wealth Within",
-     "url": "https://m2.se-ed.com/Detail/Wealth-Within/9786168350225",
-     "cover": null
-    }
-   ]
-  },
-  {
    "key": "title:บ้านใต้ดิน100ชั้น",
    "isbn": null,
    "title": "บ้านใต้ดิน 100 ชั้น",
@@ -1213,6 +1185,34 @@
      "title_raw": "บ้านใต้ดิน 100 ชั้น – ปกแข็ง",
      "url": "https://amarinbooks.com/product/%e0%b8%9a%e0%b9%89%e0%b8%b2%e0%b8%99%e0%b9%83%e0%b8%95%e0%b9%89%e0%b8%94%e0%b8%b4%e0%b8%99-100-%e0%b8%8a%e0%b8%b1%e0%b9%89%e0%b8%99-%e0%b8%9b%e0%b8%81%e0%b9%81%e0%b8%82%e0%b9%87%e0%b8%87/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2017/01/2-02.png"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786168366127",
+   "isbn": "9786168366127",
+   "title": "ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 12,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%87-A-Guide-to-Fighting-the-Demons-in-My-Heart/9786168366127",
+     "cover": null
     }
    ]
   },
@@ -1245,9 +1245,9 @@
    ]
   },
   {
-   "key": "isbn:9786162878329",
-   "isbn": "9786162878329",
-   "title": "The Black Book of Manifest",
+   "key": "isbn:9786162878299",
+   "isbn": "9786162878299",
+   "title": "เกมใครฆ่า : Murdle",
    "author": null,
    "translator": null,
    "category": null,
@@ -1266,8 +1266,8 @@
      "list": "bestseller",
      "rank": 13,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "The Black Book of Manifest",
-     "url": "https://m2.se-ed.com/Detail/The-Black-Book-of-Manifest/9786162878329",
+     "title_raw": "เกมใครฆ่า : Murdle",
+     "url": "https://m2.se-ed.com/Detail/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%86%E0%B9%88%E0%B8%B2-Murdle/9786162878299",
      "cover": null
     }
    ]
@@ -1301,6 +1301,34 @@
    ]
   },
   {
+   "key": "isbn:9786168187937",
+   "isbn": "9786168187937",
+   "title": "The Art of Spending Money ศิลปะแห่งการใช้เงิน",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 14,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "The Art of Spending Money ศิลปะแห่งการใช้เงิน",
+     "url": "https://m2.se-ed.com/Detail/The-Art-of-Spending-Money-%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99/9786168187937",
+     "cover": null
+    }
+   ]
+  },
+  {
    "key": "isbn:9786162986321",
    "isbn": "9786162986321",
    "title": "WHEN HOPE BECOMES HISTORY โลกหมุนด้วยความหวัง",
@@ -1325,34 +1353,6 @@
      "title_raw": "WHEN HOPE BECOMES HISTORY โลกหมุนด้วยความหวัง",
      "url": "https://salmonbooks.net/product/becomes/",
      "cover": "https://salmonbooks.net/wp-content/uploads/2024/09/WHEN-HOPE_ปกหน้า-01.png"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786168366127",
-   "isbn": "9786168366127",
-   "title": "ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W40",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 14,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "ปีศาจตัวนั้น คือฉันเอง A Guide to Fighting the Demons in My Heart",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%9B%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%88%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%89%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B8%87-A-Guide-to-Fighting-the-Demons-in-My-Heart/9786168366127",
-     "cover": null
     }
    ]
   },
@@ -1385,9 +1385,9 @@
    ]
   },
   {
-   "key": "isbn:9786162878428",
-   "isbn": "9786162878428",
-   "title": "Stop Lying to Yourself 101 ความจริงแทงใจที่จะดึงสติคุณได้ทันที",
+   "key": "isbn:9786162878329",
+   "isbn": "9786162878329",
+   "title": "The Black Book of Manifest",
    "author": null,
    "translator": null,
    "category": null,
@@ -1399,15 +1399,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W43",
+   "first_seen": "2026-W40",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
      "rank": 15,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Stop Lying to Yourself 101 ความจริงแทงใจที่จะดึงสติคุณได้ทันที",
-     "url": "https://m2.se-ed.com/Detail/Stop-Lying-to-Yourself-101-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%E0%B9%81%E0%B8%97%E0%B8%87%E0%B9%83%E0%B8%88%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B0%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5/9786162878428",
+     "title_raw": "The Black Book of Manifest",
+     "url": "https://m2.se-ed.com/Detail/The-Black-Book-of-Manifest/9786162878329",
      "cover": null
     }
    ]
@@ -1469,34 +1469,6 @@
    ]
   },
   {
-   "key": "isbn:9786168224434",
-   "isbn": "9786168224434",
-   "title": "Money Mastery มั่งคั่งทั้งชีวิต",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W41",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 16,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "Money Mastery มั่งคั่งทั้งชีวิต",
-     "url": "https://m2.se-ed.com/Detail/Money-Mastery-%E0%B8%A1%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95/9786168224434",
-     "cover": null
-    }
-   ]
-  },
-  {
    "key": "title:นาซ่าก็พาเธอกลับมาไม่ได้newedition",
    "isbn": null,
    "title": "นาซ่าก็พาเธอกลับมาไม่ได้ “New Edition”",
@@ -1521,6 +1493,34 @@
      "title_raw": "นาซ่าก็พาเธอกลับมาไม่ได้ “New Edition”",
      "url": "https://amarinbooks.com/product/na-sa-ko-pha-thoe-klap-ma-mai-dai/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2018/03/นาซ่า15.png"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786161844899",
+   "isbn": "9786161844899",
+   "title": "ใช้คลื่นพลังบวกดึงดูดพลังสุข",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W40",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 16,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "ใช้คลื่นพลังบวกดึงดูดพลังสุข",
+     "url": "https://m2.se-ed.com/Detail/%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9A%E0%B8%A7%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%94%E0%B8%B9%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%82/9786161844899",
+     "cover": null
     }
    ]
   },
@@ -1581,6 +1581,34 @@
    ]
   },
   {
+   "key": "isbn:9786168013519",
+   "isbn": "9786168013519",
+   "title": "สูตรโกงความคิด ไม่ต้องคิดมากแบบแมว",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W44",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 17,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "สูตรโกงความคิด ไม่ต้องคิดมากแบบแมว",
+     "url": "https://m2.se-ed.com/Detail/%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%82%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B8%B4%E0%B8%94-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B4%E0%B8%94%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%A1%E0%B8%A7/9786168013519",
+     "cover": null
+    }
+   ]
+  },
+  {
    "key": "title:boxedsetข้าจะเป็นเซียน133เล่มจบ",
    "isbn": null,
    "title": "Boxed Set ข้าจะเป็นเซียน 1-3 (3 เล่มจบ)",
@@ -1637,9 +1665,9 @@
    ]
   },
   {
-   "key": "isbn:9786162871429",
-   "isbn": "9786162871429",
-   "title": "กล้าที่จะถูกเกลียด",
+   "key": "isbn:9786168224861",
+   "isbn": "9786168224861",
+   "title": "Psychology of Winning Hearts สื่อสารชนะใจ เพราะเห็น \"ใน\" ใจคน",
    "author": null,
    "translator": null,
    "category": null,
@@ -1651,15 +1679,15 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W40",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "seed",
      "list": "bestseller",
      "rank": 18,
      "label": "หนังสือขายดีรายวัน",
-     "title_raw": "กล้าที่จะถูกเกลียด",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B0%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%94/9786162871429",
+     "title_raw": "Psychology of Winning Hearts สื่อสารชนะใจ เพราะเห็น \"ใน\" ใจคน",
+     "url": "https://m2.se-ed.com/Detail/Psychology-of-Winning-Hearts-%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%8A%E0%B8%99%E0%B8%B0%E0%B9%83%E0%B8%88-%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%99-%E0%B9%83%E0%B8%99-%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%99/9786168224861",
      "cover": null
     }
    ]
@@ -1749,6 +1777,34 @@
    ]
   },
   {
+   "key": "isbn:9786162878428",
+   "isbn": "9786162878428",
+   "title": "Stop Lying to Yourself 101 ความจริงแทงใจที่จะดึงสติคุณได้ทันที",
+   "author": null,
+   "translator": null,
+   "category": null,
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "bestseller"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W43",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "bestseller",
+     "rank": 19,
+     "label": "หนังสือขายดีรายวัน",
+     "title_raw": "Stop Lying to Yourself 101 ความจริงแทงใจที่จะดึงสติคุณได้ทันที",
+     "url": "https://m2.se-ed.com/Detail/Stop-Lying-to-Yourself-101-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%E0%B9%81%E0%B8%97%E0%B8%87%E0%B9%83%E0%B8%88%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B0%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5/9786162878428",
+     "cover": null
+    }
+   ]
+  },
+  {
    "key": "isbn:9786160854981",
    "isbn": "9786160854981",
    "title": "คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie's Almanack",
@@ -1773,34 +1829,6 @@
      "title_raw": "คัมภีร์ชีวิต ชาร์ลี มังเกอร์ : Poor Charlie's Almanack",
      "url": "https://www.se-ed.com/physical/kgq010d2kruj86y2spiq",
      "cover": "https://mp-static.se-ed.com/physical/cover/kgq010d2kruj86y2spiq/image/t69uyeab"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786169397434",
-   "isbn": "9786169397434",
-   "title": "พูดด้วยกราฟ Data Storytelling with Visualization",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 19,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "พูดด้วยกราฟ Data Storytelling with Visualization",
-     "url": "https://m2.se-ed.com/Detail/%E0%B8%9E%E0%B8%B9%E0%B8%94%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%9F-Data-Storytelling-with-Visualization/9786169397434",
-     "cover": null
     }
    ]
   },
@@ -1857,34 +1885,6 @@
      "title_raw": "NEW YORK 1st TIME นิวยอร์กตอนแรกๆ… (10th ANNIVERSARY EDITION)",
      "url": "https://salmonbooks.net/product/ny10th/",
      "cover": "https://salmonbooks.net/wp-content/uploads/2024/03/MNM_NY1ST-06.png"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786161877026",
-   "isbn": "9786161877026",
-   "title": "The Let Them Theory ทฤษฎีปล่อยเขา",
-   "author": null,
-   "translator": null,
-   "category": null,
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "bestseller"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "bestseller",
-     "rank": 20,
-     "label": "หนังสือขายดีรายวัน",
-     "title_raw": "The Let Them Theory ทฤษฎีปล่อยเขา",
-     "url": "https://m2.se-ed.com/Detail/The-Let-Them-Theory-%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B8%9B%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B9%80%E0%B8%82%E0%B8%B2/9786161877026",
-     "cover": null
     }
    ]
   },
@@ -1973,6 +1973,34 @@
    ]
   },
   {
+   "key": "title:boxedsetมูมิน",
+   "isbn": null,
+   "title": "Boxed Set มูมิน",
+   "author": null,
+   "translator": null,
+   "category": "นิยาย, วรรณกรรมเยาวชน",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "amarin",
+     "list": "new",
+     "rank": 13,
+     "label": "ออกใหม่",
+     "title_raw": "Boxed Set มูมิน",
+     "url": "https://amarinbooks.com/product/boxed-set-%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/11/1000294539-Boxed-Set-มูมิน-Amarin.jpg"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786164877733",
    "isbn": "9786164877733",
    "title": "Canva AI 2.0 ออกแบบอย่างรวดเร็ว และรู้ใจ ได้ผลงานในระดับมืออาชีพ",
@@ -1997,6 +2025,34 @@
      "title_raw": "Canva AI 2.0 ออกแบบอย่างรวดเร็ว และรู้ใจ ได้ผลงานในระดับมืออาชีพ",
      "url": "https://www.se-ed.com/physical/6zd8naasry923kqyboyl",
      "cover": "https://mp-static.se-ed.com/physical/cover/6zd8naasry923kqyboyl/image/mkvpuq9b"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786166093988",
+   "isbn": "9786166093988",
+   "title": "Conversational Thai for Beginners",
+   "author": null,
+   "translator": null,
+   "category": "ภาษาไทย / การสนทนา, การอ่าน, การออกเสียง ",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 8,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "Conversational Thai for Beginners",
+     "url": "https://www.se-ed.com/physical/yhhhdcgokpv469feoxna",
+     "cover": "https://mp-static.se-ed.com/physical/cover/yhhhdcgokpv469feoxna/image/8fv8r8ed"
     }
    ]
   },
@@ -2113,9 +2169,37 @@
    ]
   },
   {
-   "key": "title:error404feelingnotfoundระบบปฏิบัติการไร้ความรู้สึก",
+   "key": "isbn:9786168187968",
+   "isbn": "9786168187968",
+   "title": "Expert Secrets สูตรลับกูรู",
+   "author": null,
+   "translator": null,
+   "category": "บริหาร การจัดการ ",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 5,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "Expert Secrets สูตรลับกูรู",
+     "url": "https://www.se-ed.com/physical/pb6zmwtn96ps2ivuksxg",
+     "cover": "https://mp-static.se-ed.com/physical/cover/pb6zmwtn96ps2ivuksxg/image/njb3bded"
+    }
+   ]
+  },
+  {
+   "key": "title:fluentforeverวิธีพูดภาษาใดๆให้ได้ไวและไม่ลืม",
    "isbn": null,
-   "title": "Error 404 : Feeling not found ระบบปฏิบัติการไร้ความรู้สึก",
+   "title": "Fluent Forever วิธีพูดภาษาใดๆให้ได้ไวและไม่ลืม",
    "author": null,
    "translator": null,
    "category": "จิตวิทยาและการพัฒนาตนเอง",
@@ -2127,16 +2211,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "amarin",
      "list": "new",
-     "rank": 16,
+     "rank": 5,
      "label": "ออกใหม่",
-     "title_raw": "Error 404 : Feeling not found ระบบปฏิบัติการไร้ความรู้สึก",
-     "url": "https://amarinbooks.com/product/error-404-feeling-not-found-%e0%b8%a3%e0%b8%b0%e0%b8%9a%e0%b8%9a%e0%b8%9b%e0%b8%8f%e0%b8%b4%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%84%e0%b8%a3%e0%b9%89%e0%b8%84/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294560-Error-404-Feeling-not-found-ระบบปฏิบัติการไร้ความรู้สึก.jpg"
+     "title_raw": "Fluent Forever วิธีพูดภาษาใดๆให้ได้ไวและไม่ลืม (ฉบับปรับปรุงล่าสุด)",
+     "url": "https://amarinbooks.com/product/fluent-forever-%e0%b8%a7%e0%b8%b4%e0%b8%98%e0%b8%b5%e0%b8%9e%e0%b8%b9%e0%b8%94%e0%b8%a0%e0%b8%b2%e0%b8%a9%e0%b8%b2%e0%b8%af-%e0%b8%89-%e0%b8%9b%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b8%9b%e0%b8%a3%e0%b8%b8/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294547-Fluent-Forever-วิธีพูดภาษาใดๆให้ได้ไวและไม่ลืม-ฉ.ปรับปรุง-1.jpg"
     }
    ]
   },
@@ -2197,34 +2281,6 @@
    ]
   },
   {
-   "key": "isbn:9786160055166",
-   "isbn": "9786160055166",
-   "title": "I told you so อย่ามาชอบหนูแล้วกัน (เล่ม 1-2 จบ) (Book Set : 2 เล่ม)",
-   "author": null,
-   "translator": null,
-   "category": "นวนิยายชายรักชาย (Yaoi) หญิงรักหญิง (Yuri)",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 8,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "I told you so อย่ามาชอบหนูแล้วกัน (เล่ม 1-2 จบ) (Book Set : 2 เล่ม)",
-     "url": "https://www.se-ed.com/physical/r56bggt1s706fr36d0rg",
-     "cover": "https://mp-static.se-ed.com/physical/cover/r56bggt1s706fr36d0rg/image/ubwvsyi8"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786163815781",
    "isbn": "9786163815781",
    "title": "Mini ศัพท์จีน 6,000 คำ ไม่รู้...ไม่ได้ ฉบับพกพา",
@@ -2277,6 +2333,34 @@
      "title_raw": "Money Monster : A Guide Through Crisis รอดได้ รวยด้วย",
      "url": "https://www.se-ed.com/physical/ryve7g4inw0elcp852jj",
      "cover": "https://mp-static.se-ed.com/physical/cover/ryve7g4inw0elcp852jj/image/mrkijjpx"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786163815842",
+   "isbn": "9786163815842",
+   "title": "My First Classic Tale Series นิทานคลาสสิกเล่มแรกของหนู เงือกน้อยกับเจ้าชาย : The Little Mermaid and The Prince",
+   "author": null,
+   "translator": null,
+   "category": "หนังสือนิทาน",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 10,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "My First Classic Tale Series นิทานคลาสสิกเล่มแรกของหนู เงือกน้อยกับเจ้าชาย : The Little Mermaid and The Prince",
+     "url": "https://www.se-ed.com/physical/g8nd3qd6akun3x5sp1b3",
+     "cover": "https://mp-static.se-ed.com/physical/cover/g8nd3qd6akun3x5sp1b3/image/7blwunvg"
     }
    ]
   },
@@ -2393,9 +2477,9 @@
    ]
   },
   {
-   "key": "title:stoplettingeverythingaffectyouอย่ายอมให้อะไรๆกระทบใจคุณ",
+   "key": "title:thelanguageofliesฟังให้ออกว่าใครหลอกคุณ",
    "isbn": null,
-   "title": "Stop Letting Everything Affect You อย่ายอมให้อะไรๆ กระทบใจคุณ",
+   "title": "The Language of Lies ฟังให้ออกว่าใครหลอกคุณ",
    "author": null,
    "translator": null,
    "category": "จิตวิทยาและการพัฒนาตนเอง",
@@ -2407,16 +2491,100 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "amarin",
      "list": "new",
-     "rank": 13,
+     "rank": 3,
      "label": "ออกใหม่",
-     "title_raw": "Stop Letting Everything Affect You อย่ายอมให้อะไรๆ กระทบใจคุณ",
-     "url": "https://amarinbooks.com/product/stop-letting-everything-%e0%b8%ad%e0%b8%a2%e0%b9%88%e0%b8%b2%e0%b8%a2%e0%b8%ad%e0%b8%a1%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b8%af/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294549-Stop-Letting-Everything-Affect-You-อย่ายอมให้อะไรๆ-กระทบใจคุณ.jpg"
+     "title_raw": "The Language of Lies ฟังให้ออกว่าใครหลอกคุณ",
+     "url": "https://amarinbooks.com/product/the-language-of-lies-%e0%b8%9f%e0%b8%b1%e0%b8%87%e0%b9%83%e0%b8%ab%e0%b9%89%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%a7%e0%b9%88%e0%b8%b2%e0%b9%83%e0%b8%84%e0%b8%a3%e0%b8%af/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294554-The-Language-of-Lies-ฟังให้ออกว่าใครหลอกคุณ-1.jpg"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786160476725",
+   "isbn": "9786160476725",
+   "title": "The Win-Win Workplace พนักงานเติบโตได้ ธุรกิจก็โตด้วย",
+   "author": null,
+   "translator": null,
+   "category": "ทักษะการเรียน การทำงาน การใช้ชีวิต",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "preorder"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "preorder",
+     "rank": 5,
+     "label": "PRE-ORDER : สินค้าสั่งจอง",
+     "title_raw": "The Win-Win Workplace พนักงานเติบโตได้ ธุรกิจก็โตด้วย (สินค้าสั่งจอง)",
+     "url": "https://www.se-ed.com/physical/jqfxr37hykek51636ylo",
+     "cover": "https://mp-static.se-ed.com/physical/cover/jqfxr37hykek51636ylo/image/gb3m4c6l"
+    }
+   ]
+  },
+  {
+   "key": "title:unthinkableสมองมนุษย์นั้นไซร้ยากแท้หยั่งถึง",
+   "isbn": null,
+   "title": "Unthinkable สมองมนุษย์นั้นไซร้ ยากแท้หยั่งถึง",
+   "author": null,
+   "translator": null,
+   "category": "บทความ/สารคดี",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "amarin",
+     "list": "new",
+     "rank": 1,
+     "label": "ออกใหม่",
+     "title_raw": "Unthinkable สมองมนุษย์นั้นไซร้ ยากแท้หยั่งถึง",
+     "url": "https://amarinbooks.com/product/unthinkable-%e0%b8%aa%e0%b8%a1%e0%b8%ad%e0%b8%87%e0%b8%a1%e0%b8%99%e0%b8%b8%e0%b8%a9%e0%b8%a2%e0%b9%8c%e0%b8%99%e0%b8%b1%e0%b9%89%e0%b8%99%e0%b9%84%e0%b8%8b%e0%b8%a3%e0%b9%89%e0%b8%af/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294556-Unthinkable-สมองมนุษย์นั้นไซร้-ยากแท้หยั่งถึง-2.jpg"
+    }
+   ]
+  },
+  {
+   "key": "title:vboxอันธพาลแห่งตระกูลเคานต์เล่ม810จบพาร์ต2",
+   "isbn": null,
+   "title": "Vbox อันธพาลแห่งตระกูลเคานต์ เล่ม 8-10 (จบพาร์ต 2)",
+   "author": null,
+   "translator": "ATIMA",
+   "category": "นิยาย, แฟนตาซี",
+   "maybe_translated": true,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "amarin",
+     "list": "new",
+     "rank": 9,
+     "label": "ออกใหม่",
+     "title_raw": "Vbox อันธพาลแห่งตระกูลเคานต์ เล่ม 8-10 (จบพาร์ต 2)",
+     "url": "https://amarinbooks.com/product/vbox-lout-of-counts-family-part-2/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/11/853085586_2853213168384563_4374084150835763887_n.jpg"
     }
    ]
   },
@@ -2449,12 +2617,12 @@
    ]
   },
   {
-   "key": "title:การ์ตูนgrandblueก๊วนป่วนชวนบุ๋งบุ๋งเล่ม25",
-   "isbn": null,
-   "title": "การ์ตูน Grand Blue ก๊วนป่วนชวนบุ๋งบุ๋ง เล่ม 25",
+   "key": "isbn:9786166257854",
+   "isbn": "9786166257854",
+   "title": "การ์ตูน To Love-RU Darkness -วุ่นรักยัยต่างดาว ดาร์คเนส- เล่ม 7",
    "author": null,
    "translator": null,
-   "category": "คอมเมดี้",
+   "category": "โรแมนติก",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -2463,44 +2631,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "seed",
      "list": "new",
-     "rank": 15,
+     "rank": 7,
      "label": "สินค้าออกใหม่",
-     "title_raw": "การ์ตูน Grand Blue ก๊วนป่วนชวนบุ๋งบุ๋ง เล่ม 25",
-     "url": "https://www.se-ed.com/physical/85suwflcdigh27hpq979",
-     "cover": "https://mp-static.se-ed.com/physical/cover/85suwflcdigh27hpq979/image/bp9vw8p5"
-    }
-   ]
-  },
-  {
-   "key": "title:การ์ตูนมันมองผมอยู่",
-   "isbn": null,
-   "title": "การ์ตูน มันมองผมอยู่",
-   "author": null,
-   "translator": null,
-   "category": "ภูตผี",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 12,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "การ์ตูน มันมองผมอยู่ (ปกแข็ง)",
-     "url": "https://www.se-ed.com/physical/ucars20glok439otanat",
-     "cover": "https://mp-static.se-ed.com/physical/cover/ucars20glok439otanat/image/zsiv60o3"
+     "title_raw": "การ์ตูน To Love-RU Darkness -วุ่นรักยัยต่างดาว ดาร์คเนส- เล่ม 7",
+     "url": "https://www.se-ed.com/physical/o8hkhu2qhwiqajn66gsh",
+     "cover": "https://mp-static.se-ed.com/physical/cover/o8hkhu2qhwiqajn66gsh/image/nsx812jv"
     }
    ]
   },
@@ -2533,62 +2673,6 @@
    ]
   },
   {
-   "key": "title:การ์ตูนอมนุษย์อำมหิตเล่ม3",
-   "isbn": null,
-   "title": "การ์ตูน อมนุษย์ อำมหิต เล่ม 3",
-   "author": null,
-   "translator": null,
-   "category": "มังงะแฟนตาซี, ผจญภัย, แอคชั่น",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 13,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "การ์ตูน อมนุษย์ อำมหิต เล่ม 3",
-     "url": "https://www.se-ed.com/physical/jfmloa6jkq0ysb3ia1bs",
-     "cover": "https://mp-static.se-ed.com/physical/cover/jfmloa6jkq0ysb3ia1bs/image/cefzs5gn"
-    }
-   ]
-  },
-  {
-   "key": "title:การ์ตูนเกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้วเล่ม30",
-   "isbn": null,
-   "title": "การ์ตูน เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว เล่ม 30",
-   "author": null,
-   "translator": null,
-   "category": "มังงะแฟนตาซี, ผจญภัย, แอคชั่น",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 14,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "การ์ตูน เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว เล่ม 30",
-     "url": "https://www.se-ed.com/physical/q4bsxh07akzbk9vaq8hr",
-     "cover": "https://mp-static.se-ed.com/physical/cover/q4bsxh07akzbk9vaq8hr/image/gifgzqpq"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786160476923",
    "isbn": "9786160476923",
    "title": "กาลครั้งหนึ่งเมื่อเจ้าหญิงสลับตัว เล่ม 2",
@@ -2608,7 +2692,7 @@
     {
      "source": "seed",
      "list": "preorder",
-     "rank": 5,
+     "rank": 6,
      "label": "PRE-ORDER : สินค้าสั่งจอง",
      "title_raw": "กาลครั้งหนึ่งเมื่อเจ้าหญิงสลับตัว เล่ม 2 (สินค้าสั่งจอง)",
      "url": "https://www.se-ed.com/physical/uwnc24h19mhbmtwyz1l0",
@@ -2692,7 +2776,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 3,
+     "rank": 4,
      "label": "ออกใหม่",
      "title_raw": "ความลับของคนที่อยู่เฉยๆ โอกาสก็วิ่งเข้าหา",
      "url": "https://amarinbooks.com/product/%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a5%e0%b8%b1%e0%b8%9a%e0%b8%82%e0%b8%ad%e0%b8%87%e0%b8%84%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%ad%e0%b8%a2%e0%b8%b9%e0%b9%88%e0%b9%80%e0%b8%89%e0%b8%a2/",
@@ -2748,7 +2832,7 @@
     {
      "source": "seed",
      "list": "preorder",
-     "rank": 6,
+     "rank": 7,
      "label": "PRE-ORDER : สินค้าสั่งจอง",
      "title_raw": "ฆาตกรรมประหลาดในหอคอยกลางน้ำ (สินค้าสั่งจอง)",
      "url": "https://www.se-ed.com/physical/0l8tnjqngwdnvwurgtnj",
@@ -2785,34 +2869,6 @@
    ]
   },
   {
-   "key": "title:ชุดสองฝั่งคลองเล่ม12",
-   "isbn": null,
-   "title": "ชุดสองฝั่งคลอง เล่ม 1-2",
-   "author": null,
-   "translator": null,
-   "category": "นิยาย, นิยายโรแมนติก",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "amarin",
-     "list": "new",
-     "rank": 14,
-     "label": "ออกใหม่",
-     "title_raw": "ชุดสองฝั่งคลอง เล่ม 1-2",
-     "url": "https://amarinbooks.com/product/both-sides-of-the-canal-edition/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/สองฝั่งคลอง_0.jpg"
-    }
-   ]
-  },
-  {
    "key": "title:ดาวหางในเมืองมูมินcometinmoominlandชุดmoomincollection2",
    "isbn": null,
    "title": "ดาวหางในเมืองมูมิน (Comet in Moominland) ชุด Moomin Collection 2",
@@ -2832,7 +2888,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 6,
+     "rank": 17,
      "label": "ออกใหม่",
      "title_raw": "ดาวหางในเมืองมูมิน (Comet in Moominland) ชุด Moomin Collection 2",
      "url": "https://amarinbooks.com/product/%e0%b8%94%e0%b8%b2%e0%b8%a7%e0%b8%ab%e0%b8%b2%e0%b8%87%e0%b9%83%e0%b8%99%e0%b9%80%e0%b8%a1%e0%b8%b7%e0%b8%ad%e0%b8%87%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99-2-new/",
@@ -2869,6 +2925,34 @@
    ]
   },
   {
+   "key": "isbn:9786169544302",
+   "isbn": "9786169544302",
+   "title": "นอกบท",
+   "author": null,
+   "translator": null,
+   "category": "อัตชีวประวัติ ชีวประวัติ-อัตชีวประวัติทั่วไป",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 1,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "นอกบท",
+     "url": "https://www.se-ed.com/physical/gofw3pch3biggup469tz",
+     "cover": "https://mp-static.se-ed.com/physical/cover/gofw3pch3biggup469tz/image/nauy3c2j"
+    }
+   ]
+  },
+  {
    "key": "title:นิสัยละเอียดอ่อนที่ทำให้ชีวิตมีความหมาย",
    "isbn": null,
    "title": "นิสัยละเอียดอ่อนที่ทำให้ชีวิตมีความหมาย",
@@ -2888,7 +2972,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 11,
+     "rank": 20,
      "label": "ออกใหม่",
      "title_raw": "นิสัยละเอียดอ่อนที่ทำให้ชีวิตมีความหมาย",
      "url": "https://amarinbooks.com/product/%e0%b8%99%e0%b8%b4%e0%b8%aa%e0%b8%b1%e0%b8%a2%e0%b8%a5%e0%b8%b0%e0%b9%80%e0%b8%ad%e0%b8%b5%e0%b8%a2%e0%b8%94%e0%b8%ad%e0%b9%88%e0%b8%ad%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%97%e0%b8%b3%e0%b9%83/",
@@ -2916,7 +3000,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 8,
+     "rank": 7,
      "label": "ออกใหม่",
      "title_raw": "บริษัทคุณตุ่นรับก่อสร้าง ตอน อุโมงค์ร้านโดนัทของพี่น้องแบดเจอร์ (ปกแข็ง)",
      "url": "https://amarinbooks.com/product/borisat-kun-tun/",
@@ -2944,11 +3028,39 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 7,
+     "rank": 18,
      "label": "ออกใหม่",
      "title_raw": "บันทึกมูมิน (Memoirs of Moominpappa) ชุด Moomin Collection 4",
      "url": "https://amarinbooks.com/product/%e0%b8%9a%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%b6%e0%b8%81%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99-4-new/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294533-บันทึกมูมิน-Memoirs-of-Moominpappa-ชุด-Moomin-Collection-4-new-1.jpg"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786163920911",
+   "isbn": "9786163920911",
+   "title": "บึงบัวสีรุ้งกับลูกสัตว์มีน้ำใจ ชุด นิทานเด็กเอ๋ยเด็กดี",
+   "author": null,
+   "translator": null,
+   "category": "หนังสือนิทาน",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 9,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "บึงบัวสีรุ้งกับลูกสัตว์มีน้ำใจ ชุด นิทานเด็กเอ๋ยเด็กดี",
+     "url": "https://www.se-ed.com/physical/o23eg3w3oaq8rh1ror0q",
+     "cover": "https://mp-static.se-ed.com/physical/cover/o23eg3w3oaq8rh1ror0q/image/jcloqr25"
     }
    ]
   },
@@ -3028,7 +3140,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 10,
+     "rank": 19,
      "label": "ออกใหม่",
      "title_raw": "ป่าละเลงเลือด",
      "url": "https://amarinbooks.com/product/%e0%b8%9b%e0%b9%88%e0%b8%b2%e0%b8%a5%e0%b8%b0%e0%b9%80%e0%b8%a5%e0%b8%87%e0%b9%80%e0%b8%a5%e0%b8%b7%e0%b8%ad%e0%b8%94/",
@@ -3037,13 +3149,13 @@
    ]
   },
   {
-   "key": "title:มือชันสูตรหญิงอันดับหนึ่งเล่ม3",
+   "key": "title:พฤศจิกายนในหุบเขามูมินmoominvalleyinnovemberชุดmoomincollection9",
    "isbn": null,
-   "title": "มือชันสูตรหญิงอันดับหนึ่ง เล่ม 3",
+   "title": "พฤศจิกายนในหุบเขามูมิน (Moominvalley in November) ชุด Moomin Collection 9",
    "author": null,
-   "translator": "ไต่ถามโลกหล้า",
-   "category": "นิยาย, นิยายโรแมนติก",
-   "maybe_translated": true,
+   "translator": null,
+   "category": "นิยาย, วรรณกรรมเยาวชน",
+   "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
    "list_types": [
@@ -3051,16 +3163,44 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "amarin",
+     "list": "new",
+     "rank": 11,
+     "label": "ออกใหม่",
+     "title_raw": "พฤศจิกายนในหุบเขามูมิน (Moominvalley in November) ชุด Moomin Collection 9",
+     "url": "https://amarinbooks.com/product/%e0%b8%9e%e0%b8%a4%e0%b8%a8%e0%b8%88%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a2%e0%b8%99%e0%b9%83%e0%b8%99%e0%b8%ab%e0%b8%b8%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b2%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99-9/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294538-พฤศจิกายนในหุบเขามูมิน-Moominvalley-in-November-ชุด-Moomin-Collection-9-new-1.jpg"
+    }
+   ]
+  },
+  {
+   "key": "title:มูมินออกทะเลmoominpappaatseaชุดmoomincollection8",
+   "isbn": null,
+   "title": "มูมินออกทะเล (Moominpappa at Sea) ชุด Moomin Collection 8",
+   "author": null,
+   "translator": null,
+   "category": "นิยาย, วรรณกรรมเยาวชน",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "amarin",
      "list": "new",
      "rank": 12,
      "label": "ออกใหม่",
-     "title_raw": "มือชันสูตรหญิงอันดับหนึ่ง เล่ม 3",
-     "url": "https://amarinbooks.com/product/yi-pin-nu-wu-zuo-3/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/รูปภาพปกหน้า-1.jpg"
+     "title_raw": "มูมินออกทะเล (Moominpappa at Sea) ชุด Moomin Collection 8",
+     "url": "https://amarinbooks.com/product/%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%ad%e0%b8%ad%e0%b8%81%e0%b8%97%e0%b8%b0%e0%b9%80%e0%b8%a5-8-new/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294537-มูมินออกทะเล-Moominpappa-at-Sea-ชุด-Moomin-Collection-8-new-1.jpg"
     }
    ]
   },
@@ -3121,118 +3261,6 @@
    ]
   },
   {
-   "key": "isbn:9786160476503",
-   "isbn": "9786160476503",
-   "title": "ร้านขนมของแม่มดจอมยุ่ง ตอน ลูกอมขมขื่น",
-   "author": null,
-   "translator": null,
-   "category": "วรรณกรรมเยาวชน",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 7,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "ร้านขนมของแม่มดจอมยุ่ง ตอน ลูกอมขมขื่น",
-     "url": "https://www.se-ed.com/physical/omi65f0ac3zchv91limm",
-     "cover": "https://mp-static.se-ed.com/physical/cover/omi65f0ac3zchv91limm/image/g405g87i"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160476510",
-   "isbn": "9786160476510",
-   "title": "ร้านขนมของแม่มดจอมยุ่ง ตอน อมยิ้มต้องคำสาป",
-   "author": null,
-   "translator": null,
-   "category": "วรรณกรรมเยาวชน",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 6,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "ร้านขนมของแม่มดจอมยุ่ง ตอน อมยิ้มต้องคำสาป",
-     "url": "https://www.se-ed.com/physical/kghujvizdudutltssle9",
-     "cover": "https://mp-static.se-ed.com/physical/cover/kghujvizdudutltssle9/image/8ms3s9n5"
-    }
-   ]
-  },
-  {
-   "key": "title:ร้านอาหารซึ่งมักเสิร์ฟจานที่ไม่ได้สั่ง",
-   "isbn": null,
-   "title": "ร้านอาหารซึ่งมักเสิร์ฟจานที่ไม่ได้สั่ง",
-   "author": null,
-   "translator": "เมธี ธรรมพิภพ",
-   "category": "นิยาย, วรรณกรรม",
-   "maybe_translated": true,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "amarin",
-     "list": "new",
-     "rank": 19,
-     "label": "ออกใหม่",
-     "title_raw": "ร้านอาหารซึ่งมักเสิร์ฟจานที่ไม่ได้สั่ง",
-     "url": "https://amarinbooks.com/product/chuumon-wo-machigaeru-ryouri-ten/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294528-ร้านอาหารซึ่งมักเสิร์ฟจานที่ไม่ได้สั่ง.jpg"
-    }
-   ]
-  },
-  {
-   "key": "title:ฤดูร้อนมูมินmoominsummermadnessชุดmoomincollection5",
-   "isbn": null,
-   "title": "ฤดูร้อนมูมิน (Moominsummer Madness) ชุด Moomin Collection 5",
-   "author": null,
-   "translator": null,
-   "category": "นิยาย, วรรณกรรมเยาวชน",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "amarin",
-     "list": "new",
-     "rank": 15,
-     "label": "ออกใหม่",
-     "title_raw": "ฤดูร้อนมูมิน (Moominsummer Madness) ชุด Moomin Collection 5",
-     "url": "https://amarinbooks.com/product/%e0%b8%a4%e0%b8%94%e0%b8%b9%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%99%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99-5-new/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294534-ฤดูร้อนมูมิน-Moominsummer-Madness-ชุด-Moomin-Collection-5-new-1.jpg"
-    }
-   ]
-  },
-  {
    "key": "isbn:9786169342236",
    "isbn": "9786169342236",
    "title": "วันที่เหมาะกับขนมปัง ซุป และแมว",
@@ -3280,7 +3308,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 9,
+     "rank": 2,
      "label": "ออกใหม่",
      "title_raw": "วิทยาศาสตร์สุดหรรษากับคุณโคพาชู 1 ตอน มาช่วยกันรักษาระบบนิเวศของหมู่บ้านสายลมกันเถอะ (ปกอ่อน)",
      "url": "https://amarinbooks.com/product/kopachu-vol1/",
@@ -3345,6 +3373,62 @@
    ]
   },
   {
+   "key": "isbn:9786168400074",
+   "isbn": "9786168400074",
+   "title": "สำเร็จโดยไม่สูญเสียตัวเอง",
+   "author": null,
+   "translator": null,
+   "category": "ความคิด ทัศนคติ อุปนิสัย Mindset",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 13,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "สำเร็จโดยไม่สูญเสียตัวเอง",
+     "url": "https://www.se-ed.com/physical/rbkxrzcq21imilz32ad0",
+     "cover": "https://mp-static.se-ed.com/physical/cover/rbkxrzcq21imilz32ad0/image/rgttftsl"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786166378856",
+   "isbn": "9786166378856",
+   "title": "หลักและคำพิพากษา กฎหมายแพ่งและพาณิชย์ เล่ม 1 : นิติกรรม สัญญา หนี้ จัดการงานนอกสั่ง ลาภมิควรได้ ละเมิด",
+   "author": null,
+   "translator": null,
+   "category": "หนังสือกฎหมาย สัญญา ภาษี",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": true,
+   "excluded_reason": null,
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 6,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "หลักและคำพิพากษา กฎหมายแพ่งและพาณิชย์ เล่ม 1 : นิติกรรม สัญญา หนี้ จัดการงานนอกสั่ง ลาภมิควรได้ ละเมิด",
+     "url": "https://www.se-ed.com/physical/lno2zqjcrov9dak36is5",
+     "cover": "https://mp-static.se-ed.com/physical/cover/lno2zqjcrov9dak36is5/image/avra4l2v"
+    }
+   ]
+  },
+  {
    "key": "isbn:9786160476978",
    "isbn": "9786160476978",
    "title": "อย่ารับงานพี่เลี้ยง ถ้าไม่อยากเสี่ยงเป็นศพ",
@@ -3364,7 +3448,7 @@
     {
      "source": "seed",
      "list": "preorder",
-     "rank": 7,
+     "rank": 8,
      "label": "PRE-ORDER : สินค้าสั่งจอง",
      "title_raw": "อย่ารับงานพี่เลี้ยง ถ้าไม่อยากเสี่ยงเป็นศพ (สินค้าสั่งจอง)",
      "url": "https://www.se-ed.com/physical/5kbh867j98i0rscol956",
@@ -3392,7 +3476,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 2,
+     "rank": 14,
      "label": "ออกใหม่",
      "title_raw": "อันธพาลแห่งตระกูลเคานต์ เล่ม 10",
      "url": "https://amarinbooks.com/product/lout-of-counts-family-10/",
@@ -3420,7 +3504,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 5,
+     "rank": 16,
      "label": "ออกใหม่",
      "title_raw": "อันธพาลแห่งตระกูลเคานต์ เล่ม 8",
      "url": "https://amarinbooks.com/product/lout-of-counts-family-8/",
@@ -3448,7 +3532,7 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 4,
+     "rank": 15,
      "label": "ออกใหม่",
      "title_raw": "อันธพาลแห่งตระกูลเคานต์ เล่ม 9",
      "url": "https://amarinbooks.com/product/lout-of-counts-family-9/",
@@ -3457,12 +3541,12 @@
    ]
   },
   {
-   "key": "isbn:9786160635863",
-   "isbn": "9786160635863",
-   "title": "เกมปริศนาแฟ้มคดีจิตวิทยา : ข้อความจากผู้สาบสูญ",
+   "key": "isbn:9786169397199",
+   "isbn": "9786169397199",
+   "title": "เก้าศูนย์พูนสวัสดิ์ (Like a Memoir)",
    "author": null,
    "translator": null,
-   "category": "นิยายสืบสวน ซ่อนเงื่อน สยองขวัญ",
+   "category": "สารคดี",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -3471,110 +3555,26 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 5,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เกมปริศนาแฟ้มคดีจิตวิทยา : ข้อความจากผู้สาบสูญ",
-     "url": "https://www.se-ed.com/physical/1hlwellty1jyxo0lrj5t",
-     "cover": "https://mp-static.se-ed.com/physical/cover/1hlwellty1jyxo0lrj5t/image/8a1lzelj"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160635887",
-   "isbn": "9786160635887",
-   "title": "เกมปริศนาแฟ้มคดีจิตวิทยา : บันทึกลับผู้ป่วยหมายเลข 6",
-   "author": null,
-   "translator": null,
-   "category": "นิยายสืบสวน ซ่อนเงื่อน สยองขวัญ",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 3,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เกมปริศนาแฟ้มคดีจิตวิทยา : บันทึกลับผู้ป่วยหมายเลข 6",
-     "url": "https://www.se-ed.com/physical/73o8gelgv67ejtk318cq",
-     "cover": "https://mp-static.se-ed.com/physical/cover/73o8gelgv67ejtk318cq/image/c7krsph0"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160635870",
-   "isbn": "9786160635870",
-   "title": "เกมปริศนาแฟ้มคดีจิตวิทยา : สืบปมมรดกคนตาย (บรรจุซอง : Set)",
-   "author": null,
-   "translator": null,
-   "category": "นิยายสืบสวน ซ่อนเงื่อน สยองขวัญ",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "seed",
      "list": "new",
      "rank": 4,
      "label": "สินค้าออกใหม่",
-     "title_raw": "เกมปริศนาแฟ้มคดีจิตวิทยา : สืบปมมรดกคนตาย (บรรจุซอง : Set)",
-     "url": "https://www.se-ed.com/physical/guto1a0p80qasfkdtbox",
-     "cover": "https://mp-static.se-ed.com/physical/cover/guto1a0p80qasfkdtbox/image/4o6g0jsy"
+     "title_raw": "เก้าศูนย์พูนสวัสดิ์ (Like a Memoir)",
+     "url": "https://www.se-ed.com/physical/kn641vj900vmcg1okkrr",
+     "cover": "https://mp-static.se-ed.com/physical/cover/kn641vj900vmcg1okkrr/image/bd3m3h7o"
     }
    ]
   },
   {
-   "key": "title:เดบิวต์ออร์ดายเล่ม10debutordie10",
+   "key": "title:เมืองมูมินกลางฤดูหนาวmoominlandmidwinterชุดmoomincollection6",
    "isbn": null,
-   "title": "เดบิวต์ออร์ดาย เล่ม 10 (Debut or Die 10)",
-   "author": null,
-   "translator": "Mars",
-   "category": "นิยาย, แฟนตาซี",
-   "maybe_translated": true,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "amarin",
-     "list": "new",
-     "rank": 20,
-     "label": "ออกใหม่",
-     "title_raw": "เดบิวต์ออร์ดาย เล่ม 10 (Debut or Die 10)",
-     "url": "https://amarinbooks.com/product/debut-or-die-10/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294508-เดบิวต์ออร์ดาย-เล่ม-10-Debut-or-Die-10-1.jpg"
-    }
-   ]
-  },
-  {
-   "key": "title:เธอจะงอกงามจากความร้าวรานทั้งหมดที่เจอ",
-   "isbn": null,
-   "title": "เธอจะงอกงามจากความร้าวรานทั้งหมดที่เจอ",
+   "title": "เมืองมูมินกลางฤดูหนาว (Moominland Midwinter) ชุด Moomin Collection 6",
    "author": null,
    "translator": null,
-   "category": "จิตวิทยาและการพัฒนาตนเอง",
+   "category": "นิยาย, วรรณกรรมเยาวชน",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -3583,26 +3583,26 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "amarin",
      "list": "new",
-     "rank": 17,
+     "rank": 10,
      "label": "ออกใหม่",
-     "title_raw": "เธอจะงอกงามจากความร้าวรานทั้งหมดที่เจอ",
-     "url": "https://amarinbooks.com/product/%e0%b9%80%e0%b8%98%e0%b8%ad%e0%b8%88%e0%b8%b0%e0%b8%87%e0%b8%ad%e0%b8%81%e0%b8%87%e0%b8%b2%e0%b8%a1%e0%b8%88%e0%b8%b2%e0%b8%81%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%a7/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294558-เธอจะงอกงามจากความร้าวรานทั้งหมดที่เจอ.jpg"
+     "title_raw": "เมืองมูมินกลางฤดูหนาว (Moominland Midwinter) ชุด Moomin Collection 6",
+     "url": "https://amarinbooks.com/product/%e0%b9%80%e0%b8%a1%e0%b8%b7%e0%b8%ad%e0%b8%87%e0%b8%a1%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%81%e0%b8%a5%e0%b8%b2%e0%b8%87%e0%b8%a4%e0%b8%94%e0%b8%b9%e0%b8%ab%e0%b8%99%e0%b8%b2%e0%b8%a7-6-new/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294535-เมืองมูมินกลางฤดูหนาว-Moominland-Midwinter-ชุด-Moomin-Collection-6-new-1.jpg"
     }
    ]
   },
   {
-   "key": "title:เพชรกลางไฟ",
+   "key": "title:เรื่องเล่าจากหุบเขามูมินtalesfrommoominvalleyชุดmoomincollection7",
    "isbn": null,
-   "title": "เพชรกลางไฟ",
+   "title": "เรื่องเล่าจากหุบเขามูมิน (Tales from Moominvalley) ชุด Moomin Collection 7",
    "author": null,
    "translator": null,
-   "category": "นิยาย, นิยายโรแมนติก",
+   "category": "นิยาย, วรรณกรรมเยาวชน",
    "maybe_translated": false,
    "article_sources": [],
    "source_count": 1,
@@ -3611,16 +3611,16 @@
    ],
    "featured": true,
    "excluded_reason": null,
-   "first_seen": "2026-W45",
+   "first_seen": "2026-W46",
    "mentions": [
     {
      "source": "amarin",
      "list": "new",
-     "rank": 18,
+     "rank": 8,
      "label": "ออกใหม่",
-     "title_raw": "เพชรกลางไฟ",
-     "url": "https://amarinbooks.com/product/diamond-amidst-the-flames-edition/",
-     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294490-เพชรกลางไฟ.jpg"
+     "title_raw": "เรื่องเล่าจากหุบเขามูมิน (Tales from Moominvalley) ชุด Moomin Collection 7",
+     "url": "https://amarinbooks.com/product/%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b9%80%e0%b8%a5%e0%b9%88%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%81%e0%b8%ab%e0%b8%b8%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b2%e0%b8%a1%e0%b8%b9%e0%b8%a1/",
+     "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294536-เรื่องเล่าจากหุบเขามูมิน-Tales-from-Moominvalley-ชุด-Moomin-Collection-7-new-1.jpg"
     }
    ]
   },
@@ -3644,39 +3644,11 @@
     {
      "source": "amarin",
      "list": "new",
-     "rank": 1,
+     "rank": 6,
      "label": "ออกใหม่",
      "title_raw": "แด่ผู้ปรารถนารัก แต่ไม่อาจครอบครอง",
      "url": "https://amarinbooks.com/product/%e0%b9%81%e0%b8%94%e0%b9%88%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%9b%e0%b8%a3%e0%b8%b2%e0%b8%a3%e0%b8%96%e0%b8%99%e0%b8%b2%e0%b8%a3%e0%b8%b1%e0%b8%81-%e0%b9%81%e0%b8%95%e0%b9%88%e0%b9%84%e0%b8%a1%e0%b9%88/",
      "cover": "https://amarinbooks.com/wp-content/uploads/2026/10/1000294559-แด่ผู้ปรารถนารัก-แต่ไม่อาจครอบครอง.jpg"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786160476930",
-   "isbn": "9786160476930",
-   "title": "แฮร์รี่ พอตเตอร์กับศิลาอาถรรพ์ ฉบับ HBO TV TIE IN",
-   "author": null,
-   "translator": null,
-   "category": "วรรณกรรมเยาวชน",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "preorder"
-   ],
-   "featured": true,
-   "excluded_reason": null,
-   "first_seen": "2026-W44",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "preorder",
-     "rank": 8,
-     "label": "PRE-ORDER : สินค้าสั่งจอง",
-     "title_raw": "แฮร์รี่ พอตเตอร์กับศิลาอาถรรพ์ ฉบับ HBO TV TIE IN (สินค้าสั่งจอง)",
-     "url": "https://www.se-ed.com/physical/5hq7cimijp3nfitsvxic",
-     "cover": "https://mp-static.se-ed.com/physical/cover/5hq7cimijp3nfitsvxic/image/p5ucveyh"
     }
    ]
   },
@@ -4719,6 +4691,62 @@
    ]
   },
   {
+   "key": "title:quickคณิตคิดสนุกป4ฉบับเรียนรู้ไว",
+   "isbn": null,
+   "title": "Quick คณิต คิดสนุก ป.4 ฉบับเรียนรู้ไว",
+   "author": null,
+   "translator": null,
+   "category": "ประถมต้น",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 11,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "Quick คณิต คิดสนุก ป.4 ฉบับเรียนรู้ไว",
+     "url": "https://www.se-ed.com/physical/btqm6fyc84wkessrhqo2",
+     "cover": "https://mp-static.se-ed.com/physical/cover/btqm6fyc84wkessrhqo2/image/xgrxkdyb"
+    }
+   ]
+  },
+  {
+   "key": "title:quickภาษาไทยอ่านสนุกป5ฉบับเรียนรู้ไว",
+   "isbn": null,
+   "title": "Quick ภาษาไทย อ่านสนุก ป.5 ฉบับเรียนรู้ไว",
+   "author": null,
+   "translator": null,
+   "category": "ประถมปลาย",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 12,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "Quick ภาษาไทย อ่านสนุก ป.5 ฉบับเรียนรู้ไว",
+     "url": "https://www.se-ed.com/physical/1rqan7bmfhhlgdw56wfe",
+     "cover": "https://mp-static.se-ed.com/physical/cover/1rqan7bmfhhlgdw56wfe/image/uh40c744"
+    }
+   ]
+  },
+  {
    "key": "title:stickeraimademedoit",
    "isbn": null,
    "title": "STICKER: AI MADE ME DO IT.",
@@ -4855,34 +4883,6 @@
      "title_raw": "ตะลุยโจทย์ A-Level คณิตศาสตร์ 1",
      "url": "https://www.se-ed.com/physical/qplenf3uottpju01913o",
      "cover": "https://mp-static.se-ed.com/physical/cover/qplenf3uottpju01913o/image/6jxp6r52"
-    }
-   ]
-  },
-  {
-   "key": "title:ตะลุยโจทย์คณิตสอบเข้าม4จุฬาภรณราชวิทยาลัยmwitkosen",
-   "isbn": null,
-   "title": "ตะลุยโจทย์คณิต สอบเข้า ม.4 จุฬาภรณราชวิทยาลัย MWIT | Kosen",
-   "author": null,
-   "translator": null,
-   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 11,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "ตะลุยโจทย์คณิต สอบเข้า ม.4 จุฬาภรณราชวิทยาลัย MWIT | Kosen",
-     "url": "https://www.se-ed.com/physical/d8ojrz1719x3321nlg9m",
-     "cover": "https://mp-static.se-ed.com/physical/cover/d8ojrz1719x3321nlg9m/image/a1rd6tgw"
     }
    ]
   },
@@ -5051,62 +5051,6 @@
      "title_raw": "ยาหม่องตราถ้วยทอง สูตรไพล 50 กรัม",
      "url": "https://www.se-ed.com/physical/4oamct7si2xqnodwm5lq",
      "cover": "https://mp-static.se-ed.com/physical/cover/4oamct7si2xqnodwm5lq/image/8agtofon"
-    }
-   ]
-  },
-  {
-   "key": "title:รวมเฉลยข้อสอบแข่งขันคณิตศาสตร์ระดับประถมศึกษาสมาคมคณิตศาสตร์แห่งประเทศไทย",
-   "isbn": null,
-   "title": "รวมเฉลยข้อสอบแข่งขันคณิตศาสตร์ ระดับประถมศึกษา (สมาคมคณิตศาสตร์แห่งประเทศไทย)",
-   "author": null,
-   "translator": null,
-   "category": "ประถมต้น",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 9,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "รวมเฉลยข้อสอบแข่งขันคณิตศาสตร์ ระดับประถมศึกษา (สมาคมคณิตศาสตร์แห่งประเทศไทย)",
-     "url": "https://www.se-ed.com/physical/5e8490yv5vzomjj19zlz",
-     "cover": "https://mp-static.se-ed.com/physical/cover/5e8490yv5vzomjj19zlz/image/xuaiqvw4"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786166280302",
-   "isbn": "9786166280302",
-   "title": "สรุปเข้ม+แนวข้อสอบ คณิตศาสร์ ป.4-5-6 เข้า ม.1",
-   "author": null,
-   "translator": null,
-   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 2,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "สรุปเข้ม+แนวข้อสอบ คณิตศาสร์ ป.4-5-6 เข้า ม.1",
-     "url": "https://www.se-ed.com/physical/glij2ozf1bmvckcf30li",
-     "cover": "https://mp-static.se-ed.com/physical/cover/glij2ozf1bmvckcf30li/image/0jdn0fuu"
     }
    ]
   },
@@ -5307,6 +5251,62 @@
    ]
   },
   {
+   "key": "isbn:9786169536222",
+   "isbn": "9786169536222",
+   "title": "หัวใจสังคม มัธยมต้น",
+   "author": null,
+   "translator": null,
+   "category": "มัธยมต้น",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 2,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "หัวใจสังคม มัธยมต้น",
+     "url": "https://www.se-ed.com/physical/rtgrjvsiu1ar4dx7zv7s",
+     "cover": "https://mp-static.se-ed.com/physical/cover/rtgrjvsiu1ar4dx7zv7s/image/qgrlblu8"
+    }
+   ]
+  },
+  {
+   "key": "isbn:9786169536215",
+   "isbn": "9786169536215",
+   "title": "หัวใจสังคม มัธยมปลาย",
+   "author": null,
+   "translator": null,
+   "category": "มัธยมปลาย, หนังสือ TPAT",
+   "maybe_translated": false,
+   "article_sources": [],
+   "source_count": 1,
+   "list_types": [
+    "new"
+   ],
+   "featured": false,
+   "excluded_reason": "exam_reference",
+   "first_seen": "2026-W46",
+   "mentions": [
+    {
+     "source": "seed",
+     "list": "new",
+     "rank": 3,
+     "label": "สินค้าออกใหม่",
+     "title_raw": "หัวใจสังคม มัธยมปลาย",
+     "url": "https://www.se-ed.com/physical/4gz7nzoqkwfv48wcdolt",
+     "cover": "https://mp-static.se-ed.com/physical/cover/4gz7nzoqkwfv48wcdolt/image/ln7mt2ye"
+    }
+   ]
+  },
+  {
    "key": "title:เกมnetworthรวยทรัพย์รวยสุข",
    "isbn": null,
    "title": "เกม Net Worth : รวยทรัพย์ รวยสุข",
@@ -5331,62 +5331,6 @@
      "title_raw": "เกม Net Worth : รวยทรัพย์ รวยสุข",
      "url": "https://www.se-ed.com/physical/qkm18hfi1kydzv8mlbvc",
      "cover": "https://mp-static.se-ed.com/physical/cover/qkm18hfi1kydzv8mlbvc/image/mk5sb4wt"
-    }
-   ]
-  },
-  {
-   "key": "isbn:9786166280319",
-   "isbn": "9786166280319",
-   "title": "เก่งคณิตพิชิตข้อสอบ ม.1-2-3 สอบเข้า ม.4 (ปรับปรุงใหม่เพิ่มข้อสอบแข่งขัน)",
-   "author": null,
-   "translator": null,
-   "category": "คู่มือสอบเข้า, หนังสือ TGAT",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 1,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เก่งคณิตพิชิตข้อสอบ ม.1-2-3 สอบเข้า ม.4 (ปรับปรุงใหม่เพิ่มข้อสอบแข่งขัน)",
-     "url": "https://www.se-ed.com/physical/mj2owzjq2cuub0sq7he6",
-     "cover": "https://mp-static.se-ed.com/physical/cover/mj2owzjq2cuub0sq7he6/image/3mlixs6g"
-    }
-   ]
-  },
-  {
-   "key": "title:เตรียมพร้อมสอบntnationaltestป3มั่นใจเต็ม100",
-   "isbn": null,
-   "title": "เตรียมพร้อมสอบ NT (National Test) ป.3 มั่นใจเต็ม 100",
-   "author": null,
-   "translator": null,
-   "category": "ประถมต้น",
-   "maybe_translated": false,
-   "article_sources": [],
-   "source_count": 1,
-   "list_types": [
-    "new"
-   ],
-   "featured": false,
-   "excluded_reason": "exam_reference",
-   "first_seen": "2026-W45",
-   "mentions": [
-    {
-     "source": "seed",
-     "list": "new",
-     "rank": 10,
-     "label": "สินค้าออกใหม่",
-     "title_raw": "เตรียมพร้อมสอบ NT (National Test) ป.3 มั่นใจเต็ม 100",
-     "url": "https://www.se-ed.com/physical/3zvb8mqhubwe82jzocrv",
-     "cover": "https://mp-static.se-ed.com/physical/cover/3zvb8mqhubwe82jzocrv/image/6gazctj2"
     }
    ]
   },
@@ -5447,5 +5391,34 @@
    ]
   }
  ],
- "articles": []
+ "articles": [
+  {
+   "source": "the101",
+   "title": "ความน่าจะอ่าน 2026 : The Notable Books หนังสือน่าอ่านในรอบ 10 ปี หมวดวรรณกรรมแปล",
+   "url": "https://www.the101.world/notable-books-2026-book-of-decade-fiction/",
+   "published": "Sun, 08 Nov 2026 06:40:03 +0000",
+   "matched_keys": []
+  },
+  {
+   "source": "the101",
+   "title": "ความน่าจะอ่าน 2026 : Coming of อ่าน — ยิ่งอ่าน ยิ่งโต ‘Book Club’ ครั้งที่ 2",
+   "url": "https://www.the101.world/notable-books-2026-book-club-2/",
+   "published": "Fri, 06 Nov 2026 08:03:45 +0000",
+   "matched_keys": []
+  },
+  {
+   "source": "the101",
+   "title": "101 In Focus Ep.353 : งานหนังสือคนเป็นล้าน = สังคมไทยรักการอ่าน (แล้วหรือยัง?)",
+   "url": "https://www.the101.world/101-in-focus-ep-353/",
+   "published": "Fri, 06 Nov 2026 07:19:05 +0000",
+   "matched_keys": []
+  },
+  {
+   "source": "aday",
+   "title": "ณ ตึกเขียวในตรอกซอยสลัว เราพบร้านหนังสือมือสองกลางเมืองเกาสง Everyman Bookstore",
+   "url": "https://adaymagazine.com/everyman-bookstore/",
+   "published": "Mon, 02 Nov 2026 13:00:00 +0000",
+   "matched_keys": []
+  }
+ ]
 }
